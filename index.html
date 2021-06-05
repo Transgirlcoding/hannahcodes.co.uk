@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hannah Codes New</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Poppins:wght@400;600;700&display=swap" 
+rel="stylesheet">
+		<link rel="stylesheet" href="main.css" />
+        <link rel="icon" href="/assets/images/home/IMG_3609.JPEG" />
+</head>
+<body>
+    <header> 
+      
+        <h1> hannah codes </h1>  
+        <nav>
+          <ul>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">projects</a></li>
+            
+          </ul>
+        </nav>
+    </header>
+    <h1 class=type_h1> Hello, My name is Hannah</h1>
+    <h1 class="welcome_text"> welcome to my website</h1>
+    
+
+    <h1 id="about" class="head_text">About Me</h1>
+    <h2 class="about_text"> hi my name is Hannah, i'm 20 years old and I live in Andover.</h2>
+    <p class="about_text_p">
+			I am Currently studying Level 3 IT, Level 3 Creative Media and GCSE
+			maths and english at Andover college <br />
+
+			I am a young carer and I am currently employed as a bar support
+			staff at Cameo & Vinyl Andover nightclub,<br> a Repem staff at B&M
+			Andover and as a learning technology coach at Andover College.
+			<br />
+			I am also a beginner web developer and a Youtuber
+		</p>
+    <h1 class="head_text">My Hobbies</h1>
+    <p class="about_text_p">
+			I am very interested in computer Technology with a particular
+			interest in video/computer games, photography <br />
+			and I also enjoy watching and making YouTube videos in
+			my spare time (which you can view about on my Youtube channel's website) ​
+		</p>
+
+    <h1 id="projects" class="head_text">My Projects</h1>
+<footer> 
+    <h1>copyright hannah 2021</h1>
+
+</footer>
+
+
+
+
+</body>
+<script> var nav = $('nav');
+  var line = $('<div />').addClass('line');
+  
+  line.appendTo(nav);
+  
+  var active = nav.find('.active');
+  var pos = 0;
+  var wid = 0;
+  
+  if(active.length) {
+    pos = active.position().left;
+    wid = active.width();
+    line.css({
+      left: pos,
+      width: wid
+    });
+  }
+  
+  nav.find('ul li a').click(function(e) {
+    e.preventDefault();
+    if(!$(this).parent().hasClass('active') && !nav.hasClass('animate')) {
+      
+      nav.addClass('animate');
+  
+      var _this = $(this);
+  
+      nav.find('ul li').removeClass('active');
+  
+      var position = _this.parent().position();
+      var width = _this.parent().width();
+  
+      if(position.left >= pos) {
+        line.animate({
+          width: ((position.left - pos) + width)
+        }, 300, function() {
+          line.animate({
+            width: width,
+            left: position.left
+          }, 150, function() {
+            nav.removeClass('animate');
+          });
+          _this.parent().addClass('active');
+        });
+      } else {
+        line.animate({
+          left: position.left,
+          width: ((pos - position.left) + wid)
+        }, 300, function() {
+          line.animate({
+            width: width
+          }, 150, function() {
+            nav.removeClass('animate');
+          });
+          _this.parent().addClass('active');
+        });
+      }
+  
+      pos = position.left;
+      wid = width;
+    }
+  });</script>
+</html>
