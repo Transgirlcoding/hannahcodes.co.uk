@@ -31,7 +31,7 @@ header h1{
 }
 nav {
 	position: relative;
-    left: 50%;
+    left: 30%;
     margin: 1em 1em;
 	padding-bottom: 25px;
     text-align: center;
@@ -133,6 +133,18 @@ nav ul li a {
     text-decoration: underline;
     padding-bottom: .3em;
 }
+.blog_head_text{
+    margin: .5em .7em;
+    text-decoration: underline;
+    padding-bottom: .3em;
+    color: white;
+    font-size: 2em;
+}
+.blog_head_text:hover{
+    opacity: .7;
+    color: #be18ff;
+    text-align: center;
+}
 .about_text{
     margin: .5em .5em;
     font-size: 2.5em;
@@ -141,6 +153,81 @@ nav ul li a {
     margin: .7em 5em;
     font-size: 1.3em;
     padding-bottom: 2em;
+}
+
+/* friends avatar/ lang map avatar */
+.firends-list {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.friend-container {
+	margin: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.friend-container:hover > .friend-avatar {
+	box-shadow: 0 9px 16px 0 rgb(63, 62, 62);
+}
+.friend-container:hover > .friend-name {
+	text-decoration: underline;
+	color: rgb(5, 139, 133);
+}
+
+
+.friend-name {
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+}
+.friend-avatar {
+	border-radius: 9999px;
+	width: 140px;
+	height: 140px;
+}
+@media only screen and (max-width: 1500px) {
+	.firends-list {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.friend-container {
+	margin: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.friend-container:hover > .friend-avatar {
+	box-shadow: 0 9px 16px 0 rgba(0, 0, 0);
+}
+.friend-container:hover > .friend-name {
+	text-decoration: underline;
+}
+.friend-name {
+	color: #000000;
+	font-weight: bold;
+	font-size: 20px;
+}
+.friend-avatar {
+	border-radius: 9999px;
+	width: 140px;
+	height: 140px;
+}
+}
+@media (prefers-color-scheme: dark) {
+	
+	.friend-name {
+		color: #fff;
+		font-weight: bold;
+		font-size: 20px;
+	}
+	.friend-container:hover > .friend-name {
+		text-decoration: underline;
+		color: rgb(238, 130, 202);
+	}
 }
 footer{
     
