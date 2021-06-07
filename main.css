@@ -6,17 +6,13 @@
     height: auto;
 }
 body{
-    background-color: #f6dfeb;
+    background-color: #151515;
+    color: white;
 }
 html {
     scroll-behavior: smooth;
   }
-@media (prefers-color-scheme: dark) {
-    body{
-        background-color: #151515;
-        color: white;
-    }
-}
+
 /* Header and nav bar */
 header{
     margin: 1em 1em;
@@ -80,7 +76,7 @@ nav ul li:last-child {
 
 nav ul li a {
 	text-decoration: none;
-	color: black;
+	color: white;
 	text-transform: uppercase;
 	display: block;
 	font-weight: 700;
@@ -171,16 +167,14 @@ nav ul li a {
 .friend-container:hover > .friend-avatar {
 	box-shadow: 0 9px 16px 0 rgb(63, 62, 62);
 }
-.friend-container:hover > .friend-name {
-	text-decoration: underline;
-	color: rgb(5, 139, 133);
-}
-
-
 .friend-name {
-	color: black;
-	font-weight: bold;
-	font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+.friend-container:hover > .friend-name {
+    text-decoration: underline;
+    color: rgb(238, 130, 202);
 }
 .friend-avatar {
 	border-radius: 9999px;
@@ -200,16 +194,17 @@ nav ul li a {
 	justify-content: center;
 	flex-direction: column;
 }
-.friend-container:hover > .friend-avatar {
-	box-shadow: 0 9px 16px 0 rgba(0, 0, 0);
+.friend-container:hover > .friend-name {
+    text-decoration: underline;
+    color: rgb(238, 130, 202);
 }
 .friend-container:hover > .friend-name {
 	text-decoration: underline;
 }
 .friend-name {
-	color: #000000;
-	font-weight: bold;
-	font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
 }
 .friend-avatar {
 	border-radius: 9999px;
@@ -217,26 +212,14 @@ nav ul li a {
 	height: 140px;
 }
 }
-@media (prefers-color-scheme: dark) {
-	
-	.friend-name {
-		color: #fff;
-		font-weight: bold;
-		font-size: 20px;
-	}
-	.friend-container:hover > .friend-name {
-		text-decoration: underline;
-		color: rgb(238, 130, 202);
-	}
-}
+
 footer{
-    
-	background-color: #dee4e7;
-	height: auto;
-	padding: 12px;
-	font-size: 16px;
-	bottom: 60px;
-	color: black;
+        background-color: #1b2021;
+        height: auto;
+        padding: 12px;
+        font-size: 16px;
+        bottom: 60px;
+        color: white;
 }
 footer h1{
     font-weight: 700;
@@ -244,14 +227,4 @@ footer h1{
     text-align: center;
 }
 
-@media (prefers-color-scheme: dark) {
-    footer{
-    
-        background-color: #1b2021;
-        height: auto;
-        padding: 12px;
-        font-size: 16px;
-        bottom: 60px;
-        color: white;
-    }
-}
+
