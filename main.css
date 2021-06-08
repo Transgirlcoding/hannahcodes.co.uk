@@ -122,8 +122,15 @@ nav ul li a {
     padding-bottom: 8em;
     padding-right: 4em;
 }
-
-
+.welcome_text_terms{
+    text-align: center;
+    padding-right: 4em;
+}
+.welcome_text_h2{
+    text-align: center;
+    padding-bottom: 4em;
+    padding-right: 4em;
+}
 .head_text{
     margin: .5em .7em;
     text-decoration: underline;
@@ -150,7 +157,14 @@ nav ul li a {
     font-size: 1.3em;
     padding-bottom: 2em;
 }
-
+.terms_text_p{
+    margin: .2em 1em;
+    font-size: 1.1em;
+    padding-bottom: 2em;
+}
+.terms_text_p a{
+    color: rgb(226, 111, 241);
+}
 /* friends avatar/ lang map avatar */
 .firends-list {
 	display: flex;
