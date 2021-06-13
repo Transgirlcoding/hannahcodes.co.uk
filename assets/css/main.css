@@ -2,8 +2,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-    width: auto;
-    height: auto;
 }
 body{
     background-color: #151515;
@@ -54,6 +52,7 @@ nav ul {
 nav ul li {
 	margin: 0 40px 0 0;
 	opacity: .4;
+    overflow: hidden;
     padding: .7em;
 	transition: all 0.4s ease;
     text-align: center;
@@ -94,27 +93,6 @@ nav ul li a {
         letter-spacing: .2em;
         font-size: 14px;
     }
-}
-
-.type_h1{
-    display: grid;
-    place-content: center;
-    text-align: center;
-    font-size: 4em;
-    position: relative;
-    padding-top: 3em;
-    padding-right: 2em;
-
-}
-.type_h1::before,
-.type_h1::after{
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-
 }
 .blog_type_h1{
     display: grid;
@@ -183,6 +161,101 @@ nav ul li a {
     height: 30em;
     opacity: .2;
     background-color: #151515;
+}
+@media only screen and (max-width: 1100px) { 
+    .blog_img_header{
+        margin: -15em -1em;
+        width: 100%;
+        height: 35em;
+        opacity: .2;
+        background-color: #151515;
+    }
+    nav {
+        position: relative;
+        left: 10%;
+        margin: 1em 1em;
+        padding-bottom: 25px;
+        text-align: center;
+        z-index: 10;
+        
+    }   
+     
+}
+@media only screen and (max-width: 1000px) { 
+    .blog_img_header{
+        margin: -20em -1em;
+        width: 100%;
+        height: 35em;
+        opacity: .2;
+        background-color: #151515;
+    }
+    nav {
+        position: relative;
+        left: 5%;
+        margin: 1em 1em;
+        padding-bottom: 25px;
+        text-align: center;
+        z-index: 10;
+        
+    }   
+}
+@media only screen and (min-width: 700px) {
+.blog_img_header{
+    margin: -15em 1.5em;
+    width: 100%;
+    height: 35em;
+    opacity: .2;
+    background-color: #151515;
+}
+}
+@media only screen and (max-width: 700px) {
+    header{
+        margin: .7em .7em;
+        font-weight: 700;
+        font-family: "Poppins", sans-serif;
+        display: flex;
+    }
+    nav {
+       display: none;
+        
+    }
+    .blog_img_header{
+        margin: -15em -1em;
+        width: 100%;
+        height: 35em;
+        opacity: .2;
+        background-color: #151515;
+    }
+    .blog_type_h1{
+        display: grid;
+        place-content: center;
+        text-align: center;
+        font-size: 2.5em;
+        position: relative;
+        padding-top: .05em;
+        padding-right: 1.8em;
+    
+    }
+    .blog_welcome_text{
+        text-align: center;
+        padding-bottom: 2em;
+        padding-right: 1.8em;
+    }
+    .header_h1{
+        font-weight: 700;
+        font-family: "Poppins", sans-serif;
+        padding: .2em;
+        font-size: 1.7em;
+    }
+    .about_text{
+        margin: .3em .1em;
+        font-size: .3em;
+    }
+    .about_text_p{
+        margin: none;
+        font-size: .4em;
+        padding-bottom: 2em;
+    }
 }
 .about_text{
     margin: .5em .5em;
