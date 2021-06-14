@@ -25,6 +25,28 @@ rel="stylesheet">
             
           </ul>
         </nav>
+         <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <!-- Navigation links (hidden by default) -->
+  <div class="mobile_nav_bg">
+  <div id="myLinks">
+    <div class="mobile_nav">
+      <a href="index.html">home</a>
+      <a href="index.html#about">about</a>
+      <a href="index.html#projects">projects</a>
+      <a href="index.html#friends">Friends</a>
+      <a class="active" href="Blog.html">Blog</a>
+  </div>
+</div>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
     </header>
     <img class="blog_img_header" src="/assets/images/blog_img/pride.png">
     <h1 class=blog_type_h1> Hello, My name is Hannah</h1>
@@ -106,5 +128,15 @@ rel="stylesheet">
       pos = position.left;
       wid = width;
     }
-  });</script>
+  });
+  
+   /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}</script>
 </html>

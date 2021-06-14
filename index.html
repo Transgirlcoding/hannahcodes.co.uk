@@ -14,7 +14,7 @@ rel="stylesheet">
 <body>
     <header> 
       
-        <h1> hannah codes </h1>  
+        <h1 class="header_h1"> hannah codes </h1>  
         <nav>
           <ul>
             <li class="active"><a href="index.html">Home</a></li>
@@ -25,6 +25,28 @@ rel="stylesheet">
             
           </ul>
         </nav>
+        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <!-- Navigation links (hidden by default) -->
+  <div class="mobile_nav_bg">
+  <div id="myLinks">
+    <div class="mobile_nav">
+    <a class="active" href="index.html">home</a>
+    <a href="#about">about</a>
+    <a href="#project">projects</a>
+    <a href="#friends">Friends</a>
+    <a href="Blog.html">Blog</a>
+  </div>
+</div>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
     </header>
     <img class="blog_img_header" src="/assets/images/home/pexel_img_1.jpg">
     <h1 class=blog_type_h1> Hello, My name is Hannah</h1>
@@ -295,5 +317,19 @@ rel="stylesheet">
       pos = position.left;
       wid = width;
     }
-  });</script>
+  });
+  /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+  </script>
 </html>
+
+
+
+

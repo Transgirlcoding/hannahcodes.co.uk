@@ -83,6 +83,19 @@ nav ul li a {
 	letter-spacing: .2em;
 	font-size: 14px;
 }
+.topnav {
+    overflow: hidden;
+    position: relative;
+    display: none;
+    z-index: 10;
+  }
+     /* Style the hamburger menu */
+     .topnav a.icon {
+        display: none;
+        position: absolute;
+        right: 2em;
+        top: .7em;
+      }
 @media (prefers-color-scheme: dark) {
     nav ul li a {
         text-decoration: none;
@@ -162,6 +175,15 @@ nav ul li a {
     opacity: .2;
     background-color: #151515;
 }
+/* Style navigation menu links */
+.topnav a {
+    color: white;
+    display: none;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+  }
 @media only screen and (max-width: 1100px) { 
     .blog_img_header{
         margin: -15em -1em;
@@ -179,6 +201,22 @@ nav ul li a {
         z-index: 10;
         
     }   
+       /* Style the hamburger menu */
+  .topnav a.icon {
+    display: none;
+    position: absolute;
+    right: 2em;
+    top: .7em;
+  }
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    display: none;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+  }
      
 }
 @media only screen and (max-width: 1000px) { 
@@ -198,6 +236,29 @@ nav ul li a {
         z-index: 10;
         
     }   
+    .topnav {
+        overflow: hidden;
+        
+        position: relative;
+        width: 50em;
+        z-index: 10;
+      }
+      /* Style the hamburger menu */
+  .topnav a.icon {
+    display: none;
+    position: absolute;
+    right: 2em;
+    top: .7em;
+  }
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    display: none;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+  }
 }
 @media only screen and (min-width: 700px) {
 .blog_img_header{
@@ -207,6 +268,29 @@ nav ul li a {
     opacity: .2;
     background-color: #151515;
 }
+.topnav {
+    overflow: hidden;
+    
+    position: relative;
+    width: 50em;
+    z-index: 10;
+  }
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    display: none;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+  }
+     /* Style the hamburger menu */
+     .topnav a.icon {
+        display: none;
+        position: absolute;
+        right: 2em;
+        top: .7em;
+      }
 }
 @media only screen and (max-width: 700px) {
     header{
@@ -220,7 +304,7 @@ nav ul li a {
         
     }
     .blog_img_header{
-        margin: -15em -1em;
+        margin: -20em -1em;
         width: 100%;
         height: 35em;
         opacity: .2;
@@ -256,6 +340,53 @@ nav ul li a {
         font-size: .4em;
         padding-bottom: 2em;
     }
+    /* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    display: block;
+    position: relative;
+    z-index: 10;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+    width: auto;
+  }
+  .topnav .mobile_nav{
+      margin-top: 6em;
+      width: 20em;
+      margin-left: 15em;
+  }
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    display: block;
+    position: absolute;
+    margin-right: -2em;
+    margin-top: .7em;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #be18ff;
+    color: white;
+    z-index: 10;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #be18ff79;
+    color: white;
+  }
 }
 .about_text{
     margin: .5em .5em;
