@@ -19,6 +19,6 @@ my repo/code for my new personal website which i plan to update regually
   
 ## Feedback
 
-If you have any feedback, please reach out to me on twitter at twitter.com/hannah_codes or at hannah@hannaahcodes.co.uk
+If you have any feedback, please reach out to me on twitter at https://twitter.com/hannah_codes or at hannah@hannaahcodes.co.uk
 
   
