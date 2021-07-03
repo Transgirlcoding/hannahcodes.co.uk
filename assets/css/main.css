@@ -302,8 +302,8 @@ nav ul li a {
         margin: .7em .7em;
         font-weight: 700;
         font-family: "Poppins", sans-serif;
-        display: flex;
     }
+    
     nav {
        display: none;
         
@@ -347,7 +347,8 @@ nav ul li a {
     }
     /* Style the navigation menu */
 .topnav {
-    overflow: hidden;
+    width: 100%;
+    margin: 0;
     display: block;
     position: relative;
     z-index: 10;
@@ -356,17 +357,19 @@ nav ul li a {
   /* Hide the links inside the navigation menu (except for logo/home) */
   .topnav #myLinks {
     display: none;
-    width: auto;
+    width: 20em;
   }
   .topnav .mobile_nav{
-      margin-top: 6em;
-      width: 20em;
-      margin-left: 15em;
+      margin-top: 0;
+      width: 30em;
+      margin-left: 1em;
+      margin-top: 5em;
   }
   /* Style navigation menu links */
   .topnav a {
     color: white;
     padding: 14px 20px;
+    
     text-decoration: none;
     font-size: 16px;
     display: flex;
@@ -397,102 +400,7 @@ nav ul li a {
     margin: .5em .5em;
     font-size: 2.5em;
 }
-@media only screen and (max-width: 400px) {
-    header{
-        margin: .7em .7em;
-        font-weight: 700;
-        font-family: "Poppins", sans-serif;
-        display: flex;
-    }
-    nav {
-       display: none;
-        
-    }
-    .blog_img_header{
-        margin: -20em -1em;
-        width: 100%;
-        height: 35em;
-        opacity: .2;
-        background-color: #151515;
-    }
-    .blog_type_h1{
-        display: grid;
-        place-content: center;
-        text-align: center;
-        font-size: 2.5em;
-        position: relative;
-        padding-top: .05em;
-        padding-right: 1.8em;
-    
-    }
-    .blog_welcome_text{
-        text-align: center;
-        padding-bottom: 2em;
-        padding-right: 1.8em;
-    }
-    .header_h1{
-        font-weight: 700;
-        font-family: "Poppins", sans-serif;
-        padding: .2em;
-        font-size: 1.7em;
-    }
-    .about_text{
-        margin: .3em .1em;
-        font-size: .3em;
-    }
-    .about_text_p{
-        margin: none;
-        font-size: .4em;
-        padding-bottom: 2em;
-    }
-    /* Style the navigation menu */
-.topnav {
-    overflow: hidden;
-    display: block;
-    position: relative;
-    z-index: 10;
-  }
-  
-  /* Hide the links inside the navigation menu (except for logo/home) */
-  .topnav #myLinks {
-    display: none;
-    width: auto;
-  }
-  .topnav .mobile_nav{
-      margin-top: 6em;
-      width: 20em;
-      margin-left: 10em;
-  }
-  /* Style navigation menu links */
-  .topnav a {
-    color: white;
-    padding: 14px 20px;
-    text-decoration: none;
-    font-size: 16px;
-    display: flex;
-  }
-  
-  /* Style the hamburger menu */
-  .topnav a.icon {
-    display: block;
-    position: absolute;
-    margin-right: -2em;
-    margin-top: .7em;
-  }
-  
-  /* Add a grey background color on mouse-over */
-  .topnav a:hover {
-    background-color: #be18ff;
-    color: white;
-    z-index: 10;
-  }
-  
-  /* Style the active link (or home/logo) */
-  .active {
-    background-color: #be18ff79;
-    color: white;
-  }
-}
+
 .about_text_p{
     margin: .7em 5em;
     font-size: 1.3em;
