@@ -9,7 +9,7 @@ my repo/code for my new personal website which i plan to update regually
 - blog page
 - clean layout
 - improved responsiveness 
-- see everything i am or have been working on in one place (coming soon)
+- see almost everything i am or have been working on in one place
 
   
 ## Authors
