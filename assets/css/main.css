@@ -13,21 +13,23 @@ html {
 
 /* Header and nav bar */
 header{
-    margin: 1em 1em;
     font-weight: 700;
     font-family: "Poppins", sans-serif;
     display: flex;
+width: auto;
+height: 7em;
+
 }
 header h1{
     font-weight: 700;
     font-family: "Poppins", sans-serif;
-    padding: .5em;
+    padding: .7em;
 }
 nav {
 	position: relative;
     left: 30%;
     margin: 1em 1em;
-	padding-bottom: 25px;
+    padding: .7em;
     text-align: center;
     z-index: 10;
     
@@ -106,20 +108,16 @@ nav ul li a {
         letter-spacing: .2em;
         font-size: 14px;
     }
-.card  {
-    display: grid;
-    padding: .5em;
-    border: 1px solid;
-    width: fit-content;
-}
+   
+
 .blog_type_h1{
     display: grid;
     place-content: center;
     text-align: center;
     font-size: 4em;
     position: relative;
-    padding-top: -2em;
-    padding-right: 2em;
+    padding-top: 1em;
+    padding-right: 1.5em;
 
 }
 .welcome_text{
@@ -174,8 +172,8 @@ nav ul li a {
     height: auto;
 }
 .blog_img_header{
-    margin: -15em -1em;
-    width: 95em;
+    margin: -20em .01em;
+    width: 90em;
     height: 30em;
     opacity: .2;
     background-color: #151515;
@@ -191,8 +189,8 @@ nav ul li a {
   }
 @media only screen and (max-width: 1100px) { 
     .blog_img_header{
-        margin: -15em -1em;
-        width: 100%;
+        margin: -20em 1.em;
+        width: 95%;
         height: 35em;
         opacity: .2;
         background-color: #151515;
@@ -226,7 +224,7 @@ nav ul li a {
 }
 @media only screen and (max-width: 1000px) { 
     .blog_img_header{
-        margin: -20em -1em;
+        margin: -20em 1.em;
         width: 100%;
         height: 35em;
         opacity: .2;
@@ -532,4 +530,68 @@ footer h1{
     text-align: center;
 }
 
+/* scrollbar width */
+::-webkit-scrollbar {
+	width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: rgb(0, 0, 0); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: #be18ff79; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #be18ff; 
+  }
 
+
+
+
+
+   /* project code  files */
+   .card-display{
+    display: flex;
+}
+.card  {
+padding: 2em 1em;
+margin: 2em;
+border: 1px solid;
+width: 199em;
+font-size: .6em;
+text-align: center;
+}
+   .projects_button {
+	background-color: #333; /* Green */
+	border: .2em;
+	color: white;
+	padding: .30em 2em;
+	text-align: center;
+    align-items: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+    margin-top: .7em;
+    right: -5em;
+	margin-bottom: 10px;
+    margin-left: .2em;
+    margin-right: .2em;
+    
+	border-radius: 5px;
+}
+.projects_button:hover {
+	background-color: #be18ff79;
+	color: white;
+	box-shadow: 0 9px 16px 0 rgba(0, 0, 0, 0.24),
+		0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+  
+.projects_img{
+    width: 100%;
+    height: 50%;
+}
