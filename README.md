@@ -6,7 +6,6 @@ my repo/code for my new personal website which i plan to update regually
 
 ## Features
 
-- blog page
 - clean layout
 - improved responsiveness 
 - see almost everything i am or have been working on in one place
