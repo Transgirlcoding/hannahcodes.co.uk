@@ -27,7 +27,7 @@ header h1{
 }
 nav {
 	position: relative;
-    left: 30%;
+    left: 5%;
     margin: 1em 1em;
     padding: .7em;
     text-align: center;
@@ -304,8 +304,9 @@ nav ul li a {
         
     }
     .blog_img_header{
-        margin: -20em -1em;
-        width: 100%;
+        margin: -20em;
+        width: 50%;
+        right: 50em;
         height: 35em;
         opacity: .2;
         background-color: #151515;
@@ -607,3 +608,8 @@ text-align: center;
     text-align: center;
     }
 }
+
+
+
+
+
