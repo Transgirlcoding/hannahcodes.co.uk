@@ -1,7 +1,8 @@
 
 New.hannahcodes.co.uk
 
-my repo/code for my new personal website which i plan to update regually 
+my repo/code for my new personal website which i plan to update regually please note: this repo may be buggy or not work like expected for a more stable exprenece vist 
+https://www.github.com/iHannah-01/hannahcodes.co.uk / https://hannahcodes.co.uk
 
 
 ## Features
