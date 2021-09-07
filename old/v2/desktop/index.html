@@ -3,14 +3,14 @@
   <head> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link rel="icon" href="/old/v2/assets/images/IMG_3609.JPEG">
+    <title>Hannah codes v2</title>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="/old/v2/assets/css/style.css"/>
-   <link rel="icon" href="/old/v2/assets/images/IMG_3609.JPEG">
-   <title>Hannah codes v2</title>
- 
+    <link rel="stylesheet" href="/old/v2/assets/css/style.css">
+    
 </head>
- 
- <body onload="websiteloading()"> 
+
+<body onload="websiteloading()">
   <div class="header2">
     <h1>My Dev Website</h1>
     
@@ -23,7 +23,7 @@
       <div class="row">
         <div class="column">
           <h3>Home</h3>
-          <a  href="index.html">Home</a>
+          <a class="active" href="index.html">Home</a>
           <a href="about.html">About</a>
         </div>
         <div class="column">
@@ -40,7 +40,7 @@
         </div>
           <div class="column">
           <h3>Minecraft</h3>
-          <a class="active" href="minecraft.html">Minecraft</a>
+          <a href="minecraft.html">Minecraft</a>
         </div>
            <div class="column">
           <h3>Youtube</h3>
@@ -51,7 +51,7 @@
         </div>
         <div class="column">
           <h3>discord</h3>
-        <a  href="discord.html">About Server</a>
+        <a href="discord.html">About Server</a>
             <a href="https://discord.gg/Zr92gz5tdz">Join Server</a>
             
         </div>
@@ -64,27 +64,35 @@
 </div>
 </div>
 </div>
-   <h1> About My Minecraft sever </h1>
-   <p> Hi welcome to My Minecraft Server... 
-        </p>
-        <footer class= "footer">
+
+  <h1>Welcome to my dev website</h1>
+    <h2> About me</h2>
+    <p> Hi my name is Hannah, I'm a beginner web developer, youtuber, a student and i am 19
+      you can found out more About Me <br/>
+      <button class= "button" onclick="location.href='about.html'">Here</button>
       
-          <button class ="buttondm" onclick="location.href='minecraft-mobile.html'">mobile view</button>
-           <br/
-          <p> copyright hannah 2021
-          
-        </footer>
-          <script>function websiteloading() {
-            if(/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-                // true for mobile device
-                location.href="/minecraft-mobile.html";
-              }else{
-               
-              }
-            }
-           
-          </script>
+    </p>
+    <img src="/old/v2/assets/images/IMG_3609.JPEG" draggable="false" style="width:450px; height:450px;"/>
+
+
+    <footer class= "footer">
+      
+      <button class ="buttondm" onclick="location.href='/old/v2/mobile/index-mobile.html'">mobile view</button>
+      <br/
+      <p> Copyright Hannah 2021
+      
+    </footer>
+
+<script>function websiteloading() {
+  if(/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+      // true for mobile device
+      location.href="/old/v2/mobile/index-mobile.html";
+    }else{
+      // false for not mobile device
+     
+    }
+  }
+  
+</script>
  </body onload="websiteloading()">
-
-
 </html>
