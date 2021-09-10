@@ -4,11 +4,11 @@
     font-family: "Poppins", sans-serif;
 }
 body{
-    background-color: #151515;
+    background-color: #121212;
     color: white;
 }
 .background {
-    background-color: #151515;
+    background-color: #121212;
     padding-top: 2em;
 }
 html {
@@ -490,10 +490,10 @@ nav ul li a {
 
 
 footer{
-        background-color: #1b2021;
+        background-color: #0f0f0f;
         height: auto;
         padding: 12px;
-        font-size: 12px;
+        font-size: .75em;
         bottom: 60px;
         color: white;
 }
