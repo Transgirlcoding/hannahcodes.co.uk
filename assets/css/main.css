@@ -7,6 +7,10 @@ body{
     background-color: #151515;
     color: white;
 }
+.background {
+    background-color: #151515;
+    padding-top: 2em;
+}
 html {
     scroll-behavior: smooth;
   }
@@ -80,7 +84,7 @@ nav ul li a {
     overflow: hidden;
     position: relative;
     display: none;
-    z-index: 100;
+    z-index: 10;
   }
      /* Style the hamburger menu */
      .topnav a.icon {
@@ -107,7 +111,7 @@ nav ul li a {
     text-align: center;
     font-size: 4em;
     position: relative;
-    padding-top: 1em;
+    padding-top: 2em;
     padding-right: 1.5em;
 
 }
@@ -118,7 +122,7 @@ nav ul li a {
 }
 .blog_welcome_text{
     text-align: center;
-    padding-bottom: 4em;
+    padding-bottom: 7.5em;
     padding-right: 4em;
 }
 .welcome_text_terms{
@@ -575,6 +579,37 @@ text-align: center;
     font-size: .6em;
     text-align: center;
     }
+}
+img.bg {
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+    opacity: 20%;
+    z-index: -10;
+      
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+      
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  
+  @media screen and (max-width: 1024px) { /* Specific to this particular image */
+    img.bg {
+      left: 50%;
+      margin-left: -512px;   /* 50% */
+    }
+    
+
+
+  
+}
+.background {
+    background-color: #151515;
 }
 
 
