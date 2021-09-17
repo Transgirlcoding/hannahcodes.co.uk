@@ -111,6 +111,16 @@ nav ul li a {
   padding-top: 2em;
   padding-right: 1.5em;
 }
+.blog_type_h1_page {
+  display: grid;
+  place-content: center;
+  text-align: center;
+  font-size: 4em;
+  position: relative;
+  padding-top: .01em;
+  padding-bottom: .3em;
+  padding-right: 1.5em;
+}
 .blog_welcome_text {
   text-align: center;
   padding-bottom: 3em;
