@@ -109,7 +109,7 @@ nav ul li a {
   font-size: 4em;
   position: relative;
   padding-top: 2em;
-  padding-right: 1.5em;
+  padding-right: auto;
 }
 .blog_type_h1_page {
   display: grid;
@@ -119,17 +119,17 @@ nav ul li a {
   position: relative;
   padding-top: .01em;
   padding-bottom: .3em;
-  padding-right: 1.5em;
+  padding-right: auto;
 }
 .blog_welcome_text {
   text-align: center;
   padding-bottom: 3em;
-  padding-right: 4em;
+  padding-right: auto;
 }
 .blog_welcome_text {
   text-align: center;
   padding-bottom: 7.5em;
-  padding-right: 4em;
+  padding-right: auto;
 }
 .welcome_text_terms {
   text-align: center;
@@ -290,17 +290,17 @@ nav ul li a {
     font-size: 2.5em;
     position: relative;
     padding-top: 0.05em;
-    padding-right: 0.2em;
+    padding-right: auto;
   }
   .blog_welcome_text {
     text-align: center;
     padding-bottom: 2em;
-    padding-right: 0.2em;
+    padding-right: auto;
   }
   .header_h1 {
     font-weight: 700;
     font-family: "Poppins", sans-serif;
-    padding: 0.4em;
+    padding: auto;
     font-size: 1.7em;
   }
   .about_text {
