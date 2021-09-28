@@ -647,3 +647,7 @@ img.bg {
 .background {
   background-color: #151515;
 }
+.projects_img{
+  width: 100%;
+  margin-top: 0;
+}
