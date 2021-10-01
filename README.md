@@ -2,7 +2,7 @@
 New.hannahcodes.co.uk
 
 my repo/code for my dev version of my personal website which i plan to update regularly please note: this repo may be buggy or not work like expected for a more stable experience visit 
-https://www.github.com/iHannah-01/hannahcodes.co.uk / https://hannahcodes.co.uk
+https://www.github.com/iHannah-01/hannahcodes.co.uk/tree/main / https://hannahcodes.co.uk
 
 
 ## Features
