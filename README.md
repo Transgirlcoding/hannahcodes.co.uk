@@ -1,7 +1,8 @@
 
 hannahcodes.co.uk
 
-my repo/code for my  personal website which i plan to update regually,  wanna test out new feature before full release  visit https://www.github.com/iHannah-01/hannahcodes.co.uk/tree/Dev / https://new.hannahcodes.co.uk please note: it may be buggy or not work as expected/intened so use at your own risk 
+welcome this repo is source code for my persional website which i plan to update regually. 
+=======
 
 
 ## Features
