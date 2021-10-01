@@ -530,8 +530,8 @@ nav ul li a {
 
 .welcome_text_404 {
   text-align: center;
-  padding-bottom: 6em;
-  padding-right: 4em;
+  padding-bottom: 4em;
+  padding-right: auto;
 }
 
 footer {
