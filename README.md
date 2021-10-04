@@ -1,8 +1,9 @@
 
 hannahcodes.co.uk
+## Welcome
 
-welcome this repo is source code for my persional website which i plan to update regually. 
-=======
+ this repo is the source code for my persional website which i plan to update regually. 
+
 
 
 ## Features
