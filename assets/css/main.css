@@ -534,19 +534,7 @@ nav ul li a {
   padding-right: auto;
 }
 
-footer {
-  background-color: #0f0f0f;
-  height: auto;
-  padding: 12px;
-  font-size: 0.75em;
-  bottom: 60px;
-  color: white;
-}
-footer h1 {
-  font-weight: 700;
-  font-family: "Poppins", sans-serif;
-  text-align: center;
-}
+
 
 /* scrollbar width */
 ::-webkit-scrollbar {
@@ -651,3 +639,48 @@ img.bg {
   width: 100%;
   margin-top: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------footer----------*/
+footer {
+  background-color: #0f0f0f;
+  height: auto;
+  padding: 12px;
+  padding-left: auto;
+  padding-right: auto;
+  margin: auto;
+  bottom: 60px;
+  color: white;
+}
+footer h1 {
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.footer_menu{
+  text-align: left;
+  background-color: #0f0f0f;
+  padding-bottom: .9em;
+  
+  
+  
+ }
+ .footer_menu a{
+   padding-left: .5em;
+   margin-right: auto;
+   padding-bottom: .2em;
+   text-decoration: underline;
+   font-size: 1.3em;
+   color: #fff;
+ }
