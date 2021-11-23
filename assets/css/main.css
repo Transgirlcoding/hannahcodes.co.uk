@@ -369,10 +369,22 @@ nav ul li a {
 }
 
 .about_text_p {
-  margin: 0.7em 5em;
+  margin-left: 2em;
+  font-size: 1.3em;
+  margin-top: -25%;
+  padding-bottom: 2em;
+}
+.hobbies_about_text_p {
+  margin-left: 2em;
   font-size: 1.3em;
   padding-bottom: 2em;
 }
+.me{
+  width: 30%;
+  margin-left: 65%;
+  margin-top: -10%;
+}
+
 .blog_text_p {
   margin: 0.2em 2em;
   font-size: 1.3em;
