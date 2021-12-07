@@ -386,6 +386,13 @@ nav ul li a {
   margin-top: -10%;
   padding-bottom: 2em;
 }
+.me_about{
+  width: 20%;
+  height: auto;
+  margin-left: 65%;
+  margin-top: -10%;
+  padding-bottom: 2em;
+}
 
 .blog_text_p {
   margin: 0.2em 2em;
