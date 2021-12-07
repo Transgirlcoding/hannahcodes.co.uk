@@ -795,6 +795,37 @@ img.bg {
   width: 100%;
   margin-top: 0;
 }
+
+.about_text_p {
+  margin-left: 2em;
+  font-size: 1.3em;
+  margin-top: -25%;
+  padding-bottom: 2em;
+}
+.hobbies_about_text_p {
+  margin-left: 2em;
+  font-size: 1.3em;
+  padding-bottom: 2em;
+}
+@media screen and (max-width:1024px){
+  .about_text_p {
+    margin-left: 2em;
+    font-size: .8em;
+    margin-top: -25%;
+    padding-bottom: 2em;
+  }
+  .hobbies_about_text_p {
+    margin-left: 2em;
+    font-size: 1.3em;
+    padding-bottom: 2em;
+  }
+  
+}
+
+
+
+
+
                                          /*----------footer----------*/
 footer {
   background-color: #0f0f0f;
@@ -811,8 +842,3 @@ footer h1 {
   font-family: "Poppins", sans-serif;
   text-align: center;
 }
-i.fas,
-    i.fab {
-      border: 1px solid red;
-      color: #fff;
-    }
