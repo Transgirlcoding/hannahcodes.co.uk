@@ -794,6 +794,8 @@ footer h1 {
   font-family: "Poppins", sans-serif;
   text-align: center;
 }
-.fab {
-  color: #fff;
-}
+i.fas,
+    i.fab {
+      border: 1px solid red;
+      color: #fff;
+    }
