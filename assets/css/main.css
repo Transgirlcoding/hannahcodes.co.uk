@@ -378,9 +378,13 @@ nav ul li a {
   margin-left: 2em;
   font-size: 1.3em;
   padding-bottom: 2em;
-  font-weight: 400;
 }
-
+.work_ex_about_text_p {
+  margin-left: 2em;
+  font-size: 1.3em;
+  padding-bottom: 2em;
+  font-weight: 300;
+}
 
 .blog_text_p {
   margin: 0.2em 2em;
