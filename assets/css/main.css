@@ -747,6 +747,15 @@ nav ul li a {
   margin-top: -10%;
   padding-bottom: 2em;
 }
+@media screen and (max-width: 700px){
+  .me{
+    width: 30%;
+    margin-left: 65%;
+    margin-top: -10%;
+    padding-bottom: 2em;
+    opacity: 0;
+  }
+}
 img.bg {
   /* Set rules to fill background */
   min-height: 100%;
