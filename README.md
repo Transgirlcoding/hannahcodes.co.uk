@@ -2,7 +2,7 @@
 hannahcodes.co.uk
 ## Welcome
 
- this repo is the source code for my persional website which i plan to update regually. 
+ this Repositories is the source code for my persional website which i plan to update regually. 
 
 
 
@@ -10,7 +10,7 @@ hannahcodes.co.uk
 
 - clean layout
 - improved responsiveness 
-- see almost everything i am or have been working on in one place
+- see almost everything i am or have been working on in one place (https://new.hannahcodes.co.uk/projects.html) (https://github.com/iHannah-01/hannahcodes.co.uk/blob/Dev/projects.html)
 
   
 ## Authors

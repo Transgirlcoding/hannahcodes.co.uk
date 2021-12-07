@@ -369,10 +369,23 @@ nav ul li a {
 }
 
 .about_text_p {
-  margin: 0.7em 5em;
+  margin-left: 2em;
+  font-size: 1.3em;
+  margin-top: -25%;
+  padding-bottom: 2em;
+}
+.hobbies_about_text_p {
+  margin-left: 2em;
   font-size: 1.3em;
   padding-bottom: 2em;
 }
+.work_ex_about_text_p {
+  margin-left: 2em;
+  font-size: 1.3em;
+  padding-bottom: 2em;
+  font-weight: 300;
+}
+
 .blog_text_p {
   margin: 0.2em 2em;
   font-size: 1.3em;
@@ -534,41 +547,7 @@ nav ul li a {
   padding-right: auto;
 }
 
-footer {
-  background-color: #0f0f0f;
-  height: auto;
-  padding: 12px;
-  font-size: 0.75em;
-  bottom: 60px;
-  color: white;
-}
-footer h1 {
-  font-weight: 700;
-  font-family: "Poppins", sans-serif;
-  text-align: center;
-}
-
-/* scrollbar width */
-::-webkit-scrollbar {
-  width: 15px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: rgb(0, 0, 0);
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #be18ff79;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #be18ff;
-}
-
-/* project code  files */
+                                         /*----------project code----------*/
 .card-display {
   display: flex;
 }
@@ -581,7 +560,7 @@ footer h1 {
   text-align: center;
 }
 .projects_button {
-  background-color: #333; /* Green */
+  background-color: #333;
   border: 0.2em;
   color: white;
   padding: 0.3em 2em;
@@ -620,6 +599,171 @@ footer h1 {
     text-align: center;
   }
 }
+
+                                         /*----------friends avatar----------*/
+.firends-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.friend-container_pink {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.friend-container_blue {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.friend-container_pink:hover > .friend-avatar_pink {
+  box-shadow: 0px 5px 15px 0 rgb(238, 130, 202);
+}
+.friend-name_pink {
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration-color: rgb(238, 130, 202);
+}
+.friend-container_pink:hover > .friend-name_pink {
+  text-decoration: underline;
+  color: rgb(238, 130, 202);
+}
+.friend-avatar_pink {
+  border-radius: 9999px;
+  width: 140px;
+  height: 140px;
+}
+.friend-name_blue {
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration-color: rgb(130, 204, 238);
+}
+.friend-container_blue:hover > .friend-name_blue {
+  text-decoration: underline;
+  color: rgb(130, 204, 238);
+}
+.friend-container_blue:hover > .friend-avatar_blue {
+  box-shadow: 0px 5px 15px 0 rgb(130, 204, 238);
+}
+.friend-avatar_blue {
+  border-radius: 9999px;
+  width: 140px;
+  height: 140px;
+}
+
+@media only screen and (max-width: 1500px) {
+  .firends-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .friend-container_pink {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .friend-container_blue {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .friend-container:hover > .friend-avatar_pink {
+    box-shadow: 0px 5px 15px 0 rgb(238, 130, 202);
+  }
+  .friend-name_pink {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration-color: rgb(238, 130, 202);
+  }
+  .friend-container:hover > .friend-name_pink {
+    text-decoration: underline;
+    color: rgb(238, 130, 202);
+  }
+  .friend-avatar_pink {
+    border-radius: 9999px;
+    width: 140px;
+    height: 140px;
+  }
+  .friend-name_blue {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration-color: rgb(238, 130, 202);
+  }
+  .friend-container:hover > .friend-name_blue {
+    text-decoration: underline;
+    color: rgb(238, 130, 202);
+  }
+  .friend-container:hover > .friend-avatar_blue {
+    box-shadow: 0px 5px 15px 0 rgb(238, 130, 202);
+  }
+  .friend-avatar_blue {
+    border-radius: 9999px;
+    width: 140px;
+    height: 140px;
+  }
+}
+
+                                         /*----------custom scrollbar----------*/                     
+
+/* scrollbar width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(0, 0, 0);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #be18ff79;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #be18ff;
+}
+
+
+
+                                         /*----------image code----------*/
+
+.me{
+  width: 30%;
+  margin-left: 65%;
+  margin-top: -10%;
+  padding-bottom: 2em;
+}
+@media screen and (max-width: 1826px){
+  .me{
+    width: 30%;
+    margin-left: 68%;
+    margin-top: -8%;
+    padding-bottom: 2em;
+  }
+}
+@media screen and (max-width: 700px){
+  .me{
+    width: 50%;
+    margin-left: 65%;
+    margin-top: -10%;
+    padding-bottom: 2em;
+    opacity: 0;
+  }
+}
 img.bg {
   /* Set rules to fill background */
   min-height: 100%;
@@ -650,4 +794,67 @@ img.bg {
 .projects_img{
   width: 100%;
   margin-top: 0;
+}
+
+.about_text_p {
+  margin-left: 2em;
+  font-size: 1.3em;
+  margin-top: -25%;
+  padding-bottom: 2em;
+}
+.hobbies_about_text_p {
+  margin-left: 2em;
+  font-size: 1.3em;
+  padding-bottom: 2em;
+}
+@media screen and (max-width:1024px){
+  .about_text_p {
+    margin-left: 1em;
+    font-size: 1em;
+    margin-top: -30%;
+    padding-bottom: 2em;
+    
+  }
+  .hobbies_about_text_p {
+    margin-left: 2em;
+    font-size: 1em;
+    padding-bottom: 2em;
+  }
+  
+}
+@media screen and (max-width:700px){
+  .about_text_p {
+    margin-left: 1em;
+    font-size: 1em;
+    margin-top: -50%;
+    padding-bottom: 2em;
+    
+  }
+  .hobbies_about_text_p {
+    margin-left: 2em;
+    font-size: 1em;
+    padding-bottom: 2em;
+  }
+  
+}
+
+
+
+
+
+                                         /*----------footer----------*/
+footer {
+  background-color: #0f0f0f;
+  height: auto;
+  padding: 12px;
+  padding-left: auto;
+  padding-right: auto;
+  margin: auto;
+  bottom: 60px;
+  color: white;
+}
+footer h1 {
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
 }

@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hannah Codes</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Poppins:wght@400;600;700&display=swap" 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" 
 rel="stylesheet">
 		<link rel="stylesheet" href="/assets/css/main.css" />
-    <link rel="icon" href="/assets/images/home/hannah.PNG" />
+    <link rel="icon" href="/assets/images/home_pics/hannah.PNG" />
+    <script src="/assets/js/main.js"></script>
 </head>
 <body>
     <header> 
@@ -51,7 +52,7 @@ rel="stylesheet">
 <img
 class="bg"
  alt=""
- src="/assets/images/projects/ipad-hc-v7.png"
+ src="/assets/images/projects/ipad-hc-v8.png"
   draggable="false"
   />
     <h1 class=blog_type_h1_page> My Projects</h1>
@@ -163,7 +164,7 @@ class="bg"
         <img
         class="projects_img"
          alt=""
-         src="/assets/images/projects/ipad-hc-v7.png"
+         src="/assets/images/projects/ipad-hc-v8.png"
           draggable="false"
           />
         <h1> hannah codes website v8<br> (dev)</h1>
@@ -238,77 +239,6 @@ class="bg"
 
 
 </body>
-<script> var nav = $('nav');
-  var line = $('<div />').addClass('line');
-  
-  line.appendTo(nav);
-  
-  var active = nav.find('.active');
-  var pos = 0;
-  var wid = 0;
-  
-  if(active.length) {
-    pos = active.position().left;
-    wid = active.width();
-    line.css({
-      left: pos,
-      width: wid
-    });
-  }
-  
-  nav.find('ul li a').click(function(e) {
-    e.preventDefault();
-    if(!$(this).parent().hasClass('active') && !nav.hasClass('animate')) {
-      
-      nav.addClass('animate');
-  
-      var _this = $(this);
-  
-      nav.find('ul li').removeClass('active');
-  
-      var position = _this.parent().position();
-      var width = _this.parent().width();
-  
-      if(position.left >= pos) {
-        line.animate({
-          width: ((position.left - pos) + width)
-        }, 300, function() {
-          line.animate({
-            width: width,
-            left: position.left
-          }, 150, function() {
-            nav.removeClass('animate');
-          });
-          _this.parent().addClass('active');
-        });
-      } else {
-        line.animate({
-          left: position.left,
-          width: ((pos - position.left) + wid)
-        }, 300, function() {
-          line.animate({
-            width: width
-          }, 150, function() {
-            nav.removeClass('animate');
-          });
-          _this.parent().addClass('active');
-        });
-      }
-  
-      pos = position.left;
-      wid = width;
-    }
-  });
-  /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
-function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-  </script>
 </html>
 
 
