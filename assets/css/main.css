@@ -822,6 +822,21 @@ img.bg {
   }
   
 }
+@media screen and (max-width:700px){
+  .about_text_p {
+    margin-left: 1em;
+    font-size: 1em;
+    margin-top: -25%;
+    padding-bottom: 2em;
+    
+  }
+  .hobbies_about_text_p {
+    margin-left: 2em;
+    font-size: 1em;
+    padding-bottom: 2em;
+  }
+  
+}
 
 
 
