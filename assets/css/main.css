@@ -809,11 +809,11 @@ img.bg {
 }
 @media screen and (max-width:1024px){
   .about_text_p {
-    margin-left: 2em;
+    margin-left: 1em;
     font-size: 1em;
     margin-top: -25%;
     padding-bottom: 2em;
-    padding-top: 1em;
+    padding-top: .5em;
   }
   .hobbies_about_text_p {
     margin-left: 2em;
