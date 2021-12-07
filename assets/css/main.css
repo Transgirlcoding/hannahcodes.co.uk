@@ -789,15 +789,6 @@ footer {
   bottom: 60px;
   color: white;
 }
-.about_page_footer {
-  background-color: #0f0f0f;
-  height: auto;
-  padding: 12px;
-  padding-left: auto;
-  padding-right: auto;
-  bottom: 100px;
-  color: white;
-}
 footer h1 {
   font-weight: 700;
   font-family: "Poppins", sans-serif;
