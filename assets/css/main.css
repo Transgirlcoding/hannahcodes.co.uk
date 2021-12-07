@@ -789,10 +789,9 @@ footer {
   height: auto;
   padding: 12px;
   padding-left: auto;
-  padding-top: auto;
+  margin-top: auto;
   padding-right: auto;
   margin: auto;
-  bottom: 60px;
   color: white;
 }
 footer h1 {
