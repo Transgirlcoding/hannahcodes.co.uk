@@ -848,8 +848,10 @@ footer {
   height: auto;
   padding-left: auto;
   padding-top: 12px;
+  padding-bottom: 12px;
   padding-right: auto;
   width: 100%;
+  margin-left: 0;
   bottom: 60px;
   color: white;
 }
