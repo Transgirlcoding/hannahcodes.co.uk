@@ -850,6 +850,7 @@ footer {
   padding-left: auto;
   padding-right: auto;
   margin: auto;
+  width: 100%;
   bottom: 60px;
   color: white;
 }
