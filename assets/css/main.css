@@ -846,10 +846,12 @@ img.bg {
 footer {
   background-color: #0f0f0f;
   height: auto;
-  padding: 12px;
   padding-left: auto;
+  padding-top: 12px;
+  padding-bottom: 12px;
   padding-right: auto;
-  margin: auto;
+  width: 100%;
+  margin-left: 0;
   bottom: 60px;
   color: white;
 }

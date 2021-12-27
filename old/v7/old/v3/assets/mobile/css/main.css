@@ -1,0 +1,395 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e7d5e4;
+  }
+  .friends{
+    align-items: center;
+    display: inline;
+    
+    
+  }
+  .friendstext{
+    align-items: center;
+    display: flex;
+    
+    margin-left: 60%;
+    margin-top: -15%;
+    
+  }
+  .mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #e7d5e4;
+    height: 800px;
+    color: black;
+    border-radius: 5px;
+  }
+  .headertext{
+    margin-left: 6%;
+  }
+  homepfp{
+    margin-right: 7%;
+  }
+  .topnav {
+    overflow: hidden;
+    background: #DEE4E7;
+background: linear-gradient(90deg, rgba(35,12,51,1) 0%, rgba(136,52,157,1) 100%);
+    position: relative;
+    color: white;
+    padding-left: 0.8%;
+  }
+  .footercolour{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  /* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #DEE4E7;
+  color: black;
+  cursor: pointer;
+  padding: 16px;
+  width: 100%;
+  font-size: 16px;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.footeractive, .accordion:hover {
+  background-color: #dcc0f3;
+  opacity: 50%;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 16px;
+  color: black;
+  float: right;
+  margin-left: 10px;
+}
+
+.footeractive:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+.panel {
+  padding: 0 40px;
+  background-color: #d8d7d7;
+  color: black;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+ 
+  .topnav #myLinks {
+    display: none;
+    background: #DEE4E7;
+  }
+  .topnav a {
+    color: black;
+    padding: 13px 15px;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    color: white;
+    display: block;
+    position: absolute;
+    margin-top: 8px;
+    right: 0;
+    top: 0;
+  }
+  .divbackground{
+    background-color: rgb(240, 201, 225);
+  
+  
+  
+}
+.divbackground2{
+  margin-top: -5%;
+  background-color: rgb(218, 199, 247);
+
+
+}
+.divbackground3{
+  margin-top: -5%;
+  background-color: #dee4e7;
+	
+
+
+}
+.hometext{
+  margin-left: 7%;
+  padding-left: 0.7%;
+  margin-right: 4%;
+  padding-right: 0.7%;
+}
+.abouthometext{
+  padding-top: 1%;
+  padding-left: 0.7%;
+  margin-left: 35%;
+}
+.abouthometext2{
+  padding-top: 2%;
+  padding-left: 0.7%;
+  margin-left: 10%;
+}
+.abouthometext3{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 0.7%;
+  margin-left: 8%;
+}
+.ytvid{
+  margin-left: 4%;
+}
+  .topnav a:hover {
+    background-color: #dcc0f3;
+    color: black;
+  }
+  .active {
+    background-color: #dcc0f3;
+    color: black;
+  }
+  .button {
+      background-color: #ffffff; /* Green */
+      border: none;
+      color: black;
+      padding: 10px 180px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      margin-top: 20px;
+      
+      margin-right: 6%;
+      margin-bottom: 20px;
+      border-radius: 5px;
+    }
+    .button:hover {
+      
+      background-color: #34065a;
+      color: white;
+      box-shadow: 0 9px 16px 0 rgba(0,0,0,0.24), 0 10px 20px 0 rgba(0,0,0,0.19);
+    }
+    .firends-list {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .friend-container {
+      margin: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .friend-container:hover > .friend-avatar {
+      box-shadow: 0 9px 16px 0 rgb(63, 62, 62);
+    }
+    .friend-container:hover > .friend-name {
+      text-decoration: underline;
+      color: rgb(5, 139, 133);
+    }
+    
+    
+    .friend-name {
+      color: black;
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .friend-avatar {
+      border-radius: 9999px;
+      width: 140px;
+      height: 140px;
+    }
+    .space{
+      background-color: #e7d5e4;
+    }
+    .footer {
+      margin-top: 3%;
+      text-align: center;
+      background-color: #DEE4E7;
+       padding: 1px;
+     border-radius: -2%;
+       font-size: 18px;
+       color: black
+  
+    }
+    /* The dropdown container */
+.dropdown {
+	float: left;
+	overflow: hidden;
+}
+.h2nav {
+  
+  background-color: #DEE4E7;
+  color: black;
+  
+  font-display: 2px;
+      border: none;
+      
+      padding: 15px 50%;
+      text-align: centre;
+      text-decoration: none;
+      
+      font-size: 20px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      border-radius: 1px;
+}
+
+
+@media (prefers-color-scheme: dark) {
+	body .mobile-container {
+	  background-color: #222222;
+	  color: white;
+	}.topnav a:hover {
+    background-color: #34065a;
+    color: white;
+  }
+  .space{
+    background-color: #222222;
+  }
+  .footercolour{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  .topnav #myLinks {
+    display: none;
+    background: #333;
+  }
+  .friend-name {
+		color: #fff;
+		font-weight: bold;
+		font-size: 20px;
+	}
+	.friend-container:hover > .friend-name {
+		text-decoration: underline;
+		color: rgb(238, 130, 202);
+	}
+  .footer {
+    text-align: center;
+    background-color: #333;
+     padding: 1px;
+   border-radius: -2%;
+     font-size: 18px;
+     color: white;
+
+  }
+  .topnav a {
+    color: white;
+    padding: 13px 15px;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+  }
+  .h2nav {
+  
+    background-color: #333;
+    color: white;
+    
+    font-display: 2px;
+        border: none;
+        
+        padding: 15px 50%;
+        text-align: centre;
+        text-decoration: none;
+        
+        font-size: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-radius: 1px;
+  }
+  /* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  padding: 16px;
+  width: 100%;
+  font-size: 16px;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #34065a;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 16px;
+  color: white;
+  float: right;
+  margin-left: 10px;
+}
+
+.footeractive:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+.panel {
+  padding: 1 40px;
+  background-color: #222222;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.button {
+  background-color: #333; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 180px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 20px;
+  
+  margin-right: 6%;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.divbackground{
+  background-color: rgb(72, 40, 99);
+padding-left: 0.7%;
+padding-right: 0.7%;
+margin: 0;
+}
+
+.divbackground2{
+margin-top: -5%;
+background-color: rgb(56, 46, 71);
+
+
+}
+.divbackground3{
+margin-top: -5%;
+background-color: #333;
+
+
+
+}
+.button:hover {
+  background-color: #34065a;
+  color: white;
+  box-shadow: 0 9px 16px 0 rgba(0,0,0,0.24), 0 10px 20px 0 rgba(0,0,0,0.19);
+}
+}
+@media (prefers-color-scheme: dark) {
+	body {
+	  background-color: #222222;
+	  color: white;
+	}
+}
