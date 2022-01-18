@@ -12,44 +12,20 @@ rel="stylesheet">
 		<link rel="stylesheet" href="assets/css/main.css" />
     <link rel="icon" href="assets/images/home_pics/hannah.PNG" />
     <script src="assets/js/main.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+<script> 
+$(function(){
+  $("#header").load("header.html"); 
+  $("#footer").load("footer.html"); 
+});
+</script> 
 </head>
 <body>
-    <header> 
-      
-        <h1 class="header_h1"> hannah codes </h1>  
-        <nav>
-          <ul>
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="/about/about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="friends.html">Friends</a></li>
-            <li><a href="https://Blog.hannahcodes.co.uk">Blog</a></li>
-            
-          </ul>
-        </nav>
-        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<!-- Top Navigation Menu -->
-<div class="topnav">
-  <!-- Navigation links (hidden by default) -->
-  <div class="mobile_nav_bg">
-  <div id="myLinks">
-    <div class="mobile_nav">
-    <a class="active" href="index.html">home</a>
-    <a href="/about/about.html">about</a>
-    <a href="projects.html">projects</a>
-    <a href="friends/html">Friends</a>
-    <a href="https://Blog.hannahcodes.co.uk">New Blog</a>
-  </div>
-</div>
-  </div>
-  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
-</header>
+  <div id="header"></div>
 <img
 class="bg"
  alt=""
