@@ -32,7 +32,7 @@ header h1 {
 nav {
   position: relative;
   left: 22%;
-  margin: 1em 1em;
+  margin: auto;
   padding: 0.7em;
   text-align: center;
   z-index: 10;
