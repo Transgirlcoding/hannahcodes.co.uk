@@ -18,7 +18,7 @@ html {
 
 /* Header and nav bar */
 header {
-  margin: 1em 1em;
+  margin: auto;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
   display: flex;
@@ -32,7 +32,7 @@ header h1 {
 nav {
   position: relative;
   left: 22%;
-  margin: auto;
+  margin: 1em;
   padding: 0.7em;
   text-align: center;
   z-index: 10;
@@ -204,7 +204,7 @@ nav ul li a {
   nav {
     position: relative;
     left: 5%;
-    margin: auto;
+    margin: 1em;
     padding-bottom: 25px;
     text-align: center;
     z-index: 10;
