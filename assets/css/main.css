@@ -551,6 +551,8 @@ nav ul li a {
                                          /*----------project code----------*/
 .card-display {
   display: flex;
+  margin-left: 2em;
+  margin-right: 2em;
 }
 .card {
   padding: 2em 1em;
@@ -590,6 +592,8 @@ nav ul li a {
   /* project code  files */
   .card-display {
     display: block;
+    margin-left: 2em;
+    margin-right: 2em;
   }
   .card {
     padding: 2em 1em;
