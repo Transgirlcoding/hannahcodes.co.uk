@@ -798,7 +798,8 @@ img.bg {
 }
 .projects_img{
   width: 100%;
-  margin-top: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .about_text_p {
