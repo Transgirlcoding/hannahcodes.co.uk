@@ -143,11 +143,9 @@ nav ul li a {
 }
 .head_text {
   margin: 0.1em 1em;
-  text-decoration: underline;
   padding-bottom: 0.3em;
 }
 .head_text_friends {
-  text-decoration: underline;
   text-align: center;
   padding-bottom: 0.3em;
 }
