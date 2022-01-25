@@ -596,12 +596,14 @@ nav ul li a {
   box-shadow: 0 9px 16px 0 rgba(0, 0, 0, 0.24),
     0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.link_placement{
+  margin: auto;
+  display: flex;
+}
 svg{
-  border-color: #fff;
+  fill: #fff;
   width: 3em;
   height: 3em;
-  margin-left: .6em;
-  margin-top: .6em;
 }
 
 @media only screen and (max-width: 700px) {
