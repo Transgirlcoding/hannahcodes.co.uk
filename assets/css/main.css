@@ -565,11 +565,11 @@ nav ul li a {
 .projects_links {
   border: 0.2em;
   color: white;
-  text-align: center;
-  align-items: center;
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
+  margin-left: .75em;
+  
 
 }
 .projects_button {
