@@ -560,6 +560,7 @@ nav ul li a {
   width: 199em;
   font-size: 0.6em;
   text-align: center;
+  box-shadow: 0px 5px 15px 0 rgb(48, 49, 49);
 }
 .projects_button {
   background-color: #333;
