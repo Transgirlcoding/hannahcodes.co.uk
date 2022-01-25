@@ -568,7 +568,7 @@ nav ul li a {
   display: inline-block;
   font-size: 18px;
   margin-left: .75em;
-  padding-top: .6em;
+  padding-top: auto;
 
 
 }
@@ -599,7 +599,7 @@ nav ul li a {
 .link_placement{
   margin: auto;
   display: flex;
-  padding-top: .6em;
+  padding-top: auto;
 }
 svg{
   fill: #fff;
