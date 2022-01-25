@@ -600,8 +600,8 @@ svg{
   border-color: #fff;
   width: 3em;
   height: 3em;
-  margin-left: .2em;
-  margin: auto;
+  margin-left: .6em;
+  margin-top: .6em;
 }
 
 @media only screen and (max-width: 700px) {
