@@ -19,6 +19,7 @@ html {
 /* Header and nav bar */
 header {
   margin: auto;
+  align-items: center;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
   display: flex;
