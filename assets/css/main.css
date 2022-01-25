@@ -779,7 +779,7 @@ svg{
 .me{
   width: 30%;
   margin-left: 65%;
-  margin-top: 8%;
+  margin-top: -8%;
   padding-bottom: 2em;
 }
 @media screen and (max-width: 1826px){
