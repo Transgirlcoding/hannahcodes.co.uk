@@ -562,6 +562,16 @@ nav ul li a {
   text-align: center;
   box-shadow: 0px 5px 15px 0 rgb(48, 49, 49);
 }
+.projects_links {
+  border: 0.2em;
+  color: white;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+
+}
 .projects_button {
   background-color: #333;
   border: 0.2em;
