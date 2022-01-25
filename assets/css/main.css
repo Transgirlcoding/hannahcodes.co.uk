@@ -597,10 +597,11 @@ nav ul li a {
     0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
 svg{
-  color: #fff;
-  background-color: #fff;
-  width: 2em;
-  height: 2em;
+  border-color: #fff;
+  width: 3em;
+  height: 3em;
+  margin-left: .2em;
+  margin: auto;
 }
 
 @media only screen and (max-width: 700px) {
