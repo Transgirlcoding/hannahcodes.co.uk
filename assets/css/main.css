@@ -566,6 +566,8 @@ nav ul li a {
   color: white;
   text-decoration: none;
   display: inline-block;
+  align-items: center;
+  text-align: center;
   font-size: 18px;
   margin-left: .75em;
   padding-top: auto;
@@ -600,6 +602,9 @@ nav ul li a {
   margin: auto;
   display: flex;
   padding-top: auto;
+  align-items: center;
+  text-align: center;
+  padding-top: .2em;
 }
 svg{
   fill: #fff;
