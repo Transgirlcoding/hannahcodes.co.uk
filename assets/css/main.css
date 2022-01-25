@@ -29,11 +29,12 @@ header h1 {
   font-family: "Poppins", sans-serif;
   padding: 0.7em;
   z-index: -1;
+  margin: auto;
 }
 nav {
   position: relative;
   left: 22%;
-  margin: 1em;
+ margin: auto;
   padding: 0.7em;
   text-align: center;
   z-index: 10;
