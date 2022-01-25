@@ -589,8 +589,8 @@ nav ul li a {
   /* project code  files */
   .card-display {
     display: block;
-    margin-left: 2em;
-    margin-right: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
   }
   .card {
     margin: 2em;
