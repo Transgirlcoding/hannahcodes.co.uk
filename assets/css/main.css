@@ -571,6 +571,9 @@ nav ul li a {
 
 
 }
+.projects_text{
+  text-align: center;
+}
 .projects_button {
   background-color: #333;
   border: 0.2em;
