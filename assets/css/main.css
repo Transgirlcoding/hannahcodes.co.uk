@@ -598,6 +598,7 @@ nav ul li a {
 }
 svg{
   color: #fff;
+  background-color: #fff;
   width: 2em;
   height: 2em;
 }
