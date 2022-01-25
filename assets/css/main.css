@@ -622,7 +622,19 @@ svg{
   display: flex;
   margin: auto;
 }
+.projects_links_2 {
+  border: 0.2em;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  margin-left: .4em;
+  padding-top: auto;
 
+
+}
 @media only screen and (max-width: 700px) {
   /* project code  files */
   .card-display {
