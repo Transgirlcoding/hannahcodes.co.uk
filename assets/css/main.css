@@ -211,9 +211,8 @@ nav ul li a {
   }
   .topnav {
     overflow: hidden;
-
     position: relative;
-    width: 50em;
+    width: 20em;
     z-index: 100;
   }
   /* Style the hamburger menu */
@@ -317,7 +316,7 @@ nav ul li a {
   .topnav {
     width: 100%;
     margin: 0;
-    display: block;
+    display: inline-block;
     position: relative;
     z-index: 100;
   }
