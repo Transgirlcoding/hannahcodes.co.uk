@@ -779,7 +779,7 @@ footer h1 {
   display: inline-block;
   font-size: 1.7em;
   color: #fff;
-  margin: auto;
+  margin-left: 8em;
   padding: 10px 10px 10px 10px;
 }
 
@@ -789,8 +789,9 @@ footer h1 {
 
 .nav > .nav-links {
   display: inline;
-  margin-right: auto;
-  font-size: 1.7em;
+  float: right;
+  margin-right: 8em;
+  font-size: 1.3em;
 }
 
 .nav > .nav-links > a {
