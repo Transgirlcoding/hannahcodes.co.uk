@@ -835,6 +835,9 @@ footer h1 {
     position: relative;
     margin: auto;
   }
+  .nav > .nav-header {
+    display: inline;
+  }
   .nav > .nav-btn {
     display: inline-block;
     position: absolute;
