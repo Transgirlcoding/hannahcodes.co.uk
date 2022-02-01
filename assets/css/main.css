@@ -395,6 +395,7 @@ nav ul li a {
   .blog_welcome_text {
     text-align: center;
     padding-bottom: 2em;
+    margin: auto;
     padding-right: auto;
   }
   .header_h1 {
