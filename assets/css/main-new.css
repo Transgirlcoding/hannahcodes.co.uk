@@ -789,9 +789,8 @@ footer h1 {
 
 .nav > .nav-links {
   display: inline;
-  float: right;
-  margin: auto;
-  font-size: 18px;
+  margin-right: auto;
+  font-size: 1.7em;
 }
 
 .nav > .nav-links > a {
