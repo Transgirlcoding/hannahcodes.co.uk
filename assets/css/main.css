@@ -344,7 +344,7 @@ nav ul li a {
 
   /* Style the hamburger menu */
   .topnav a.icon {
-    display: block;
+    display: inline-block;
     position: absolute;
     margin-right: -2em;
     margin-top: 0.7em;
