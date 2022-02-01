@@ -390,18 +390,17 @@ nav ul li a {
     font-size: 2.5em;
     position: relative;
     padding-top: 0.05em;
-    padding-right: auto;
+    margin: auto;
   }
   .blog_welcome_text {
     text-align: center;
     padding-bottom: 2em;
     margin: auto;
-    padding-right: auto;
   }
   .header_h1 {
     font-weight: 700;
     font-family: "Poppins", sans-serif;
-    padding: auto;
+    margin: auto;
     font-size: 1.7em;
   }
   .about_text {
