@@ -763,9 +763,9 @@ footer h1 {
 
                            /*-------------- new nav code by https://codepen.io/jo_Geek/pen/xgbaEr ----*/
 .nav {
-  height: 50px;
+  height: 4em;
   width: 100%;
-  background-color: #4d4d4d;
+  background-color: inherit;
   position: relative;
 }
 
