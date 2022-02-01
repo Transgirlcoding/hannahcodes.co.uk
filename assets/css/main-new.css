@@ -768,6 +768,7 @@ footer h1 {
   background-color: inherit;
   position: relative;
   margin: auto;
+
 }
 
 .nav > .nav-header {
@@ -776,9 +777,9 @@ footer h1 {
 
 .nav > .nav-header > .nav-title {
   display: inline-block;
-  font-size: 22px;
+  font-size: 1.7em;
   color: #fff;
-  margin-left: auto;
+  margin: auto;
   padding: 10px 10px 10px 10px;
 }
 
@@ -789,7 +790,7 @@ footer h1 {
 .nav > .nav-links {
   display: inline;
   float: right;
-  margin-right: 8em;
+  margin: auto;
   font-size: 18px;
 }
 
@@ -801,7 +802,7 @@ footer h1 {
 }
 
 .nav > .nav-links > a:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: #be18ff;
 }
 
 .nav > #nav-check {
