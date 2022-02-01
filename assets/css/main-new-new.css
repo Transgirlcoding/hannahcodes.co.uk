@@ -766,7 +766,7 @@ footer h1 {
                            /*-------------- new nav code by https://codepen.io/jo_Geek/pen/xgbaEr ----*/
 
 @media (max-width:600px) {
-  .desktop_nav {
+  nav {
     display: none;
   }
   header h1 {
