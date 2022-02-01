@@ -212,7 +212,7 @@ nav ul li a {
   .topnav {
     overflow: hidden;
     position: relative;
-    width: 20em;
+    width: 50em;
     z-index: 100;
   }
   /* Style the hamburger menu */
