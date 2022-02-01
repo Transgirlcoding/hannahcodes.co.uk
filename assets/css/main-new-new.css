@@ -764,60 +764,9 @@ footer h1 {
 
 
                            /*-------------- new nav code by https://codepen.io/jo_Geek/pen/xgbaEr ----*/
-.nav {
-  height: 4em;
-  width: 100%;
-  background-color: inherit;
-  position: relative;
-  margin: auto;
-  display: none;
-
-}
-
-.nav > .nav-header {
-  display: inline;
-  display: none;
-}
-
-.nav > .nav-header > .nav-title {
-  display: inline-block;
-  display: none;
-  font-size: 1.7em;
-  color: #fff;
-  margin-left: 8em;
-  padding: 10px 10px 10px 10px;
-}
-
-.nav > .nav-btn {
-  display: none;
-}
-
-.nav > .nav-links {
-  display: none;
-  display: inline;
-  float: right;
-  margin-right: 8em;
-  font-size: 1.3em;
-}
-
-.nav > .nav-links > a {
-  display: none;
-  display: inline-block;
-  padding: 13px 10px 13px 10px;
-  text-decoration: none;
-  color: #efefef;
-}
-
-.nav > .nav-links > a:hover {
-  background-color: #be18ff;
-}
-
-.nav > #nav-check {
-  display: none;
-}
 
 @media (max-width:600px) {
-  nav {
+  .desktop_nav {
     display: none;
   }
   header h1 {
@@ -834,6 +783,44 @@ footer h1 {
     background-color: inherit;
     position: relative;
     margin: auto;
+  }
+  
+  .nav > .nav-header {
+    display: inline;
+  }
+  
+  .nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 1.7em;
+    color: #fff;
+    margin-left: 8em;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+  
+  .nav > .nav-links {
+    display: inline;
+    float: right;
+    margin-right: 8em;
+    font-size: 1.3em;
+  }
+  
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: #efefef;
+  }
+  
+  .nav > .nav-links > a:hover {
+    background-color: #be18ff;
+  }
+  
+  .nav > #nav-check {
+    display: none;
   }
   .nav > .nav-header {
     display: inline;
@@ -881,6 +868,11 @@ footer h1 {
     display: block;
     width: 100%;
   }
+  
+.nav > #nav-check {
+  display: none;
+}
+
   .nav > #nav-check:not(:checked) ~ .nav-links {
     height: 0px;
   }
