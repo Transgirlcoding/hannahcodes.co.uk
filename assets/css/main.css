@@ -316,7 +316,7 @@ nav ul li a {
   /* Style the navigation menu */
   .topnav {
     width: 100%;
-    margin: auto;
+    margin: 0;
     display: block;
     position: relative;
     z-index: 100;
@@ -345,9 +345,9 @@ nav ul li a {
 
   /* Style the hamburger menu */
   .topnav a.icon {
-    display: flex;
+    display: block;
     position: absolute;
-    margin-right: auto;
+    margin-right: -2em;
     margin-top: 0.7em;
   }
 
@@ -364,6 +364,7 @@ nav ul li a {
     color: white;
   }
 }
+
 @media only screen and (max-width: 480px) {
   header {
     margin: auto;
@@ -415,7 +416,7 @@ nav ul li a {
   /* Style the navigation menu */
   .topnav {
     width: 100%;
-    margin: auto;
+    margin: 0;
     display: block;
     position: relative;
     z-index: 100;
@@ -444,9 +445,9 @@ nav ul li a {
 
   /* Style the hamburger menu */
   .topnav a.icon {
-    display: flex;
+    display: block;
     position: absolute;
-    margin-right: auto;
+    margin-right: -2em;
     margin-top: 0.7em;
   }
 
@@ -463,6 +464,7 @@ nav ul li a {
     color: white;
   }
 }
+
 .about_text {
   margin: 0.5em 0.5em;
   font-size: 2.5em;
