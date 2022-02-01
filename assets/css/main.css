@@ -267,7 +267,106 @@ nav ul li a {
 }
 @media only screen and (max-width: 700px) {
   header {
-    margin: 0.7em 0.7em;
+    margin: auto;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    z-index: -100;
+  }
+
+  nav {
+    display: none;
+  }
+  .blog_img_header {
+    margin: -20em;
+    width: 50%;
+    right: 50em;
+    height: 35em;
+    opacity: 0.2;
+    background-color: #151515;
+  }
+  .blog_type_h1 {
+    display: grid;
+    place-content: center;
+    text-align: center;
+    font-size: 2.5em;
+    position: relative;
+    padding-top: 0.05em;
+    padding-right: auto;
+  }
+  .blog_welcome_text {
+    text-align: center;
+    padding-bottom: 2em;
+    padding-right: auto;
+  }
+  .header_h1 {
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    padding: auto;
+    font-size: 1.7em;
+  }
+  .about_text {
+    margin: 0.3em 0.1em;
+    font-size: 0.3em;
+  }
+  .about_text_p {
+    margin: none;
+    font-size: 0.4em;
+    padding-bottom: 2em;
+  }
+  /* Style the navigation menu */
+  .topnav {
+    width: 100%;
+    margin: auto;
+    display: block;
+    position: relative;
+    z-index: 100;
+  }
+
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+    width: 20em;
+  }
+  .topnav .mobile_nav {
+    margin-top: 0;
+    width: 30em;
+    margin-left: 1em;
+    margin-top: 5em;
+  }
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 20px;
+
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+  }
+
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    display: block;
+    position: absolute;
+    margin-right: auto;
+    margin-top: 0.7em;
+  }
+
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #be18ff;
+    color: white;
+    z-index: 100;
+  }
+
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #be18ff79;
+    color: white;
+  }
+}
+@media only screen and (max-width: 480px) {
+  header {
+    margin: auto;
     font-weight: 700;
     font-family: "Poppins", sans-serif;
     z-index: -100;
