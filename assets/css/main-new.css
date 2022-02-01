@@ -135,6 +135,7 @@ header h1 {
     position: relative;
     padding-top: 0.05em;
     padding-right: auto;
+    z-index: -1;
   }
   .blog_welcome_text {
     text-align: center;
@@ -184,6 +185,7 @@ header h1 {
     position: relative;
     padding-top: 0.05em;
     margin: auto;
+    z-index: -1;
   }
   .blog_welcome_text {
     text-align: center;
