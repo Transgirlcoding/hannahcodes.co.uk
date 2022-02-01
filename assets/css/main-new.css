@@ -831,6 +831,13 @@ footer h1 {
     height: 10px;
     border-top: 2px solid #eee;
   }
+  .nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 1.7em;
+    color: #fff;
+    margin-left: 0;
+    padding: 10px 10px 10px 10px;
+  }
   .nav > .nav-links {
     position: absolute;
     display: block;
