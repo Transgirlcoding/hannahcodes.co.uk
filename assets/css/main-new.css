@@ -767,6 +767,7 @@ footer h1 {
   width: 100%;
   background-color: inherit;
   position: relative;
+  margin: auto;
 }
 
 .nav > .nav-header {
