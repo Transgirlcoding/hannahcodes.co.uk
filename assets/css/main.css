@@ -274,6 +274,7 @@ nav ul li a {
   nav{
     overflow: scroll;
     width: auto;
+    display: block;
   }
   header h1 {
     font-weight: 700;
@@ -286,7 +287,7 @@ nav ul li a {
   body {
     background-color: #121212;
     color: white;
-    overflow-x: scroll; /* Hide horizontal scrollbar */
+    
   }
   .blog_img_header {
     margin: -20em;
@@ -395,11 +396,12 @@ nav ul li a {
   nav{
     overflow: scroll;
     width: auto;
+    display: block;
   }
   body {
     background-color: #121212;
     color: white;
-    overflow-x: scroll; /* Hide horizontal scrollbar */
+    
   }
   
   .blog_img_header {
