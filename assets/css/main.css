@@ -272,9 +272,7 @@ nav ul li a {
     z-index: -100;
   }
 
-  nav {
-    display: none;
-  }
+  
   .blog_img_header {
     margin: -20em;
     width: 50%;
@@ -372,9 +370,7 @@ nav ul li a {
     z-index: -100;
   }
 
-  nav {
-    display: none;
-  }
+  
   .blog_img_header {
     margin: -20em;
     width: 50%;
