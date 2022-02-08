@@ -271,7 +271,14 @@ nav ul li a {
     font-family: "Poppins", sans-serif;
     z-index: -100;
   }
-
+  header h1 {
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    padding: 0.7em;
+    z-index: -1;
+    margin: auto;
+    display: none;
+  }
   body {
     background-color: #121212;
     color: white;
@@ -372,6 +379,14 @@ nav ul li a {
     font-weight: 700;
     font-family: "Poppins", sans-serif;
     z-index: -100;
+  }
+  header h1 {
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    padding: 0.7em;
+    z-index: -1;
+    margin: auto;
+    display: none;
   }
   body {
     background-color: #121212;
