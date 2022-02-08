@@ -272,7 +272,11 @@ nav ul li a {
     z-index: -100;
   }
 
-  
+  body {
+    background-color: #121212;
+    color: white;
+    overflow-x: scroll; /* Hide horizontal scrollbar */
+  }
   .blog_img_header {
     margin: -20em;
     width: 50%;
@@ -369,7 +373,11 @@ nav ul li a {
     font-family: "Poppins", sans-serif;
     z-index: -100;
   }
-
+  body {
+    background-color: #121212;
+    color: white;
+    overflow-x: scroll; /* Hide horizontal scrollbar */
+  }
   
   .blog_img_header {
     margin: -20em;
