@@ -272,7 +272,6 @@ nav ul li a {
     z-index: -100;
   }
   nav{
-    overflow: scroll;
     width: auto;
     display: block;
   }
@@ -393,8 +392,7 @@ nav ul li a {
     margin: auto;
     display: none;
   }
-  nav{
-    overflow: scroll;
+  nav {
     width: auto;
     display: block;
   }
