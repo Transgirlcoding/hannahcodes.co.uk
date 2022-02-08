@@ -272,7 +272,7 @@ nav ul li a {
     z-index: -100;
   }
   nav{
-    overflow: auto;
+    overflow: scroll;
   }
   header h1 {
     font-weight: 700;
@@ -392,7 +392,7 @@ nav ul li a {
     display: none;
   }
   nav{
-    overflow: auto;
+    overflow: scroll;
   }
   body {
     background-color: #121212;
