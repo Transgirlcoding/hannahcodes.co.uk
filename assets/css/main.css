@@ -275,6 +275,14 @@ nav ul li a {
     width: auto;
     display: block;
   }
+  nav ul li {
+    margin: 0 10px 0 0;
+    opacity: 0.4;
+    overflow: hidden;
+    padding: 0.7em;
+    transition: all 0.4s ease;
+    text-align: center;
+  }
   header h1 {
     font-weight: 700;
     font-family: "Poppins", sans-serif;
@@ -395,6 +403,14 @@ nav ul li a {
   nav {
     width: auto;
     display: block;
+  }
+  nav ul li {
+    margin: 0 10px 0 0;
+    opacity: 0.4;
+    overflow: hidden;
+    padding: 0.7em;
+    transition: all 0.4s ease;
+    text-align: center;
   }
   body {
     background-color: #121212;
