@@ -273,6 +273,7 @@ nav ul li a {
   }
   nav{
     overflow: scroll;
+    width: auto;
   }
   header h1 {
     font-weight: 700;
@@ -393,6 +394,7 @@ nav ul li a {
   }
   nav{
     overflow: scroll;
+    width: auto;
   }
   body {
     background-color: #121212;
