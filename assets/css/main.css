@@ -27,8 +27,8 @@ nav{
     text-align: center;
 }
 .logo h1 {
-    height: 5rem;
-    width: 5rem;
+    margin: auto;
+    text-align: center;
 }
 
 /*Styling Links*/
