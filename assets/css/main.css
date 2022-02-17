@@ -21,15 +21,7 @@ nav{
     z-index: 10;
 }
 
-/*Styling logo*/
-.logo{
-    padding:1vh 1vw;
-    align-items: center;
-}
-.logo h1 {
-    margin: auto;
-    text-align: center;
-}
+
 
 /*Styling Links*/
 .nav-links{
