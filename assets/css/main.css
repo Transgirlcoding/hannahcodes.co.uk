@@ -58,39 +58,6 @@ nav{
     width: 80%;
 }
 
-/*Styling Buttons*/
-.login-button{
-    background-color: transparent;
-    border: 1.5px solid #f2f5f7;
-    border-radius: 2em;
-    padding: 0.6rem 0.8rem;
-    margin-left: 2vw;
-    font-size: 1rem;
-    cursor: pointer;
-
-}
-.login-button:hover {
-    color: #131418;
-    background-color: #f2f5f7;
-    border:1.5px solid #f2f5f7;
-    transition: all ease-in-out 350ms;
-}
-.join-button{
-    color: #131418;
-    background-color: #61DAFB;
-    border: 1.5px solid #61DAFB;
-    border-radius: 2em;
-    padding: 0.6rem 0.8rem;
-    font-size: 1rem;
-    cursor: pointer;
-}
-.join-button:hover {
-    color: #f2f5f7;
-    background-color: transparent;
-    border:1.5px solid #f2f5f7;
-    transition: all ease-in-out 350ms;
-}
-
 /*Styling Hamburger Icon*/
 .hamburger div{
     width: 30px;
