@@ -5,6 +5,7 @@
     font-family: "poppins", sans-serif;
     letter-spacing: 1px;
     font-weight: 300;
+    box-sizing: border-box;
 }
 body{
     overflow-x: hidden;
