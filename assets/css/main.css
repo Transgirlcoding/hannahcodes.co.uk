@@ -263,3 +263,25 @@ padding-top: auto;
     margin: 0;
     padding: 0;
   }
+
+
+
+
+                        /*----------footer----------*/
+ footer {
+ background-color: #0f0f0f;
+ height: auto;
+ padding-left: auto;
+ padding-top: 12px;
+ padding-bottom: 12px;
+ padding-right: auto;
+ width: 100%;
+ margin-left: 0;
+ bottom: 60px;
+ color: white;
+ }
+ footer h1 {
+ font-weight: 700;
+ font-family: "Poppins", sans-serif;
+ text-align: center;
+ }            
