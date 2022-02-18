@@ -186,6 +186,7 @@ nav{
     margin-right: 2em;
   }
   .card {
+      margin-top: 1.5em;
     margin: .7em;
     background-color: #262626;
     width: 199em;
