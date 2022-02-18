@@ -41,7 +41,7 @@ nav{
 .nav-links li a:hover {
     color: #61DAFB;
 }
-.nav-links li a:active {
+.active {
     color: #61DAFB;
 }
 .nav-links li {
