@@ -182,12 +182,12 @@ nav{
 
 .card-display {
     display: flex;
-    margin-left: 2em;
-    margin-right: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
   }
   .card {
       margin-top: 1.5em;
-    margin: .2em;
+    margin: .7em;
     background-color: #262626;
     width: 199em;
     font-size: 0.6em;
