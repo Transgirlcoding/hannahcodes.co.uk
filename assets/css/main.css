@@ -178,6 +178,10 @@ nav{
   .projects_text{
     text-align: center;
   }
+  .project_h1{
+margin: auto;
+text-align: center;
+  }
 
 .projects_button {
 background-color: #2b2a2a;
