@@ -243,7 +243,7 @@ padding-top: auto;
 
 
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
 /* project code  files */
 .card-display {
   display: block;
@@ -251,7 +251,7 @@ padding-top: auto;
   margin-right: 1em;
 }
 .card {
-  margin: 2em;
+  margin: .7em;
   background-color: #262626;
   width: auto;
   font-size: 0.6em;
