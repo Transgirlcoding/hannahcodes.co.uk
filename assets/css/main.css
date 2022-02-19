@@ -416,11 +416,13 @@ padding-top: auto;
 .error_h1{
     margin: auto;
     text-align: center;
+    padding-top: 5em;
 }
 @media screen and (max-width: 800px){
     .error_h1{
  margin: auto;
  text-align: center;
+ padding-top: 0;
  padding-left: .5em;
  padding-right: .5em;
     }
