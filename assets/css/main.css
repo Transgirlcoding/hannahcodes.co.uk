@@ -410,3 +410,18 @@ padding-top: auto;
  font-family: "Poppins", sans-serif;
  text-align: center;
  }            
+
+
+                     /*------404 page code----------*/
+.error_h1{
+    margin: auto;
+    text-align: center;
+}
+@media screen and (max-width: 800px){
+    .error_h1{
+ margin: auto;
+ text-align: center;
+ padding-left: .5em;
+ padding-right: .5em;
+    }
+}
