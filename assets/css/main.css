@@ -176,6 +176,7 @@ nav{
     display: flex;
     margin-left: 1em;
     margin-right: 1em;
+    background-color: #121212;
   }
   .card {
     margin: .7em;
