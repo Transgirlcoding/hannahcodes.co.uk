@@ -164,7 +164,18 @@ nav{
   background-color: #121212;
 }
 
-
+.index-card-display {
+  display: flex;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+@media screen and (max-width: 800px){
+  .index-card-display {
+    display: block;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}
 
 
 
