@@ -159,7 +159,10 @@ nav{
     text-align: center;
     padding-bottom: 2em;
 }
-
+.index_about_section{
+  padding-top: 2em;
+  background-color: #121212;
+}
 
 
 
