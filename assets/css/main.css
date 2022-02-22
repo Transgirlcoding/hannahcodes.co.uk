@@ -167,7 +167,9 @@ nav{
 .index_card_section{
   background-color: #171616;
 }
-
+.index_card_section h1{
+  margin-left: .7em;
+}
 .index-card-display {
   display: flex;
   margin-left: 1em;
