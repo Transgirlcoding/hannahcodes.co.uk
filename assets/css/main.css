@@ -186,6 +186,9 @@ nav{
     margin-right: 1em;
   }
 }
+.index_friends_section{
+  background-color: #0f1012;
+}
 .index_friends_h1{
   margin: auto;
   text-align: center;
