@@ -170,9 +170,10 @@ nav{
   padding-bottom: .7em;
 }
 .index_card_section h1{
-  margin-left: 1em;
   margin-top: .7em;
   margin-bottom: .5em;
+  text-align: center;
+  margin: auto;
 }
 .index-card-display {
   display: flex;
