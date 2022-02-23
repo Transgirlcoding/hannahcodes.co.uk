@@ -199,6 +199,26 @@ nav{
 
 
 
+
+
+  
+
+                 /*------about.html code------*/
+  .about_about_section{
+    padding-top: 2em;
+    background-color: #121212;
+  }
+
+
+  .about_hobbies_section{
+    padding-top: .7em;
+    background-color: #18191c;
+  }
+
+  .about_education_work_section{
+    padding-top: .7em;
+    background-color: #0f1012;
+  }
                       /*----------project code----------*/
 
 .card-display {
