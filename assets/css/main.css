@@ -222,6 +222,8 @@ nav{
   }
   .image {
     flex-basis: 40%;
+    width: 90%;
+    height: 90%;
   }
   .text {
     font-size: 20px;
