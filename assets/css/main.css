@@ -498,6 +498,7 @@ padding-top: auto;
  padding-left: auto;
  position: fixed; 
  bottom: 0;
+ width: 100%;
  padding-top: 12px;
  padding-bottom: 12px;
  padding-right: auto;
