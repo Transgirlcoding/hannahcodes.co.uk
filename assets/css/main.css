@@ -218,10 +218,10 @@ nav{
     justify-content: center
   }
   img {
-    max-width: 100%
+    max-width: 100%;
   }
   .image {
-    flex-basis: 40%
+    flex-basis: 40%;
   }
   .text {
     font-size: 20px;
