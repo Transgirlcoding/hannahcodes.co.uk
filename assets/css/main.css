@@ -219,6 +219,10 @@ nav{
     padding-top: .7em;
     background-color: #0f1012;
   }
+  .about_education_work_h1{
+    margin: auto;
+    text-align: center;
+  }
                       /*----------project code----------*/
 
 .card-display {
