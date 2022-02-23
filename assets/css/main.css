@@ -231,7 +231,13 @@ nav{
     margin: auto;
     text-align: center;
   }
+  .about_education_work_edu_h2{
+    padding-left: 1em;
+  }
   .about_education_work_edu_p{
+    padding-left: 1em;
+  }
+  .about_education_work_work_ex_h2{
     padding-left: 1em;
   }
   .about_education_work_work_ex_p{
