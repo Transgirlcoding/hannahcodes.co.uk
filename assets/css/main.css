@@ -231,6 +231,12 @@ nav{
     margin: auto;
     text-align: center;
   }
+  .about_education_work_edu_p{
+    padding-left: 1em;
+  }
+  .about_education_work_work_ex_p{
+    padding-left: 1em;
+  }
                       /*----------project code----------*/
 
 .card-display {
