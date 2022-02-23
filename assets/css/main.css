@@ -223,24 +223,28 @@ nav{
     text-align: center;
   }
 
-  .about_education_work_section{
+  .about_edu_work_section{
     padding-top: .7em;
     background-color: #0f1012;
   }
-  .about_education_work_h1{
+  .about_edu_work_h1{
     margin: auto;
     text-align: center;
   }
-  .about_education_work_edu_h2{
+  .about_edu_work_edu_h2{
     padding-left: 1em;
   }
-  .about_education_work_edu_p{
+  .about_edu_work_edu_p{
     padding-left: 1em;
   }
-  .about_education_work_work_ex_h2{
+  .about_edu_work_edu_hm_cert_h3{
+    margin: auto;
+    text-align: center;
+  }
+  .about_edu_work_work_ex_h2{
     padding-left: 1em;
   }
-  .about_education_work_work_ex_p{
+  .about_edu_work_work_ex_p{
     padding-left: 1em;
   }
                       /*----------project code----------*/
