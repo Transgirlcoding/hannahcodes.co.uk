@@ -234,9 +234,10 @@ nav{
       display: block;
     }
     img{
+      display: block;
       width: 50%;
-      margin: auto;
-      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
     }
     .image{
       padding-left: 2em;
