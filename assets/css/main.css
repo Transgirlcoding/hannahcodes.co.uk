@@ -233,6 +233,9 @@ nav{
     .container{
       display: block;
     }
+    img{
+      width: 50%;
+    }
     .image{
       padding-left: 2em;
       padding-right: 2em;
