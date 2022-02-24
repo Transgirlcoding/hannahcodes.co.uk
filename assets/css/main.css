@@ -217,6 +217,11 @@ nav{
     /*align-items: center;*/
     justify-content: center
   }
+  @media screen and (max-width: 800px){
+    .container{
+      display: block;
+    }
+  }
   img {
     max-width: 100%;
   }
