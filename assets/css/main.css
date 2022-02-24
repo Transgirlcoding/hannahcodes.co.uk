@@ -225,6 +225,9 @@ nav{
       padding-left: 2em;
       padding-right: 2em;
     }
+    .text{
+      font-size: 1em;
+    }
   }
   img {
     max-width: 100%;
@@ -234,7 +237,7 @@ nav{
     padding-left: 1em;
   }
   .text {
-    font-size: 20px;
+    font-size: 1.25em;
     padding-left: 20px;
     padding-right: 3em;
   }
