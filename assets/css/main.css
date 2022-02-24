@@ -217,18 +217,6 @@ nav{
     /*align-items: center;*/
     justify-content: center
   }
-  @media screen and (max-width: 800px){
-    .container{
-      display: block;
-    }
-    .image{
-      padding-left: 2em;
-      padding-right: 2em;
-    }
-    .text{
-      font-size: .8em;
-    }
-  }
   img {
     max-width: 100%;
   }
@@ -240,6 +228,18 @@ nav{
     font-size: 1.25em;
     padding-left: 20px;
     padding-right: 3em;
+  }
+  @media screen and (max-width: 800px){
+    .container{
+      display: block;
+    }
+    .image{
+      padding-left: 2em;
+      padding-right: 2em;
+    }
+    .text{
+      font-size: .8em;
+    }
   }
 
 
