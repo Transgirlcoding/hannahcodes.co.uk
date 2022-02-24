@@ -221,6 +221,10 @@ nav{
     .container{
       display: block;
     }
+    .image{
+      padding-left: 2em;
+      padding-right: 2em;
+    }
   }
   img {
     max-width: 100%;
