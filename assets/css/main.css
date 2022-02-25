@@ -56,6 +56,7 @@ nav{
 }
 .active {
     color: #F2C7E2;
+    font-weight: bold;
 }
 .nav-links li {
     position: relative;
