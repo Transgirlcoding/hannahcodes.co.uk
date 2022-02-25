@@ -52,7 +52,7 @@ nav{
     margin: 0 0.7vw;
 }
 .nav-links li a:hover {
-    color: #61DAFB;
+    color: #F2C7E2;
 }
 .active {
     color: #F2C7E2;
@@ -65,7 +65,7 @@ nav{
     display: block;
     height: 3px;
     width: 0%;
-    background-color: #61DAFB;
+    background-color: #F2C7E2;
     position: absolute;
     transition: all ease-in-out 250ms;
     margin: 0 0 0 10%;
