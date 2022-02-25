@@ -22,6 +22,16 @@ nav{
 }
 
 
+/*Styling logo*/
+.logo{
+  padding:1vh 1vw;
+  text-align: center;
+}
+.logo img {
+  height: 5rem;
+  width: 5rem;
+}
+
 
 /*Styling Links*/
 .nav-links{
