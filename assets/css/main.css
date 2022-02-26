@@ -219,6 +219,11 @@ nav{
   
 
                  /*------about.html code------*/
+  .about_h1{
+  margin: auto;
+  text-align: center;
+  padding-top: 5em;
+  }
   .about_about_section{
     padding-top: .7em;
     background-color: #121212;
@@ -226,6 +231,7 @@ nav{
   .about_about_h1{
     margin: auto;
     text-align: center;
+    padding-bottom: .5em;
   }
   .container {
     display: flex;
