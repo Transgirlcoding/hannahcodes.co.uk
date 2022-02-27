@@ -574,11 +574,12 @@ padding-top: auto;
  text-align: center;
  }            
 footer a{
-  padding-left: .5em;
-  padding-right: .5em;
+  padding-left: .2em;
+  padding-right: .2em;
   margin: auto;
   text-align: center;
   align-items: center;
+  color: dimgrey;
 }
  .footer_display{
    display: flex;
