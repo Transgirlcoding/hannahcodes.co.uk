@@ -577,6 +577,7 @@ padding-top: auto;
  .footer_display{
    display: flex;
    margin: 1em;
+   align-items: center;
  }
 
                      /*------404 page code----------*/
