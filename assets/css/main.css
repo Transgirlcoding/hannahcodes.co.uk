@@ -575,6 +575,7 @@ padding-top: auto;
  }            
 footer a{
   margin-left: 2em;
+  float: right;
   padding-left: .2em;
   padding-right: .2em;
   align-items: center;
