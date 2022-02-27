@@ -562,7 +562,7 @@ padding-top: auto;
   width: 100%;
   margin-left: 0;
   bottom: 60px;
-  color: white;
+  color: dimgrey;
  
  }
  footer h1{
@@ -576,9 +576,8 @@ padding-top: auto;
 footer a{
   padding-left: .2em;
   padding-right: .2em;
-  margin: auto;
-  text-align: center;
   align-items: center;
+  text-align: center;
   color: dimgrey;
 }
  .footer_display{
