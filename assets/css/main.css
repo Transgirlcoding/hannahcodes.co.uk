@@ -616,3 +616,9 @@ left: 50%;
 margin-left: -512px; /* 50% */
 }
 }
+
+                  /*------terms page code------*/
+terms_text_p{
+  padding-left: 1em;
+  padding-right: 1em;
+}
