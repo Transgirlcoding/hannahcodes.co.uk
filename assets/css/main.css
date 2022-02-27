@@ -555,8 +555,9 @@ padding-top: auto;
  footer {
   background-color: #131418;
   padding-left: auto;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding-top: 1px;
+  padding-bottom: 0;
+  margin-bottom: 0;
   padding-right: auto;
   width: 100%;
   margin-left: 0;
