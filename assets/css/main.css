@@ -576,6 +576,7 @@ padding-top: auto;
 footer a{
   padding-left: .5em;
   padding-right: .5em;
+  text-align: center;
 }
  .footer_display{
    display: flex;
