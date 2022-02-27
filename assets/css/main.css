@@ -574,6 +574,7 @@ padding-top: auto;
  text-align: center;
  }            
 footer a{
+  margin-left: 2em;
   padding-left: .2em;
   padding-right: .2em;
   align-items: center;
