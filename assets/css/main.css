@@ -565,12 +565,19 @@ padding-top: auto;
   color: white;
  
  }
- footer h1 {
+ footer h1{
+   font-weight: 700;
+   text-align: center;
+ }
+ footer p{
  font-weight: 700;
- font-family: "Poppins", sans-serif;
  text-align: center;
  }            
 
+ .footer_display{
+   display: flex;
+   margin: 1em;
+ }
 
                      /*------404 page code----------*/
 .error_h1{
