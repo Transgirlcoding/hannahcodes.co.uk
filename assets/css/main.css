@@ -579,12 +579,11 @@ footer a{
 }
  .footer_display{
    display: flex;
-   margin: 1em;
+   margin-left: 1em;
   
  }
  /*Styling logo*/
 .footer_logo{
-  padding:1vh 1vw;
   margin-left: 0;
   margin-right: 0;
 }
