@@ -576,7 +576,9 @@ padding-top: auto;
 footer a{
   padding-left: .5em;
   padding-right: .5em;
+  margin: auto;
   text-align: center;
+  align-items: center;
 }
  .footer_display{
    display: flex;
