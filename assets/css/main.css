@@ -573,12 +573,27 @@ padding-top: auto;
  font-weight: 700;
  text-align: center;
  }            
-
+footer a{
+  padding-left: .5em;
+  padding-right: .5em;
+}
  .footer_display{
    display: flex;
    margin: 1em;
-   align-items: center;
+  
  }
+ /*Styling logo*/
+.footer_logo{
+  padding:1vh 1vw;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 0;
+  margin-right: 0;
+}
+.footer_logo img {
+  height: 5rem;
+  width: 5rem;
+}
 
                      /*------404 page code----------*/
 .error_h1{
