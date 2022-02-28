@@ -600,7 +600,11 @@ footer a{
   height: 5rem;
   width: 5rem;
 }
-
+@media screen and (max-width: 800px){
+  .footer_display{
+  display: block;
+  }
+}
                      /*------404 page code----------*/
 .error_h1{
     margin: auto;
