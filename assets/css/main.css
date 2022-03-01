@@ -381,8 +381,8 @@ box-shadow: 0 9px 16px 0 rgba(0, 0, 0, 0.24),
 margin: auto;
 display: flex;
 padding-top: auto;
-align-items: center;
-text-align: center;
+/*align-items: center;
+text-align: center;*/
 padding-top: .35em;
 }
 svg{
