@@ -634,6 +634,7 @@ footer a{
    .copyright_text_mobile{
      font-weight: 700;
      text-align: center;
+     opacity: 1;
    }
 }
                      /*------404 page code----------*/
