@@ -603,6 +603,7 @@ footer a{
 @media screen and (max-width: 800px){
   .footer_display{
   display: block;
+  background-color: #131418;
   }
   footer {
     background-color: #131418;
@@ -618,6 +619,11 @@ footer a{
     bottom: 60px;
     color: dimgrey;
    
+   }
+   footer a{
+     background: #131418;
+     display: block;
+     text-align: center;
    }
 }
                      /*------404 page code----------*/
