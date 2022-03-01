@@ -604,6 +604,20 @@ footer a{
   .footer_display{
   display: block;
   }
+  footer {
+    background-color: #131418;
+    padding-left: auto;
+    padding-top: 1px;
+    height: auto;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding-right: auto;
+    width: 100%;
+    margin-left: 0;
+    bottom: 60px;
+    color: dimgrey;
+   
+   }
 }
                      /*------404 page code----------*/
 .error_h1{
