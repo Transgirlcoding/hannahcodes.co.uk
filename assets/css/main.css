@@ -573,7 +573,7 @@ padding-top: auto;
  font-weight: 700;
  text-align: center;
  }            
- footer .copyright_text_mobile{
+ .copyright_text_mobile{
    opacity: 0;
  }
 footer a{
