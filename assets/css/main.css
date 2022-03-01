@@ -362,7 +362,7 @@ margin-right: .75em;
 .projects_button:hover {
 cursor: pointer;
 background-color: #F2C7E2;
-color: white;
+color: black;
 box-shadow: 0 9px 16px 0 rgba(0, 0, 0, 0.24),
   0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
