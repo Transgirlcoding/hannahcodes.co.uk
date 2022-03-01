@@ -335,6 +335,19 @@ nav{
   
   
   }
+  .projects_links:hover {
+    border: 0.2em;
+    color: #F2C7E2;
+    text-decoration: none;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    margin-left: .75em;
+    padding-top: auto;
+  
+  
+  }
   .projects_text{
     text-align: center;
   }
@@ -380,6 +393,9 @@ width: 3em;
 height: 3em;
 padding-left: .6em;
 padding-right: auto;
+}
+svg:hover{
+  color:#F2C7E2;
 }
 .head_text_projects {
 margin: 0.1em 1em;
