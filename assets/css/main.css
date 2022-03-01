@@ -610,7 +610,7 @@ footer a{
   }
   footer {
     background-color: #131418;
-    display: block;
+    display: grid;
     padding-left: auto;
     padding-top: 1px;
     height: auto;
@@ -628,6 +628,7 @@ footer a{
      display: grid;
      flex-direction: column;
      text-align: center;
+     align-items: center;
    }
    .copyright_text_desktop{
      opacity: 0;
@@ -636,6 +637,7 @@ footer a{
      font-weight: 700;
      text-align: center;
      opacity: 1;
+
    }
 }
                      /*------404 page code----------*/
