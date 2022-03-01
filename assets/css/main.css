@@ -614,8 +614,8 @@ footer a{
     padding-left: auto;
     padding-top: 1px;
     height: auto;
-    padding-bottom: 0;
-    margin-bottom: 0;
+    padding:auto;
+    margin: auto;
     padding-right: auto;
     width: 100%;
     margin-left: 0;
@@ -628,10 +628,10 @@ footer a{
      display: block;
      text-align: center;
    }
-   footer .copyright_text_desktop{
+   .copyright_text_desktop{
      opacity: 0;
    }
-   footer .copyright_text_mobile{
+   .copyright_text_mobile{
      font-weight: 700;
      text-align: center;
    }
