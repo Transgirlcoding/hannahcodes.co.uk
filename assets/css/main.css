@@ -569,10 +569,13 @@ padding-top: auto;
    font-weight: 700;
    text-align: center;
  }
- footer p{
+ footer .copyright_text_desktop{
  font-weight: 700;
  text-align: center;
  }            
+ footer .copyright_text_mobile{
+   opacity: 0;
+ }
 footer a{
   margin-left: 2em;
   float: right;
@@ -623,6 +626,13 @@ footer a{
    footer a{
      background: #131418;
      display: block;
+     text-align: center;
+   }
+   footer .copyright_text_desktop{
+     opacity: 0;
+   }
+   footer .copyright_text_mobile{
+     font-weight: 700;
      text-align: center;
    }
 }
