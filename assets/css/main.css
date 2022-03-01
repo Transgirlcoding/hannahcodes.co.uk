@@ -395,7 +395,7 @@ padding-left: .6em;
 padding-right: auto;
 }
 svg:hover{
-  color:#F2C7E2;
+  fill:#F2C7E2;
 }
 .head_text_projects {
 margin: 0.1em 1em;
