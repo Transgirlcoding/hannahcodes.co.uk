@@ -317,6 +317,7 @@ nav{
   }
   .card {
     margin: .7em;
+    padding-bottom: 1em;
     background-color: #262626;
     width: 199em;
     font-size: 0.6em;
