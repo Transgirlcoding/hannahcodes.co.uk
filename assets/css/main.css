@@ -569,16 +569,11 @@ padding-top: auto;
    font-weight: 700;
    text-align: center;
  }
- footer .copyright_text_desktop{
+ footer p{
  font-weight: 700;
  text-align: center;
  }            
- .copyright_text_mobile{
-   opacity: 0;
- }
- .a_links_display{
-   margin-top: 0;
- }
+ 
 footer a{
   margin-left: 2em;
   float: right;
@@ -626,25 +621,12 @@ footer a{
     color: dimgrey;
    
    }
-   .a_links_display{
-     margin-top: 2em;
-   }
    footer a{
-     background: #131418;
-     display: grid;
-     flex-direction: column;
-     text-align: center;
-     align-items: center;
-   }
-   .copyright_text_desktop{
      opacity: 0;
    }
-   .copyright_text_mobile{
-     font-weight: 700;
-     text-align: center;
-     opacity: 1;
-
-   }
+   
+   
+   
 }
                      /*------404 page code----------*/
 .error_h1{
