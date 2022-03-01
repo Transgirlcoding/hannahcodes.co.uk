@@ -358,7 +358,6 @@ padding-top: 5em;
   }
 
 .projects_button {
-background-color: #2b2a2a;
 border: 0.2em;
 color: white;
 padding: 0.3em 2em;
@@ -374,8 +373,7 @@ margin-right: .75em;
 }
 .projects_button:hover {
 cursor: pointer;
-background-color: #F2C7E2;
-color: black;
+color: #F2C7E2;
 box-shadow: 0 9px 16px 0 rgba(0, 0, 0, 0.24),
   0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
