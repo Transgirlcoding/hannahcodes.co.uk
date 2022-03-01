@@ -608,7 +608,7 @@ footer a{
 }
 @media screen and (max-width: 800px){
   .footer_display{
-  display: block;
+  display: grid;
   background-color: #131418;
   }
   footer {
