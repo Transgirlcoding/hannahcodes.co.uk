@@ -576,6 +576,9 @@ padding-top: auto;
  .copyright_text_mobile{
    opacity: 0;
  }
+ .a_links_display{
+   margin-top: 0;
+ }
 footer a{
   margin-left: 2em;
   float: right;
@@ -622,6 +625,9 @@ footer a{
     bottom: 60px;
     color: dimgrey;
    
+   }
+   .a_links_display{
+     margin-top: 2em;
    }
    footer a{
      background: #131418;
