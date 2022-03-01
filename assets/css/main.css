@@ -606,6 +606,7 @@ footer a{
   }
   footer {
     background-color: #131418;
+    display: block;
     padding-left: auto;
     padding-top: 1px;
     height: auto;
