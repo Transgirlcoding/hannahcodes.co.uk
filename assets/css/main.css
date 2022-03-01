@@ -625,7 +625,8 @@ footer a{
    }
    footer a{
      background: #131418;
-     display: block;
+     display: grid;
+     flex-direction: column;
      text-align: center;
    }
    .copyright_text_desktop{
