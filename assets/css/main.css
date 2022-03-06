@@ -311,6 +311,7 @@ nav{
 
  .projects_hc_section{
    background-color: #121212;
+   padding-bottom: 1em;
  }                     
 .card-display {
     display: flex;
