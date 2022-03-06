@@ -309,11 +309,13 @@ nav{
   }
                       /*----------project code----------*/
 
+ .projects_hc_section{
+   background-color: #121212;
+ }                     
 .card-display {
     display: flex;
     margin-left: 1em;
     margin-right: 1em;
-    background-color: #121212;
   }
   .card {
     margin: .7em;
