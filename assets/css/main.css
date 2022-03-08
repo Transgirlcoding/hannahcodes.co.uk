@@ -315,6 +315,7 @@ nav{
  }     
  .projects_hc_h1{
    padding: 1em;
+   padding-bottom: .7em;
  }
  .projects_hp_section{
   background-color: #18191c;
@@ -322,6 +323,7 @@ nav{
 }       
 .projects_hp_h1{
   padding: 1em;
+  padding-bottom: .7em;
 }               
 .card-display {
     display: flex;
