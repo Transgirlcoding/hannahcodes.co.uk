@@ -314,14 +314,14 @@ nav{
    padding-bottom: 1em;
  }     
  .projects_hc_h1{
-   padding-left: 1em;
+   padding: 1em;
  }
  .projects_hp_section{
   background-color: #18191c;
   padding-bottom: 1em;
 }       
 .projects_hp_h1{
-  padding-left: 1em;
+  padding: 1em;
 }               
 .card-display {
     display: flex;
