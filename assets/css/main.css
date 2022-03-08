@@ -312,7 +312,11 @@ nav{
  .projects_hc_section{
    background-color: #121212;
    padding-bottom: 1em;
- }                     
+ }     
+ .projects_hp_section{
+  background-color: #18191c;
+  padding-bottom: 1em;
+}                      
 .card-display {
     display: flex;
     margin-left: 1em;
