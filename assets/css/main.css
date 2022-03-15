@@ -308,6 +308,7 @@ nav{
     width: 50%;
     margin: auto;
     align-items: center;
+    padding-top: 1em;
   }
   
   td, th {
