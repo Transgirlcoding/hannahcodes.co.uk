@@ -241,7 +241,7 @@ nav{
   }
   img {
     max-width: 100%;
-    max-height: 90%;
+    max-height: 50%;
   }
   .image {
     flex-basis: 40%;
