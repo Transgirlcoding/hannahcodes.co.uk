@@ -304,9 +304,10 @@ nav{
     text-align: center;
   }
   table {
-    font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
+    margin-left: 10em;
+    margin-right: 10em;
   }
   
   td, th {
@@ -315,9 +316,6 @@ nav{
     padding: 8px;
   }
   
-  tr:nth-child(even) {
-    background-color: #dddddd;
-  }
   .about_edu_work_work_ex_h2{
     padding-left: 1em;
   }
