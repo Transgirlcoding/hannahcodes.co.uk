@@ -247,6 +247,8 @@ nav{
     padding-left: 1em;
     max-width: 50%;
     max-height: 50%;
+    margin: auto;
+    align-self: center;
   }
   .text {
     font-size: 1.25em;
