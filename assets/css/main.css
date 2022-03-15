@@ -246,6 +246,7 @@ nav{
     flex-basis: 40%;
     padding-left: 1em;
     max-width: 50%;
+    max-height: 50%;
   }
   .text {
     font-size: 1.25em;
