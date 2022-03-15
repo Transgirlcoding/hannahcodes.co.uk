@@ -251,7 +251,7 @@ nav{
     font-size: 1.25em;
     padding-left: 20px;
     padding-right: 3em;
-    text-align: center;
+    padding-top: 2em;
   }
   @media screen and (max-width: 800px){
     .container{
