@@ -245,12 +245,14 @@ nav{
   .image {
     flex-basis: 20%;
     padding-left: 1em;
-    
+    padding-bottom: 1em;
   }
   .text {
     font-size: 1.25em;
     padding-left: 20px;
     padding-right: 3em;
+    margin: auto;
+    text-align: center;
   }
   @media screen and (max-width: 800px){
     .container{
