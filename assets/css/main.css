@@ -306,8 +306,7 @@ nav{
   table {
     border-collapse: collapse;
     width: 50%;
-    margin-left: 10em;
-    margin-right: 10em;
+    margin: auto;
     align-items: center;
   }
   
