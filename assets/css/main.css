@@ -228,6 +228,7 @@ nav{
   .about_about_section{
     padding-top: .7em;
     background-color: #121212;
+    
   }
   .about_about_h1{
     margin: auto;
@@ -236,7 +237,6 @@ nav{
   }
   .container {
     display: flex;
-    margin: auto;
     justify-content: center
   }
   img {
