@@ -245,11 +245,7 @@ nav{
   .image {
     flex-basis: 40%;
     padding-left: 1em;
-    max-width: 80%;
-    max-height: 50%;
-    margin: auto;
-    align-self: center;
-    padding-left: 2em;
+    
   }
   .text {
     font-size: 1.25em;
