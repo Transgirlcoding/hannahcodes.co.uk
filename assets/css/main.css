@@ -271,6 +271,19 @@ nav{
     .text{
       font-size: 1em;
     }
+    .college_table {
+      border-collapse: collapse;
+      width: 20%;
+      margin: auto;
+      align-items: center;
+      padding-top: 1em;
+    }
+    
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
   }
 
 
@@ -307,6 +320,19 @@ nav{
     padding-bottom: 1em;
   }
   table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+    align-items: center;
+    padding-top: 1em;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  .college_table {
     border-collapse: collapse;
     width: 50%;
     margin: auto;
