@@ -274,7 +274,7 @@ nav{
     .college_table {
       border-collapse: collapse;
       max-width: 20%;
-      overflow: scroll;
+      overflow: hidden;
       margin: auto;
       align-items: center;
       padding-top: 1em;
