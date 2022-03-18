@@ -273,7 +273,8 @@ nav{
     }
     .college_table {
       border-collapse: collapse;
-      width: 20%;
+      max-width: 20%;
+      overflow: scroll;
       margin: auto;
       align-items: center;
       padding-top: 1em;
