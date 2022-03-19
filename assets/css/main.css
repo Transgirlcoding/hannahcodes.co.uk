@@ -272,12 +272,7 @@ nav{
       font-size: 1em;
     }
     .college_table {
-      border-collapse: collapse;
-      max-width: 20%;
-      overflow: hidden;
-      margin: auto;
-      align-items: center;
-      padding-top: 1em;
+      opacity: 0;
     }
     
     td, th {
