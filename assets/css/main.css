@@ -273,6 +273,7 @@ nav{
     }
     .college_table {
       opacity: 0;
+      display: none;
     }
     
     td, th {
