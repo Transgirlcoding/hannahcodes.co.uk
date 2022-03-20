@@ -398,7 +398,7 @@ nav{
     margin-right: 1em;
   }
   .card {
-    margin: .7em;
+    margin: 1em;
     padding-bottom: 2em;
     background-color: #262626;
     width: 199em;
@@ -471,7 +471,7 @@ padding-top: .35em;
 }
 .source_code_links {
   border: 0.2em;
-  color: dimgrey;
+  color: hsl(214, 7%, 47%);
   text-decoration: none;
   display: inline-block;
   align-items: center;
@@ -497,16 +497,16 @@ padding-top: .35em;
 }
 svg{
 fill: #fff;
-width: 3em;
-height: 3em;
-padding-left: .6em;
+width: 2em;
+height: 2em;
+padding-left: .9em;
 padding-right: auto;
 }
 .source_code_svg{
-  fill: dimgrey;
-  width: 3em;
-  height: 3em;
-  padding-left: .6em;
+  fill: hsl(214, 7%, 47%);
+  width: 2em;
+  height: 2em;
+  padding-left: .7em;
   padding-right: auto;
   }
 
