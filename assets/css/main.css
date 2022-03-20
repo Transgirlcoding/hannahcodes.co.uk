@@ -288,7 +288,10 @@ nav{
     }
   }
 
-
+.college_table{
+  display: none;
+  opacity: 0;
+}
   .about_hobbies_section{
     padding-top: .7em;
     background-color: #18191c;
