@@ -394,8 +394,8 @@ nav{
 }
 .card-display {
     display: flex;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
   }
   .card {
     margin: 1em;
@@ -455,12 +455,7 @@ margin-left: .75em;
 border-radius: 5px;
 margin-right: .75em;
 }
-.projects_button:hover {
-cursor: pointer;
-color: #F2C7E2;
-box-shadow: 0 9px 16px 0 rgba(0, 0, 0, 0.24),
-  0 10px 20px 0 rgba(0, 0, 0, 0.19);
-}
+
 .link_placement{
 margin: auto;
 display: flex;
