@@ -469,6 +469,32 @@ align-items: center;
 text-align: center;
 padding-top: .35em;
 }
+.source_code_links {
+  border: 0.2em;
+  color: dimgrey;
+  text-decoration: none;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  margin-left: .75em;
+  padding-top: auto;
+
+
+}
+.source_code_links:hover {
+  border: 0.2em;
+  color: #F2C7E2;
+  text-decoration: none;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  margin-left: .75em;
+  padding-top: auto;
+
+
+}
 svg{
 fill: #fff;
 width: 3em;
@@ -476,6 +502,13 @@ height: 3em;
 padding-left: .6em;
 padding-right: auto;
 }
+.source_code_svg{
+  fill: dimgrey;
+  width: 3em;
+  height: 3em;
+  padding-left: .6em;
+  padding-right: auto;
+  }
 
 .head_text_projects {
 margin: 0.1em 1em;
