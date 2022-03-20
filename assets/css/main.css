@@ -293,8 +293,9 @@ nav{
   opacity: 0;
 }
 .college_table_img{
-  width: 50%;
   margin: auto;
+  width: 50%;
+  display: block;
   align-items: center;
 }
   .about_hobbies_section{
