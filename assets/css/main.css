@@ -276,9 +276,9 @@ nav{
       display: none;
     }
     .college_table_img{
-     display: block;
-     margin: 2em;
-     opacity: 1;
+     margin: auto;
+     width: 25%;
+     align-items: center;
     }
     
     td, th {
@@ -291,6 +291,11 @@ nav{
 .college_table{
   display: none;
   opacity: 0;
+}
+.college_table_img{
+  width: 50%;
+  margin: auto;
+  align-items: center;
 }
   .about_hobbies_section{
     padding-top: .7em;
