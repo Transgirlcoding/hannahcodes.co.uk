@@ -358,6 +358,7 @@ nav{
   }
   .about_edu_work_edu_college_p{
     padding-left: 1em;
+    padding-top: 1em;
   }
   .about_edu_work_work_ex_h2{
     padding-left: 1em;
@@ -372,7 +373,7 @@ nav{
    padding-bottom: 1em;
  }     
  .projects_hc_h1{
-   padding: 1em;
+   padding: 1.5em;
    padding-bottom: .7em;
  }
  .projects_hp_section{
@@ -380,7 +381,7 @@ nav{
   padding-bottom: 1em;
 }       
 .projects_hp_h1{
-  padding: 1em;
+  padding: 1.5em;
   padding-bottom: .7em;
 }         
 .projects_other_section{
@@ -388,16 +389,16 @@ nav{
   padding-bottom: .7em;
 }      
 .projects_other_h1{
-  padding: 1em;
+  padding: 1.5em;
   padding-bottom: .7em;
 }
 .card-display {
     display: flex;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
   }
   .card {
-    margin: .7em;
+    margin: 1em;
     padding-bottom: 2em;
     background-color: #262626;
     width: 199em;
@@ -454,12 +455,7 @@ margin-left: .75em;
 border-radius: 5px;
 margin-right: .75em;
 }
-.projects_button:hover {
-cursor: pointer;
-color: #F2C7E2;
-box-shadow: 0 9px 16px 0 rgba(0, 0, 0, 0.24),
-  0 10px 20px 0 rgba(0, 0, 0, 0.19);
-}
+
 .link_placement{
 margin: auto;
 display: flex;
@@ -468,13 +464,46 @@ align-items: center;
 text-align: center;
 padding-top: .35em;
 }
+.source_code_links {
+  border: 0.2em;
+  color: hsl(214, 7%, 47%);
+  text-decoration: none;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  margin-left: .75em;
+  padding-top: auto;
+
+
+}
+.source_code_links:hover {
+  border: 0.2em;
+  color: #F2C7E2;
+  text-decoration: none;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  margin-left: .75em;
+  padding-top: auto;
+
+
+}
 svg{
 fill: #fff;
-width: 3em;
-height: 3em;
-padding-left: .6em;
+width: 2.5em;
+height: 2.5em;
+padding-left: .9em;
 padding-right: auto;
 }
+.source_code_svg{
+  fill: hsl(214, 7%, 47%);
+  width: 2em;
+  height: 2em;
+  padding-left: .7em;
+  padding-right: auto;
+  }
 
 .head_text_projects {
 margin: 0.1em 1em;
