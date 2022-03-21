@@ -373,7 +373,7 @@ nav{
    padding-bottom: 1em;
  }     
  .projects_hc_h1{
-   padding: 1em;
+   padding: 1.5em;
    padding-bottom: .7em;
  }
  .projects_hp_section{
@@ -381,7 +381,7 @@ nav{
   padding-bottom: 1em;
 }       
 .projects_hp_h1{
-  padding: 1em;
+  padding: 1.5em;
   padding-bottom: .7em;
 }         
 .projects_other_section{
@@ -389,7 +389,7 @@ nav{
   padding-bottom: .7em;
 }      
 .projects_other_h1{
-  padding: 1em;
+  padding: 1.5em;
   padding-bottom: .7em;
 }
 .card-display {
