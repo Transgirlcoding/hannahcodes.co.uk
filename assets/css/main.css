@@ -201,9 +201,13 @@ nav{
     text-align: center;
     padding-top: .35em;
     }
-    .about_links_placement{
-      display: flex;
-      }
+    .about_link_hover{
+      border: 1px red;
+    }
+    .about_link_hover:hover{
+      fill: #F2C7E2;
+      color: #F2C7E2;
+    }
 .index_card_section{
   background-color: #18191c;
   padding-top: .7em;
