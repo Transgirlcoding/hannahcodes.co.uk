@@ -194,6 +194,16 @@ nav{
   height: 2.5em;
   padding-right: auto;
   }
+  .about_link_placement{
+    display: flex;
+    padding-top: auto;
+    align-items: center;
+    text-align: center;
+    padding-top: .35em;
+    }
+    .about_links_placement{
+      display: flex;
+      }
 .index_card_section{
   background-color: #18191c;
   padding-top: .7em;
