@@ -183,6 +183,9 @@ nav{
   display: flex;
   
 }
+.h2_about_text{
+  padding-top: 1em;
+}
 .index_card_section{
   background-color: #18191c;
   padding-top: .7em;
