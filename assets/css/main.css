@@ -181,6 +181,8 @@ nav{
 }
 .text_placement{
   display: flex;
+  padding: 0%;
+  margin: 0%;
   
 }
 .h2_about_text{
