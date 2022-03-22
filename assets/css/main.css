@@ -188,6 +188,12 @@ nav{
 .h2_about_text{
   padding-top: .3em;
 }
+.about_svg{
+  fill: #fff;
+  width: 2.5em;
+  height: 2.5em;
+  padding-right: auto;
+  }
 .index_card_section{
   background-color: #18191c;
   padding-top: .7em;
