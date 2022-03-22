@@ -179,7 +179,9 @@ nav{
   padding-top: .7em;
   background-color: #121212;
 }
-
+.text_placement{
+  display: flex;
+}
 .index_card_section{
   background-color: #18191c;
   padding-top: .7em;
