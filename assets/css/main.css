@@ -194,6 +194,9 @@ nav{
   height: 2.5em;
   padding-right: auto;
   }
+  .about_svg:hover{
+    fill: #F2C7E2;
+  }
   .about_link_placement{
     display: flex;
     padding-top: auto;
@@ -201,13 +204,9 @@ nav{
     text-align: center;
     padding-top: .35em;
     }
-    .about_link_hover{
-      border: 1px red;
-    }
-    .about_link_hover:hover{
-      fill: #F2C7E2;
-      color: #F2C7E2;
-    }
+    .about_links_placement{
+      display: flex;
+      }
 .index_card_section{
   background-color: #18191c;
   padding-top: .7em;
