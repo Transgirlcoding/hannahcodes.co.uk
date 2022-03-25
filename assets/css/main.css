@@ -179,7 +179,34 @@ nav{
   padding-top: .7em;
   background-color: #121212;
 }
-
+.text_placement{
+  display: flex;
+  padding: 0%;
+  margin: 0%;
+  
+}
+.h2_about_text{
+  padding-top: .3em;
+}
+.about_svg{
+  fill: #fff;
+  width: 2.5em;
+  height: 2.5em;
+  padding-right: auto;
+  }
+  .about_svg:hover{
+    fill: #F2C7E2;
+  }
+  .about_link_placement{
+    display: flex;
+    padding-top: auto;
+    align-items: center;
+    text-align: center;
+    padding-top: .35em;
+    }
+    .about_links_placement{
+      display: flex;
+      }
 .index_card_section{
   background-color: #18191c;
   padding-top: .7em;
@@ -439,22 +466,6 @@ margin: auto;
 text-align: center;
 padding-top: 5em;
   }
-
-.projects_button {
-border: 0.2em;
-color: white;
-padding: 0.3em 2em;
-text-decoration: none;
-display: inline-block;
-font-size: 20px;
-margin-top: 0.7em;
-right: -5em;
-align-items: center;
-margin-bottom: 10px;
-margin-left: .75em;
-border-radius: 5px;
-margin-right: .75em;
-}
 
 .link_placement{
 margin: auto;
