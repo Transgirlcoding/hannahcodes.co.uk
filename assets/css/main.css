@@ -279,7 +279,7 @@ nav{
     font-size: 1.25em;
     padding-left: 20px;
     padding-right: 3em;
-    padding-top: 1em;
+    padding-top: .8em;
   }
   @media screen and (max-width: 800px){
     .container{
