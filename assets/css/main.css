@@ -279,7 +279,7 @@ nav{
     font-size: 1.25em;
     padding-left: 20px;
     padding-right: 3em;
-    padding-top: 2em;
+    padding-top: .8em;
   }
   @media screen and (max-width: 800px){
     .container{
@@ -334,8 +334,9 @@ nav{
     text-align: center;
   }
   .about_hobbies_p{
-    padding-left: 1em;
     padding-bottom: 1em;
+    margin: auto;
+    text-align: center;
   }
 
   .about_edu_work_section{
@@ -392,6 +393,7 @@ nav{
   }
   .about_edu_work_work_ex_p{
     padding-left: 1em;
+    padding-bottom: 1em;
   }
                       /*----------project code----------*/
 
