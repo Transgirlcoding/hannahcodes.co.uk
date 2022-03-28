@@ -433,6 +433,7 @@ nav{
   }
   .card {
     margin: 1em;
+    padding: .7em;
     background-color: #262626;
     width: 199em;
     font-size: 0.6em;
@@ -544,7 +545,7 @@ padding-top: auto;
 
 
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
 /* project code  files */
 .card-display {
   display: block;
@@ -554,7 +555,7 @@ padding-top: auto;
 }
 .card {
   margin: .7em;
-  margin-bottom: 1.25em;
+  margin-bottom: 2em;
   background-color: #262626;
   width: auto;
   font-size: 0.6em;
