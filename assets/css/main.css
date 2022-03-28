@@ -554,6 +554,7 @@ padding-top: auto;
 }
 .card {
   margin: .7em;
+  padding-bottom: 2em;
   background-color: #262626;
   width: auto;
   font-size: 0.6em;
