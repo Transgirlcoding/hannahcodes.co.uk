@@ -433,7 +433,7 @@ nav{
   }
   .card {
     margin: 1em;
-    padding-bottom: 2em;
+    padding: 2em;
     background-color: #262626;
     width: 199em;
     font-size: 0.6em;
