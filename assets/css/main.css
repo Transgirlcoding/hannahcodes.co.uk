@@ -247,6 +247,10 @@ nav{
     padding-left: 1em;
     padding-right: 1em;
   }
+  .h2_about_text{
+    padding-top: .3em;
+    font-size: .5em;
+  }
 }
 .index_friends_section{
   background-color: #0f1012;
