@@ -240,7 +240,8 @@ nav{
     font-size: 1.25em;
     padding-top: .8em;
     margin: auto;
-    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
   }
   .index_card_section h1{
     padding-left: 1em;
