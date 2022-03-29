@@ -312,75 +312,6 @@ nav{
     padding-right: 3em;
     padding-top: .8em;
   }
-  @media screen and (max-width: 700px){
-    .container{
-      display: block;
-    }
-    img{
-      display: block;
-      width: 50%;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    .image{
-      padding-left: 2em;
-      padding-right: 2em;
-    }
-    .text{
-      font-size: 1em;
-    }
-    .college_table {
-      opacity: 0;
-      display: none;
-    }
-    .college_table_img{
-     margin: auto;
-     width: 25%;
-     align-items: center;
-    }
-    
-    td, th {
-      border: 1px solid #dddddd;
-      text-align: left;
-      padding: 8px;
-    }
-    .about_about_text {
-      font-size: 1.25em;
-      padding-left: 1.5em;
-      padding-right: 1.5em;
-      padding-top: .8em;
-      padding-bottom: 1em;
-    }
-    .about_hobbies_p{
-      padding-bottom: 1em;
-      padding-left: 1.5em;
-      padding-right: 1.5em;
-      margin: auto;
-      text-align: center;
-    }
-    .about_edu_work_edu_sch_p{
-      padding-left: 1.5em;
-      padding-right: 1.5em;
-    }
-    .about_edu_work_edu_mw_cert_h3{
-      margin: auto;
-      text-align: center;
-      padding-bottom: 1em;
-      padding-left: 1.5em;
-      padding-right: 1.5em;
-    }
-    .about_edu_work_work_ex_p{
-      padding-left: 1.5em;
-      padding-right: 1.5em;
-      padding-bottom: 1em;
-    }
-    .about_edu_work_work_ex_p_2{
-      padding-top: .7em;
-      padding-left: 1.5em;
-      padding-right: 1.5em;
-      padding-bottom: 1em;
-    }
-  }
 
 .college_table{
   display: none;
@@ -466,6 +397,75 @@ nav{
     padding-top: .7em;
     padding-left: 1em;
     padding-bottom: 1em;
+  }
+  @media screen and (max-width: 700px){
+    .container{
+      display: block;
+    }
+    img{
+      display: block;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .image{
+      padding-left: 2em;
+      padding-right: 2em;
+    }
+    .text{
+      font-size: 1em;
+    }
+    .college_table {
+      opacity: 0;
+      display: none;
+    }
+    .college_table_img{
+     margin: auto;
+     width: 25%;
+     align-items: center;
+    }
+    
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    .about_about_text {
+      font-size: 1.25em;
+      padding-left: 1.5em;
+      padding-right: 1.5em;
+      padding-top: .8em;
+      padding-bottom: 1em;
+    }
+    .about_hobbies_p{
+      padding-bottom: 1em;
+      padding-left: 1.5em;
+      padding-right: 1.5em;
+      margin: auto;
+      text-align: center;
+    }
+    .about_edu_work_edu_sch_p{
+      padding-left: 1.5em;
+      padding-right: 1.5em;
+    }
+    .about_edu_work_edu_mw_cert_h3{
+      margin: auto;
+      text-align: center;
+      padding-bottom: 1em;
+      padding-left: 1.5em;
+      padding-right: 1.5em;
+    }
+    .about_edu_work_work_ex_p{
+      padding-left: 1.5em;
+      padding-right: 1.5em;
+      padding-bottom: 1em;
+    }
+    .about_edu_work_work_ex_p_2{
+      padding-top: .7em;
+      padding-left: 1.5em;
+      padding-right: 1.5em;
+      padding-bottom: 1em;
+    }
   }
                       /*----------project code----------*/
 
