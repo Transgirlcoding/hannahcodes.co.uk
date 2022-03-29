@@ -351,6 +351,35 @@ nav{
       padding-top: .8em;
       padding-bottom: 1em;
     }
+    .about_hobbies_p{
+      padding-bottom: 1em;
+      padding-left: 1.5em;
+      padding-right: 1.5em;
+      margin: auto;
+      text-align: center;
+    }
+    .about_edu_work_edu_sch_p{
+      padding-left: 1.5em;
+      padding-right: 1.5em;
+    }
+    .about_edu_work_edu_mw_cert_h3{
+      margin: auto;
+      text-align: center;
+      padding-bottom: 1em;
+      padding-left: 1.5em;
+      padding-right: 1.5em;
+    }
+    .about_edu_work_work_ex_p{
+      padding-left: 1.5em;
+      padding-right: 1.5em;
+      padding-bottom: 1em;
+    }
+    .about_edu_work_work_ex_p_2{
+      padding-top: .7em;
+      padding-left: 1.5em;
+      padding-right: 1.5em;
+      padding-bottom: 1em;
+    }
   }
 
 .college_table{
