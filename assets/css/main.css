@@ -421,7 +421,9 @@ nav{
     }
     .college_table_img{
      margin: auto;
-     width: 25%;
+     width: 50%;
+     padding-left: 1.5em;
+     padding-right: 1.5em;
      align-items: center;
     }
     
