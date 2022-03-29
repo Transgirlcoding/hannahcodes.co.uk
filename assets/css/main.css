@@ -251,6 +251,13 @@ nav{
     padding-top: .3em;
     font-size: 1em;
   }
+  .text_placement{
+    display: flex;
+    padding-right: 1em;
+    margin: 0%;
+    padding-bottom: 1em;
+    
+  }
 }
 .index_friends_section{
   background-color: #0f1012;
