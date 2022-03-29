@@ -10,7 +10,7 @@ hannahcodes.co.uk
 
 - clean layout
 - improved responsiveness 
-- see almost everything i am or have been working on in one place (https://new.hannahcodes.co.uk/projects.html) (https://github.com/iHannah-01/hannahcodes.co.uk/blob/Dev/projects.html)
+- see almost everything i am or have been working on in one place (https://v9.hannahcodes.co.uk/projects.html) (https://github.com/iHannah-01/hannahcodes.co.uk/blob/v9/projects.html)
 
   
 ## Authors
