@@ -202,7 +202,9 @@ hr {
     margin-bottom: 115px;
 }
 
-
+p{
+    color: #fff;
+}
 .tm-main {
     margin-left: 200px;
     padding: 80px 100px 25px;
