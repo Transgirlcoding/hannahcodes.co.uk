@@ -183,25 +183,6 @@ hr {
     overflow-y: visible;     
 }
 
-.tm-header-wrapper {
-    overflow-y: scroll;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-    padding: 25px;
-    width: 80%;
-    height: 100%; 
-}
-
-.tm-header-wrapper::-webkit-scrollbar {
-    width: 0;
-    height: 0;
-}
-
-.tm-site-header {
-    margin-top: 50px;
-    margin-bottom: 115px;
-}
-
 p{
     color: #fff;
 }
@@ -236,7 +217,9 @@ p{
 }
 
 
-
+.blog_img{
+    max-width: 100%;
+}
 
 
 .tm-post-link {
