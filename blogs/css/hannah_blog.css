@@ -378,7 +378,7 @@ button:focus { outline: none; }
     .tm-main {
         margin-left: 0;
         padding: 20px 10px;
-        width: 100%;
+        width: 50%;
     }
 
     .tm-post-sidebar {
