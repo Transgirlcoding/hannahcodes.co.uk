@@ -50,6 +50,7 @@ body {
 .blog_nav-links .blog_nav_li .blog_nav_a{
     text-decoration: none;
     margin: 0 0.7vw;
+    color: #fff;
 }
 .blog_nav-links .blog_nav_li .blog_nav_a:hover {
     color: #F2C7E2;
