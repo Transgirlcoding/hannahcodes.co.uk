@@ -235,11 +235,7 @@ p{
     transition: all 0.3s ease;
 }
 
-.tm-search-form {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
+
 
 
 
@@ -285,7 +281,7 @@ p{
     top: 25px;
     right: -10px;
     background-color: #F2C7E2;
-    color: white;
+    color: black;
     padding: 5px 20px;
 }
 
