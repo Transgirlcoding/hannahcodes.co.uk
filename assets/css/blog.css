@@ -637,7 +637,7 @@ padding-left:2%;}
 }
 
 /*----------footer----------*/
-footer {
+.blog_footer {
     background-color: #131418;
     padding-left: auto;
     padding-top: 1px;
@@ -650,16 +650,16 @@ footer {
     color: dimgrey;
    
    }
-   footer h1{
+   .blog_footer h1{
      font-weight: 700;
      text-align: center;
    }
-   footer p{
+   .blog_footer p{
    font-weight: 700;
    text-align: center;
    }            
    
-  footer a{
+  .blog_footer a{
     margin-left: 2em;
     float: right;
     padding-left: .2em;
@@ -691,7 +691,7 @@ footer {
     display: grid;
     background-color: #131418;
     }
-    footer {
+    .blog_footer {
       background-color: #131418;
       display: grid;
       padding-left: auto;
@@ -706,7 +706,7 @@ footer {
       color: dimgrey;
      
      }
-     footer a{
+     .blog_footer a{
        opacity: 0;
      }
     }
