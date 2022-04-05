@@ -147,7 +147,7 @@ hr {
     color: #999;
 }
 
-.tm-post-link:hover .tm-post-title { color: #be18ff; }
+.tm-post-link:hover .tm-post-title { color: #F2C7E2; }
 
 .tm-btn {
     display: inline-block;
@@ -166,7 +166,7 @@ hr {
 .tm-btn-small { padding: 8px 33px; }
 
 .tm-btn-primary:hover {
-    background-color: #be18ff;
+    background-color: #F2C7E2;
     color: white;
 }
 
@@ -183,7 +183,7 @@ hr {
 
 .tm-paging-item .tm-paging-link:hover,
 .tm-paging-item.active .tm-paging-link {
-    background-color: #be18ff;
+    background-color: #F2C7E2;
     color: white;
 }
 
@@ -194,7 +194,7 @@ hr {
 }
 
 .tm-external-link { color: #be18ff79; }
-.tm-external-link:hover { color: #be18ff; }
+.tm-external-link:hover { color: #F2C7E2; }
 
 .tm-paging-wrapper {
     display: flex;
@@ -290,19 +290,7 @@ button:focus { outline: none; }
     width:100%;
 }
 
-.tm-social-links li { 
-    list-style: none; 
-    display: inline-block;
-}
 
-.tm-social-links li a {
-    display: block;
-    color: white;
-    background-color: #0CC;
-    width: 45px;
-    height: 45px;    
-    margin-right: 15px;    
-}
 
 
 .tm-contact-right { padding-left: 55px; }
