@@ -648,6 +648,7 @@ padding-left:2%;}
     margin-left: 0;
     bottom: 60px;
     color: dimgrey;
+    z-index: 1;
    
    }
    .blog_footer h1{
