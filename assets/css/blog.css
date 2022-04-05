@@ -655,10 +655,11 @@ padding-left:2%;}
      font-weight: 700;
      text-align: center;
    }
-   .blog_footer p{
+   .blog_footer .blog_footer_p{
    font-weight: 700;
    text-align: center;
    display: block;
+   padding-top: .7em;
    }            
    
   .blog_footer a{
