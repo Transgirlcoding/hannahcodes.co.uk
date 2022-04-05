@@ -640,10 +640,10 @@ padding-left:2%;}
 .blog_footer {
     background-color: #131418;
     padding-left: auto;
+    padding-right: auto;
     padding-top: 1px;
     padding-bottom: 0;
     margin-bottom: 0;
-    padding-right: auto;
     width: 100%;
     margin-left: 0;
     bottom: 60px;
@@ -658,6 +658,7 @@ padding-left:2%;}
    .blog_footer p{
    font-weight: 700;
    text-align: center;
+   display: block;
    }            
    
   .blog_footer a{
