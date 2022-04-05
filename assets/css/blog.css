@@ -284,7 +284,9 @@ p{
     color: black;
     padding: 5px 20px;
 }
-
+span{
+    color: #fff;
+}
 .tm-post-title {
     font-size: 1.7rem;
     transition: all 0.3s ease;
