@@ -633,3 +633,78 @@ padding-left:2%;}
 @media (max-width: 380px) {
     .tm-person img { max-width: 120px; }
 }
+
+/*----------footer----------*/
+footer {
+    background-color: #131418;
+    padding-left: auto;
+    padding-top: 1px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding-right: auto;
+    width: 100%;
+    margin-left: 0;
+    bottom: 60px;
+    color: dimgrey;
+   
+   }
+   footer h1{
+     font-weight: 700;
+     text-align: center;
+   }
+   footer p{
+   font-weight: 700;
+   text-align: center;
+   }            
+   
+  footer a{
+    margin-left: 2em;
+    float: right;
+    padding-left: .2em;
+    padding-right: .2em;
+    align-items: center;
+    text-align: center;
+    color: dimgrey;
+  }
+   .footer_display{
+     display: flex;
+     margin-left: 1em;
+     align-items: center;
+    
+   }
+   /*Styling logo*/
+  .footer_logo{
+    padding: 1vh 1vw;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .footer_logo img {
+    height: 5rem;
+    width: 5rem;
+  }
+  @media screen and (max-width: 800px){
+    .footer_display{
+    display: grid;
+    background-color: #131418;
+    }
+    footer {
+      background-color: #131418;
+      display: grid;
+      padding-left: auto;
+      padding-top: 1px;
+      height: auto;
+      padding:auto;
+      margin: auto;
+      padding-right: auto;
+      width: 100%;
+      margin-left: 0;
+      bottom: 60px;
+      color: dimgrey;
+     
+     }
+     footer a{
+       opacity: 0;
+     }
+    }
