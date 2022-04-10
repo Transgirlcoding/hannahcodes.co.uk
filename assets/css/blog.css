@@ -77,14 +77,14 @@ body {
 }
 
 /*Styling Hamburger Icon*/
-.hamburger div{
+.blog_hamburger div{
     width: 30px;
     height:3px;
     background: #f2f5f7;
     margin: 5px;
     transition: all 0.3s ease;
 }
-.hamburger{
+.blog_hamburger{
     display: none;
 }
 
@@ -94,7 +94,7 @@ body {
         position: fixed;
         z-index: 3;
     }
-    .hamburger{
+    .blog_hamburger{
         display:block;
         position: absolute;
         cursor: pointer;
