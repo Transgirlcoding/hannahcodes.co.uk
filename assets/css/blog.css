@@ -72,7 +72,7 @@ body {
     transition: all ease-in-out 250ms;
     margin: 0 0 0 10%;
 }
-.nav-links .blog_nav_li .blog_nav_a:hover::before{
+.blog_nav-links .blog_nav_li .blog_nav_a:hover::before{
     width: 80%;
 }
 
