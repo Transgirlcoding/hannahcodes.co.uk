@@ -446,7 +446,7 @@ button:focus { outline: none; }
 /* Hide sidebar */
 @media (max-width: 991px) {
     .tm-main {
-        margin-left: 0;
+        margin-left: 1em;
         padding: 20px 10px;
         width: 100%;
     }
