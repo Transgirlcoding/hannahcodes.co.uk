@@ -414,7 +414,7 @@ button:focus { outline: none; }
     .tm-header { width: 320px; }
 
     .tm-main {
-        margin-left: 320px;
+        margin-left: 300px;
         width: calc(100% - 320px);
     }
 }
@@ -537,7 +537,7 @@ button:focus { outline: none; }
     }
 
     .tm-post-sidebar {
-        margin-left: 0;
+        margin-left: 100px;
         margin-right: auto;
     }
 }
