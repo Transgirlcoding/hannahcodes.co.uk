@@ -183,7 +183,7 @@ p{
 .tm-post { max-width: 470px; }
 
 .tm-row {
-    max-width: 980px;
+    max-width: 100%;
     justify-content: space-between;
 }
 
