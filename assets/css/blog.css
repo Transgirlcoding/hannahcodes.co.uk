@@ -445,34 +445,10 @@ button:focus { outline: none; }
 
 /* Hide sidebar */
 @media (max-width: 991px) {
-    .tm-header {
-        width: 320px;
-        left: -320px;        
-        transition: all 0.3s ease;
-    }
-
-    .tm-header.show { left: 0; }
-    .tm-header-wrapper { padding: 15px; }
-
-    .navbar-toggler {
-        display: block;
-        position: fixed;
-        left: 0;
-        top: 0;
-        background-color: #be18ff;;
-        color: white;
-        padding: 10px 15px;
-        transition: all 0.3s ease;
-        border-radius: 0;
-        top: 5px;
-    }
-
-    .tm-header.show .navbar-toggler { left: 320px; }
-
     .tm-main {
         margin-left: 0;
         padding: 20px 10px;
-        width: 50%;
+        width: 100%;
     }
 
     .tm-post-sidebar {
