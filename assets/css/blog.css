@@ -170,24 +170,11 @@ hr {
 .form-control:-ms-input-placeholder { color: #999; }  
 .form-control::placeholder { color: #999; }
 
-.tm-header {
-    background-color: rgb(0, 0, 0);
-    color: white;
-    
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    z-index: 100;
-    width: .7em;
-    overflow-y: visible;     
-}
-
 p{
     color: #fff;
 }
 .tm-main {
-    margin-left: 400px;
+    margin-left: 350px;
     padding: 80px 100px 25px;
     background-color: #121212;
 }
