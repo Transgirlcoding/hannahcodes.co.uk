@@ -174,8 +174,8 @@ p{
     color: #fff;
 }
 .tm-main {
-    margin-left: 5em;
-    padding: 80px 100px 25px;
+    margin: auto;
+    align-items: center;
     background-color: #121212;
 }
 
