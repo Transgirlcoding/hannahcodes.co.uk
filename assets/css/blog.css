@@ -413,7 +413,7 @@ button:focus { outline: none; }
     .tm-header { width: 320px; }
 
     .tm-main {
-        margin-left: 300px;
+        margin-left: 5em;
         width: calc(100% - 320px);
     }
 }
