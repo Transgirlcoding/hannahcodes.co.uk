@@ -509,6 +509,7 @@ button:focus { outline: none; }
     .tm-post-col,
     .tm-aside-col {
         flex: 0 0 100%;
+        float: right;
         max-width: 100%;
     }
 
