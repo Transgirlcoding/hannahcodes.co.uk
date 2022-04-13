@@ -248,7 +248,7 @@ span{
 
 .tm-h3 {
     font-size: 1.3rem;
-    color: #999;
+    color: #121212;
 }
 
 .tm-post-link:hover .tm-post-title { color: #F2C7E2; }
@@ -260,12 +260,7 @@ span{
     transition: all 0.3s ease;
 }
 
-.tm-btn-primary {    
-    background-color: #333;
-    color: white;  
-    padding: 8px 43px;
-    border: none;
-}
+
 
 .tm-btn-small { padding: 8px 33px; }
 
@@ -327,7 +322,7 @@ video {
 .tm-comment {
     display: flex;
     align-items: flex-start;
-    background-color: #151515;
+    background-color: #121212;
 }
 
 .tm-comment-figure {
