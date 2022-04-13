@@ -174,10 +174,9 @@ p{
     color: #fff;
 }
 .tm-main {
-    margin-left: 100px;
+    margin-left: 5em;
     padding: 80px 100px 25px;
     background-color: #121212;
-    margin-right: 200px;
 }
 
 .tm-post { max-width: 470px; }
