@@ -174,7 +174,7 @@ p{
     color: #fff;
 }
 .tm-main {
-    padding-top: 4.5em;
+    padding-top: 6em;
     margin: auto;
     align-items: center;
     background-color: #121212;
@@ -197,6 +197,12 @@ p{
       }
       .blog_links_placement{
         display: flex;
+        }
+        .blog_a{
+            color: #fff;
+        }
+        .blog_a:hover{
+            color: #F2C7E2;
         }
 
 .tm-post { max-width: 470px; }
