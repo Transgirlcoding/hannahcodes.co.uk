@@ -179,6 +179,25 @@ p{
     align-items: center;
     background-color: #121212;
 }
+.blog_svg{
+    fill: #fff;
+    width: 2.5em;
+    height: 2.5em;
+    padding-right: auto;
+    }
+    .blog_svg:hover{
+      fill: #F2C7E2;
+    }
+    .blog_link_placement{
+      display: flex;
+      padding-top: auto;
+      align-items: center;
+      text-align: center;
+      padding-top: .35em;
+      }
+      .blog_links_placement{
+        display: flex;
+        }
 
 .tm-post { max-width: 470px; }
 
