@@ -434,6 +434,7 @@ button:focus { outline: none; }
     .tm-header { width: 320px; }
 
     .tm-main {
+        padding-top: 6em;
         margin: auto;
         align-items: center;
         width: calc(100% - 320px);
@@ -467,6 +468,7 @@ button:focus { outline: none; }
 /* Hide sidebar */
 @media (max-width: 991px) {
     .tm-main {
+        padding-top: 6em;
         margin-left: 1em;
         padding: 20px 10px;
         width: 100%;
@@ -501,7 +503,8 @@ button:focus { outline: none; }
     }
 
     .tm-search-form { justify-content: flex-start; }
-    .tm-main { padding: 60px 10px; }
+    .tm-main { padding: 60px 10px;
+    padding-top: 6em; }
 
     .tm-prev-next-wrapper,
     .tm-paging-wrapper {
