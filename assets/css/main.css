@@ -7,6 +7,9 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+:root{
+  --hover-active-colour: #F2C7E2;
+}
 body{
     overflow-x: hidden;
     background-color: #121212;
@@ -53,10 +56,10 @@ nav{
     margin: 0 0.7vw;
 }
 .nav-links li a:hover {
-    color: #F2C7E2;
+    color: var(--hover-active-colour);
 }
 .active {
-    color: #F2C7E2;
+    color: var(--hover-active-colour);
     font-weight: bold;
 }
 .nav-links li {
@@ -67,7 +70,7 @@ nav{
     display: block;
     height: 3px;
     width: 0%;
-    background-color: #F2C7E2;
+    background-color: var(--hover-active-colour);
     position: absolute;
     transition: all ease-in-out 250ms;
     margin: 0 0 0 10%;
@@ -202,7 +205,7 @@ nav{
   padding-right: auto;
   }
   .about_svg:hover{
-    fill: #F2C7E2;
+    fill: var(--hover-active-colour);
   }
   .about_link_placement{
     display: flex;
@@ -523,7 +526,7 @@ nav{
   }
   .projects_links:hover {
     border: 0.2em;
-    color: #F2C7E2;
+    color: var(--hover-active-colour);
     text-decoration: none;
     display: inline-block;
     align-items: center;
@@ -566,7 +569,7 @@ padding-top: .35em;
 }
 .source_code_links:hover {
   border: 0.2em;
-  color: #F2C7E2;
+  color: var(--hover-active-colour);
   text-decoration: none;
   display: inline-block;
   align-items: center;
