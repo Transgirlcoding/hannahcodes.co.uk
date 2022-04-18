@@ -194,7 +194,7 @@ nav{
   padding-left: 20px;
   padding-right: 3em;
   padding-top: .8em;
-  color: #0000;
+  
 }
 .text_placement{
   display: flex;
@@ -293,6 +293,7 @@ nav{
   text-align: center;
   padding-top: 5em;
   padding-bottom: 1.5em;
+  color: black;
   }
   .about_about_section{
     padding-top: .7em;
@@ -303,6 +304,7 @@ nav{
     margin: auto;
     text-align: center;
     padding-bottom: .5em;
+    color: black;
   }
   .container {
     display: flex;
