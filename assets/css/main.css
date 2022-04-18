@@ -11,9 +11,9 @@
   --hover-active-colour: #F2C7E2;
   --svg-fill-colour: #fff;
   --sorce-code-svg-fill-colour: hsl(214, 7%, 47%);
-  --section-1-bg-colour: #121212;
-  --section-2-bg-colour: #18191c;
-  --section-3-bg-colour: #0f1012;
+  --dark-section-1-bg-colour: #121212;
+  --dark-section-2-bg-colour: #18191c;
+  --dark-section-3-bg-colour: #0f1012;
 }
 body{
     overflow-x: hidden;
@@ -185,7 +185,7 @@ nav{
 }
 .index_about_section{
   padding-top: .7em;
-  background-color: var(--section-1-bg-colour);
+  background-color: var(--dark-section-1-bg-colour);
 }
 .index_about_text {
   font-size: 1.25em;
@@ -223,7 +223,7 @@ nav{
       display: flex;
       }
 .index_card_section{
-  background-color: var(--section-2-bg-colour);
+  background-color: var(--dark-section-2-bg-colour);
   padding-top: .7em;
   padding-bottom: .7em;
 }
@@ -269,7 +269,7 @@ nav{
   }
 }
 .index_friends_section{
-  background-color: var(--section-3-bg-colour);
+  background-color: var(--dark-section-3-bg-colour);
   padding-top: .7em;
 }
 .index_friends_h1{
@@ -293,7 +293,7 @@ nav{
   }
   .about_about_section{
     padding-top: .7em;
-    background-color: var(--section-1-bg-colour);
+    background-color: var(--dark-section-1-bg-colour);
     
   }
   .about_about_h1{
@@ -333,7 +333,7 @@ nav{
 }
   .about_hobbies_section{
     padding-top: .7em;
-    background-color: var(--section-2-bg-colour);
+    background-color: var(--dark-section-2-bg-colour);
   }
   .about_hobbies_h1{
     margin: auto;
@@ -347,7 +347,7 @@ nav{
 
   .about_edu_work_section{
     padding-top: .7em;
-    background-color: var(--section-3-bg-colour);
+    background-color: var(--dark-section-3-bg-colour);
   }
   .about_edu_work_h1{
     margin: auto;
@@ -480,7 +480,7 @@ nav{
                       /*----------project code----------*/
 
  .projects_hc_section{
-   background-color: var(--section-1-bg-colour);
+   background-color: var(--dark-section-1-bg-colour);
    padding-bottom: 1em;
  }     
  .projects_hc_h1{
@@ -488,7 +488,7 @@ nav{
    padding-bottom: .7em;
  }
  .projects_hp_section{
-  background-color: var(--section-2-bg-colour);
+  background-color: var(--dark-section-2-bg-colour);
   padding-bottom: 1em;
 }       
 .projects_hp_h1{
@@ -496,7 +496,7 @@ nav{
   padding-bottom: .7em;
 }         
 .projects_other_section{
-  background-color: var(--section-3-bg-colour);
+  background-color: var(--dark-section-3-bg-colour);
   padding-bottom: .7em;
 }      
 .projects_other_h1{
