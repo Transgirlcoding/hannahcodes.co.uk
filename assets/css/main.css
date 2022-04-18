@@ -5,6 +5,7 @@
     letter-spacing: 1px;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    color: #f2f5f7;
 }
 :root{
   --hover-active-colour: #F2C7E2;
