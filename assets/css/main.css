@@ -11,9 +11,9 @@
   --hover-active-colour: #F2C7E2;
   --svg-fill-colour: #fff;
   --sorce-code-svg-fill-colour: hsl(214, 7%, 47%);
-  ---section-1-bg-colour: #121212;
-  ---section-2-bg-colour: #18191c;
-  ---section-3-bg-colour: #0f1012;
+  --section-1-bg-colour: #121212;
+  --section-2-bg-colour: #18191c;
+  --section-3-bg-colour: #0f1012;
 }
 body{
     overflow-x: hidden;
