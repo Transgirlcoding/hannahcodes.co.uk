@@ -15,7 +15,7 @@ html { overflow-x: hidden; }
     --a-link-colour: #fff;
     --nav-bg-colour: #131418;
     --light-nav-bg-colour: #F5F5F5;
-    --light-span-colour: black;
+    --light-span-btn-colour: black;
 
 }
 
@@ -308,7 +308,7 @@ span{
 
 .tm-btn-primary:hover {
     background-color: var(--light-hover-colour);
-    color: white;
+    color: var(--light-span-btn-colour);
 }
 
 
@@ -325,7 +325,7 @@ span{
 .tm-paging-item .tm-paging-link:hover,
 .tm-paging-item.active .tm-paging-link {
     background-color: var(--light-hover-colour);
-    color: white;
+    color: var(--light-span-btn-colour)
 }
 
 .tm-btn.disabled {
@@ -399,7 +399,7 @@ figcaption { line-height: 1.4; }
 
 .tm-pt-20 { padding-top: 20px; }
 .tm-pt-30 { padding-top: 30px; 
-            color: #fff; }
+            color: var(--light-span-btn-colour); }
 .tm-pt-45 { padding-top: 45px; }
 .tm-pt-60 { padding-top: 60px; }
 .tm-mb-40 { margin-bottom: 40px; }
@@ -413,7 +413,7 @@ figcaption { line-height: 1.4; }
 .tm-mt-40 { margin-top: 40px; }
 .tm-mt-100 { margin-top: 100px; }
 .tm-mr-20 { margin-right: 20px; }
-.tm-color-primary, span.tm-color-primary { color: #fff; }
+.tm-color-primary, span.tm-color-primary { color: var(--light-span-btn-colour); }
 
 .tm-bg-gray { background-color: #F3F4F5; }
 button:focus { outline: none; }
