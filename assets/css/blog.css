@@ -767,4 +767,15 @@ span{
     background-color: var(--hover-colour);
     color: var(--span-btn-colour);
 }
+.tm-paging-item .tm-paging-link:hover,
+.tm-paging-item.active .tm-paging-link {
+    background-color: var(--hover-colour);
+    color: var(--span-btn-colour)
+}
+.tm-external-link { 
+    color: var(--hover-colour); 
+}
+.tm-external-link:hover { 
+    color: var(--hover-colour); 
+}
 }
