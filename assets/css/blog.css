@@ -193,7 +193,7 @@ body {
     transform: rotate(45deg) translate(-5px,-6px);
 }
 hr { 
-    border-top-color: #151515; 
+    border-top-color: var(--light-body-bg-colour); 
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -802,5 +802,8 @@ hr.tm-hr-primary {
         .blog_footer{
             background-color: var(--nav-bg-colour);
         }
+    }
+    hr { 
+        border-top-color: var(--body-bg-colour); 
     }
 }
