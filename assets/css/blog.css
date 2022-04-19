@@ -760,4 +760,11 @@ p{
 span{
     color: var(--span-colour);
 }
+.tm-post-link:hover .tm-post-title { 
+    color: var(--hover-colour); 
+}
+.tm-btn-primary:hover {
+    background-color: var(--hover-colour);
+    color: var(--span-btn-colour);
+}
 }
