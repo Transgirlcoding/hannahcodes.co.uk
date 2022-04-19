@@ -936,7 +936,7 @@ margin-left: -512px; /* 50% */
   .nav-links li a:hover {
     color: var(--hover-active-colour);
 }
-.active {
+.nav-links li .active {
     color: var(--hover-active-colour);
 }
 .nav-links li a::before {
