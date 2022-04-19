@@ -981,4 +981,16 @@ margin-left: -512px; /* 50% */
 .about_svg{
   fill: var(--svg-fill-colour);
 }
+.about_svg:hover{
+  fill: var(--hover-active-colour);
+}
+.index_card_section{
+  background-color: var(--section-2-bg-colour);
+}
+.index_card_section h1{
+  color: var(--nav-text-colour);
+}
+.index_about_text {
+  color: var(--nav-text-colour);
+}
 }
