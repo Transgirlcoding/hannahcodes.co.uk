@@ -2,7 +2,7 @@ html { overflow-x: hidden; }
 
 :root{
     /*light mode colours*/
-
+    --light-hamburger-icon-colour: black;
     --light-body-bg-colour: #F8F8FF;
     --light-hover-colour: #5c2246;
     --light-coming-soon-colour: #5c2246;
@@ -24,6 +24,7 @@ html { overflow-x: hidden; }
  --svg-colour: #fff;
  --a-link-colour: #fff;
  --nav-bg-colour: #131418;
+ --hamburger-icon-colour: #f2f5f7;
 }
 
 body {
@@ -106,7 +107,7 @@ body {
 .blog_hamburger div{
     width: 30px;
     height:3px;
-    background: #f2f5f7;
+    background: var(--light-hamburger-icon-colour);
     margin: 5px;
     transition: all 0.3s ease;
 }
@@ -713,5 +714,12 @@ Body{
 }
 .blog_nav-links .blog_nav_li .active {
     color: var(--hover-colour);
+}
+
+.blog_nav-links .blog_nav_li .blog_nav_a::before {
+    background-color: var(--hover-colour);
+}
+.blog_hamburger div{
+    background: var(--hamburger-icon-colour);
 }
 }
