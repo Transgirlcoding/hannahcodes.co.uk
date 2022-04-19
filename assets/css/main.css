@@ -18,6 +18,7 @@
   --light-section-1-bg-colour: #cfcaca;
   --light-section-2-bg-colour: #adafb8;
   --light-section-3-bg-colour: #c7c7c7;
+  --light-card-bg-colour: #bac1de;
   /*dark mode colours*/
 
   --hover-active-colour: #F2C7E2;
@@ -30,6 +31,7 @@
   --nav-footer-bg-colour: #131418;
   --nav-text-colour: #f2f5f7;
   --hamburger-icon-colour: #f2f5f7;
+  --card-bg-colour: #262626;
 }
 body{
     overflow-x: hidden;
@@ -557,7 +559,7 @@ nav{
   .card {
     margin: 1em;
     padding-bottom: .7em;
-    background-color: #262626;
+    background-color: var(--light-card-bg-colour);
     width: 199em;
     font-size: 0.6em;
     box-shadow: 0px 5px 15px 0 rgb(27, 27, 27);
@@ -1109,7 +1111,7 @@ td, th {
  
 }
 .card {
-  background-color: #262626;
+  background-color: var(--card-bg-colour);
   box-shadow: 0px 5px 15px 0 rgb(27, 27, 27);
 }
 .projects_links {
