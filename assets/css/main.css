@@ -201,6 +201,7 @@ nav{
     margin: auto;
     text-align: center;
     padding-bottom: 2em;
+    color: var(--light-nav-text-colour);
 }
 .index_about_section{
   padding-top: .7em;
@@ -368,11 +369,13 @@ nav{
   .about_hobbies_h1{
     margin: auto;
     text-align: center;
+    color: var(--light-nav-text-colour);
   }
   .about_hobbies_p{
     padding-bottom: 1em;
     margin: auto;
     text-align: center;
+    color: var(--light-nav-text-colour);
   }
 
   .about_edu_work_section{
@@ -382,17 +385,21 @@ nav{
   .about_edu_work_h1{
     margin: auto;
     text-align: center;
+    color: var(--light-nav-text-colour);
   }
   .about_edu_work_edu_h2{
     padding-left: 1em;
+    color: var(--light-nav-text-colour);
   }
   .about_edu_work_edu_sch_p{
     padding-left: 1em;
+    color: var(--light-nav-text-colour);
   }
   .about_edu_work_edu_mw_cert_h3{
     margin: auto;
     text-align: center;
     padding-bottom: 1em;
+    color: var(--light-nav-text-colour);
   }
   table {
     border-collapse: collapse;
@@ -419,18 +426,22 @@ nav{
   .about_edu_work_edu_college_p{
     padding-left: 1em;
     padding-top: 1em;
+    color: var(--light-nav-text-colour);
   }
   .about_edu_work_work_ex_h2{
     padding-left: 1em;
+    color: var(--light-nav-text-colour);
   }
   .about_edu_work_work_ex_p{
     padding-left: 1em;
     padding-bottom: 1em;
+    color: var(--light-nav-text-colour);
   }
   .about_edu_work_work_ex_p_2{
     padding-top: .7em;
     padding-left: 1em;
     padding-bottom: 1em;
+    color: var(--light-nav-text-colour);
   }
   @media screen and (max-width: 700px){
     .container{
@@ -462,7 +473,7 @@ nav{
     }
     
     td, th {
-      border: 1px solid #dddddd;
+      border: 1px solid black;
       text-align: left;
       padding: 8px;
     }
@@ -472,6 +483,7 @@ nav{
       padding-right: 1.5em;
       padding-top: .8em;
       padding-bottom: 1em;
+      color: var(--light-nav-text-colour);
     }
     .about_hobbies_p{
       padding-bottom: 1em;
@@ -479,10 +491,12 @@ nav{
       padding-right: 1.5em;
       margin: auto;
       text-align: center;
+      color: var(--light-nav-text-colour);
     }
     .about_edu_work_edu_sch_p{
       padding-left: 1.5em;
       padding-right: 1.5em;
+      color: var(--light-nav-text-colour);
     }
     .about_edu_work_edu_mw_cert_h3{
       margin: auto;
@@ -490,17 +504,20 @@ nav{
       padding-bottom: 1em;
       padding-left: 1.5em;
       padding-right: 1.5em;
+      color: var(--light-nav-text-colour);
     }
     .about_edu_work_work_ex_p{
       padding-left: 1.5em;
       padding-right: 1.5em;
       padding-bottom: 1em;
+      color: var(--light-nav-text-colour);
     }
     .about_edu_work_work_ex_p_2{
       padding-top: .7em;
       padding-left: 1.5em;
       padding-right: 1.5em;
       padding-bottom: 1em;
+      color: var(--light-nav-text-colour);
     }
   }
                       /*----------project code----------*/
@@ -512,6 +529,7 @@ nav{
  .projects_hc_h1{
    padding: 1.5em;
    padding-bottom: .7em;
+   color: var(--light-nav-text-colour);
  }
  .projects_hp_section{
   background-color: var(--light-section-2-bg-colour);
@@ -520,6 +538,7 @@ nav{
 .projects_hp_h1{
   padding: 1.5em;
   padding-bottom: .7em;
+  color: var(--light-nav-text-colour);
 }         
 .projects_other_section{
   background-color: var(--light-section-3-bg-colour);
@@ -528,6 +547,7 @@ nav{
 .projects_other_h1{
   padding: 1.5em;
   padding-bottom: .7em;
+  color: var(--light-nav-text-colour);
 }
 .card-display {
     display: flex;
@@ -544,7 +564,7 @@ nav{
   }
   .projects_links {
     border: 0.2em;
-    color: white;
+    color: var(--light-nav-text-colour);
     text-decoration: none;
     display: inline-block;
     align-items: center;
