@@ -579,7 +579,7 @@ nav{
   }
   .projects_links:hover {
     border: 0.2em;
-    color: var(--hover-active-colour);
+    color: var(--light-hover-active-colour);
     text-decoration: none;
     display: inline-block;
     align-items: center;
@@ -597,6 +597,7 @@ nav{
 margin: auto;
 text-align: center;
 padding-top: 5em;
+color: var(--light-nav-text-colour);
   }
 
 .link_placement{
@@ -622,7 +623,7 @@ padding-top: .35em;
 }
 .source_code_links:hover {
   border: 0.2em;
-  color: var(--hover-active-colour);
+  color: var(--light-hover-active-colour);
   text-decoration: none;
   display: inline-block;
   align-items: center;
@@ -634,7 +635,7 @@ padding-top: .35em;
 
 }
 svg{
-fill: var(--svg-fill-colour);
+fill: var(--light-svg-fill-colour);
 width: 2.5em;
 height: 2.5em;
 padding-left: .9em;
@@ -1120,4 +1121,26 @@ td, th {
 .projects_links:hover {
   color: var(--hover-active-colour);
 }
+.projects_text{
+  color: var(--nav-text-colour);
+}
+.project_h1{
+ color: var(--nav-text-colour);
+}
+.source_code_links {
+  color: var(--sorce-code-svg-fill-colour);
+
+
+}
+.source_code_links:hover {
+  color: var(--hover-active-colour);
+
+
+}
+svg{
+fill: var(--svg-fill-colour);
+}
+.source_code_svg{
+  fill: var(--sorce-code-svg-fill-colour);
+  }
 }
