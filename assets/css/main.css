@@ -29,6 +29,7 @@
   --body-bg-colour: #121212;
   --nav-footer-bg-colour: #131418;
   --nav-text-colour: #f2f5f7;
+  --hamburger-icon-colour: #f2f5f7;
 }
 body{
     overflow-x: hidden;
@@ -105,7 +106,7 @@ nav{
 .hamburger div{
     width: 30px;
     height:3px;
-    background: #f2f5f7;
+    background: var(--light-hamburger-icon-colour);
     margin: 5px;
     transition: all 0.3s ease;
 }
@@ -253,6 +254,7 @@ nav{
   padding-top: .5em;
   padding-bottom: .5em;
   text-align: center;
+  color: var(--light-nav-text-colour);
 }
 .index-card-display {
   display: flex;
@@ -271,14 +273,17 @@ nav{
     margin: auto;
     padding-left: 1.25em;
     padding-right: 1em;
+    color: var(--light-nav-text-colour);
   }
   .index_card_section h1{
     padding-left: 1em;
     padding-right: 1em;
+    color: var(--light-nav-text-colour);
   }
   .h2_about_text{
     padding-top: .3em;
     font-size: 1em;
+    color: var(--light-nav-text-colour);
   }
   .text_placement{
     display: flex;
@@ -296,6 +301,7 @@ nav{
 .index_friends_h1{
   margin: auto;
   text-align: center;
+  color: var(--light-nav-text-colour);
     }
 
 
@@ -311,6 +317,7 @@ nav{
   text-align: center;
   padding-top: 5em;
   padding-bottom: 1.5em;
+  color: var(--light-nav-text-colour);
   }
   .about_about_section{
     padding-top: .7em;
@@ -321,6 +328,7 @@ nav{
     margin: auto;
     text-align: center;
     padding-bottom: .5em;
+    color: var(--light-nav-text-colour);
   }
   .container {
     display: flex;
@@ -340,6 +348,7 @@ nav{
     padding-left: 20px;
     padding-right: 3em;
     padding-top: .8em;
+    color: var(--light-nav-text-colour);
   }
 
 .college_table{
@@ -948,6 +957,12 @@ margin-left: -512px; /* 50% */
 .nav-links li a::before {
   background-color: var(--hover-active-colour);
 }
+.nav-links{
+  background: var(--nav-footer-bg-colour);
+}
+.hamburger div{
+  background: var(--hamburger-icon-colour);
+}
 .index_h1{
   color: var(--nav-text-colour);
 }
@@ -963,7 +978,7 @@ margin-left: -512px; /* 50% */
 .h2_about_text{
   color: var(--nav-text-colour);
 }
-about_svg{
+.about_svg{
   fill: var(--svg-fill-colour);
 }
 }
