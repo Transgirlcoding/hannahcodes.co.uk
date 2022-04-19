@@ -400,13 +400,9 @@ nav{
     margin: auto;
     align-items: center;
     padding-top: 1em;
+    color: var(--light-nav-text-colour);
   }
-  
-  td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-  }
+
   .college_table {
     border-collapse: collapse;
     width: 50%;
@@ -416,7 +412,7 @@ nav{
   }
   
   td, th {
-    border: 1px solid #dddddd;
+    border: 1px solid black;
     text-align: left;
     padding: 8px;
   }
@@ -1030,5 +1026,23 @@ margin-left: -512px; /* 50% */
 }
 .about_edu_work_h1{
   color: var(--nav-text-colour);
+}
+.about_edu_work_edu_h2{
+  color: var(--nav-text-colour);
+}
+.about_edu_work_edu_sch_p{
+  color: var(--nav-text-colour);
+}
+.about_edu_work_edu_mw_cert_h3{
+  color: var(--nav-text-colour);
+}
+table {
+  color: var(--nav-text-colour);
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
 }
 }
