@@ -942,7 +942,11 @@ margin-left: -512px; /* 50% */
 .nav-links li a::before {
   background-color: var(--hover-active-colour);
 }
-*{
+.index_h1{
   color: var(--nav-text-colour);
 }
+.index_welcome_text{
+  color: var(--nav-text-colour);
+}
+
 }
