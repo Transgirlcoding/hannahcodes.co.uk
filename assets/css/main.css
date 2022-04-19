@@ -12,7 +12,7 @@
   --light-hamburger-icon-colour: black;
   --light-body-bg-colour: #F8F8FF;
   --light-hover-active-colour: #5c2246;
-  --light-nav-bg-colour: #F5F5F5;
+  --light-nav-footer-bg-colour: #F5F5F5;
   --light-nav-text-colour: black;
   --light-svg-fill-colour: black;
   --light-section-1-bg-colour: #cfcaca;
@@ -27,7 +27,7 @@
   --section-2-bg-colour: #18191c;
   --section-3-bg-colour: #0f1012;
   --body-bg-colour: #121212;
-  --nav-bg-colour: #131418;
+  --nav-footer-bg-colour: #131418;
   --nav-text-colour: #f2f5f7;
 }
 body{
@@ -38,7 +38,7 @@ body{
 nav{
     height: 6rem;
     width: 100vw;
-    background-color: var(--light-nav-bg-colour);
+    background-color: var(--light-nav-footer-bg-colour);
     color: var(--light-nav-text-colour);
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
     display: flex;
@@ -131,7 +131,7 @@ nav{
     }
     .nav-links{
         position: fixed;
-        background: var(--light-nav-bg-colour);
+        background: var(--light-nav-footer-bg-colour);
         height: 100vh;
         width: 100%;
         flex-direction: column;
@@ -795,7 +795,7 @@ padding-top: auto;
 
                         /*----------footer----------*/
  footer {
-  background-color: #131418;
+  background-color: var(--light-nav-footer-bg-colour);
   padding-left: auto;
   padding-top: 1px;
   padding-bottom: 0;
@@ -846,10 +846,10 @@ footer a{
 @media screen and (max-width: 800px){
   .footer_display{
   display: grid;
-  background-color: #131418;
+  background-color: var(--light-nav-footer-bg-colour);
   }
   footer {
-    background-color: #131418;
+    background-color: var(--light-nav-footer-bg-colour);
     display: grid;
     padding-left: auto;
     padding-top: 1px;
@@ -933,7 +933,7 @@ margin-left: -512px; /* 50% */
       background-color: var(--body-bg-colour);
   }
   nav{
-    background-color: var(--nav-bg-colour);
+    background-color: var(--nav-footer-bg-colour);
     color: var(--nav-text-colour);
   }
   .nav-links li a{
