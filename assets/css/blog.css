@@ -1,13 +1,19 @@
 html { overflow-x: hidden; }
 
 :root{
+    --body-bg-colour: #121212;
+    --light-body-bg-colour: #F8F8FF;
     --hover-colour: #F2C7E2;
+    --light-hover-colour: #5c2246;
     --coming-soon-colour: #F2C7E2;
     --top-border-colour: #F2C7E2;
     --nav-text-colour: #fff;
+    --light-nav-text-colour: #0000;
     --paragraph-text-colour: #fff;
     --svg-colour: #fff;
     --a-link-colour: #fff;
+    --nav-bg-colour: #131418;
+    --light-nav-bg-colour: #F5F5F5;
 
 }
 
@@ -17,14 +23,14 @@ body {
     font-family: "Poppins", sans-serif;
     /*line-height: 2em;*/
     overflow-x: hidden;
-    background-color: #121212;
+    background-color: var(--light-body-bg-colour);
 }
 
 .blog_nav{
     height: 6rem;
     width: 100vw;
-    background-color: #131418;
-    color: var(--nav-text-colour);
+    background-color: var(--light-nav-bg-colour);
+    color: var(--light-nav-text-colour);
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
     display: flex;
     position: fixed;
@@ -61,13 +67,13 @@ body {
 .blog_nav-links .blog_nav_li .blog_nav_a{
     text-decoration: none;
     margin: 0 0.7vw;
-    color: var(--nav-text-colour);
+    color: var(--light-nav-text-colour);
 }
 .blog_nav-links .blog_nav_li .blog_nav_a:hover {
-    color: var(--hover-colour);
+    color: var(--light-hover-colour);
 }
 .blog_nav-links .blog_nav_li .active {
-    color: var(--hover-colour);
+    color: var(--light-hover-colour);
     font-weight: bold;
 }
 .blog_nav-links .blog_nav_li {
@@ -78,7 +84,7 @@ body {
     display: block;
     height: 3px;
     width: 0%;
-    background-color: var(--hover-colour);
+    background-color: var(--light-hover-colour);
     position: absolute;
     transition: all ease-in-out 250ms;
     margin: 0 0 0 10%;
@@ -117,7 +123,7 @@ body {
     }
     .blog_nav-links{
         position: fixed;
-        background: #131418;
+        background: var(--light-nav-bg-colour);
         height: 100vh;
         width: 100%;
         flex-direction: column;
@@ -185,7 +191,7 @@ p{
     padding-top: 6em;
     margin: auto;
     align-items: center;
-    background-color: #121212;
+    background-color: var(--light-body-bg-colour);
 }
 .blog_svg{
     fill: var(--svg-colour);
@@ -194,7 +200,7 @@ p{
     padding-right: auto;
     }
     .blog_svg:hover{
-      fill: var(--hover-colour);
+      fill: var(--light-hover-colour);
     }
     .blog_link_placement{
       display: flex;
@@ -210,7 +216,7 @@ p{
             color: var(--a-link-colour);
         }
         .blog_a:hover{
-            color: var(--hover-colour);
+            color: var(--light-hover-colour);
         }
 
 .tm-post { max-width: 470px; }
@@ -235,7 +241,7 @@ p{
 
 .tm-post-link-inner {
     overflow: hidden;
-    background: var(--hover-colour);
+    background: var(--light-hover-colour);
 }
 .tm-post-link img {
     position: relative;
@@ -256,7 +262,7 @@ p{
 	transform: translate3d(-40px,0,0);
 }
 
-.effect-lily:hover img { opacity:0.7; background-color: var(--hover-colour);}
+.effect-lily:hover img { opacity:0.7; background-color: var(--light-hover-colour);}
 
 .effect-lily:hover img {
     -webkit-transform: translate3d(0,0,0);
@@ -285,7 +291,7 @@ span{
     color: #121212;
 }
 
-.tm-post-link:hover .tm-post-title { color: var(--hover-colour); }
+.tm-post-link:hover .tm-post-title { color: var(--light-hover-colour); }
 
 .tm-btn {
     display: inline-block;
@@ -299,7 +305,7 @@ span{
 .tm-btn-small { padding: 8px 33px; }
 
 .tm-btn-primary:hover {
-    background-color: var(--hover-colour);
+    background-color: var(--light-hover-colour);
     color: white;
 }
 
@@ -316,7 +322,7 @@ span{
 
 .tm-paging-item .tm-paging-link:hover,
 .tm-paging-item.active .tm-paging-link {
-    background-color: var(--hover-colour);
+    background-color: var(--light-hover-colour);
     color: white;
 }
 
@@ -326,8 +332,8 @@ span{
     cursor: not-allowed;
 }
 
-.tm-external-link { color: var(--hover-colour); }
-.tm-external-link:hover { color: var(--hover-colour); }
+.tm-external-link { color: var(--light-hover-colour); }
+.tm-external-link:hover { color: var(--light-hover-colour); }
 
 .tm-paging-wrapper {
     display: flex;
