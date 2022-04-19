@@ -374,7 +374,7 @@ video {
 .tm-comment {
     display: flex;
     align-items: flex-start;
-    background-color: #121212;
+    background-color: var(--light-body-bg-colour);
 }
 
 .tm-comment-figure {
@@ -780,5 +780,8 @@ span{
 }
 hr.tm-hr-primary { 
     border-top: 5px solid var(--top-border-colour);
+ }
+ .tm-comment {
+     background-color: var(--body-bg-colour);
  }
 }
