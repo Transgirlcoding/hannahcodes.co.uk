@@ -13,6 +13,7 @@ html { overflow-x: hidden; }
     --light-a-link-colour: black;
     --light-nav-bg-colour: #F5F5F5;
     --light-span-btn-colour: black;
+    --light-coming-soon-text: #fff;
  /* dark mode colours*/
 
  --body-bg-colour: #121212;
@@ -25,6 +26,7 @@ html { overflow-x: hidden; }
  --a-link-colour: #fff;
  --nav-bg-colour: #131418;
  --hamburger-icon-colour: #f2f5f7;
+ --coming-soon-text-colour: black;
 }
 
 body {
@@ -285,7 +287,7 @@ p{
     top: 25px;
     right: -10px;
     background-color: var(--light-coming-soon-colour);
-    color: black;
+    color: var(--light-coming-soon-text-colour);
     padding: 5px 20px;
 }
 span{
@@ -753,6 +755,7 @@ p{
 }
 .tm-new-badge {
     background-color: var(--coming-soon-colour);
+    color: var(--coming-soon-text-colour);
 }
 span{
     color: var(--span-colour);
