@@ -787,5 +787,10 @@ hr.tm-hr-primary {
  tm-pt-30{
      color: var(--span-btn-colour);
  }
- 
+ .tm-color-primary, span.tm-color-primary { 
+     color: var(--span-btn-colour); 
+    }
+    .blog_footer {
+        background-color: var(--nav-bg-colour);
+    }
 }
