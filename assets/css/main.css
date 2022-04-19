@@ -25,6 +25,7 @@
   --section-3-bg-colour: #0f1012;
   --body-bg-colour: #121212;
   --nav-bg-colour: #131418;
+  --nav-text-colour: #f2f5f7;
 }
 body{
     overflow-x: hidden;
@@ -35,6 +36,7 @@ nav{
     height: 6rem;
     width: 100vw;
     background-color: var(--light-nav-bg-colour);
+    color: var(--light-nav-text-colour);
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
     display: flex;
     position: fixed;
@@ -925,5 +927,15 @@ margin-left: -512px; /* 50% */
   }
   nav{
     background-color: var(--nav-bg-colour);
+    color: var(--nav-text-colour);
   }
+  .nav-links li a:hover {
+    color: var(--hover-active-colour);
+}
+.active {
+    color: var(--hover-active-colour);
+}
+.nav-links li a::before {
+  background-color: var(--hover-active-colour);
+}
 }
