@@ -8,14 +8,14 @@ html { overflow-x: hidden; }
     --coming-soon-colour: #F2C7E2;
     --top-border-colour: #F2C7E2;
     --nav-text-colour: #fff;
-    --light-nav-text-colour: #0000;
+    --light-nav-text-colour: black;
     --paragraph-text-colour: #fff;
-    --light-paragraph-text-colour: #0000;
+    --light-paragraph-text-colour: black;
     --svg-colour: #fff;
     --a-link-colour: #fff;
     --nav-bg-colour: #131418;
     --light-nav-bg-colour: #F5F5F5;
-    --light-span-colour: #0000;
+    --light-span-colour: black;
 
 }
 
