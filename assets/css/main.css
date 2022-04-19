@@ -562,7 +562,7 @@ nav{
     background-color: var(--light-card-bg-colour);
     width: 199em;
     font-size: 0.6em;
-    box-shadow: 0px 5px 15px 0 rgb(27, 27, 27);
+    box-shadow: 0px 5px 15px 0 rgba(0, 0, 0, .2);
   }
   .projects_links {
     border: 0.2em;
