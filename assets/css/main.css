@@ -5,7 +5,7 @@
     letter-spacing: 1px;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    color: #f2f5f7;
+    color: black;
 }
 :root{
   /*light mode colours*/
@@ -128,7 +128,7 @@ nav{
     }
     .nav-links{
         position: fixed;
-        background: #131418;
+        background: var(--light-nav-bg-colour);
         height: 100vh;
         width: 100%;
         flex-direction: column;
@@ -191,6 +191,7 @@ nav{
     padding-top: 5em;
     margin: auto;
     text-align: center;
+    color: var(--light-text-colour);
 }
 .index_welcome_text{
     margin: auto;
@@ -941,5 +942,8 @@ margin-left: -512px; /* 50% */
 }
 .nav-links li a::before {
   background-color: var(--hover-active-colour);
+}
+*{
+  color: var(--nav-text-colour);
 }
 }
