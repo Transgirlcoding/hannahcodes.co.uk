@@ -701,4 +701,8 @@ padding-left:2%;}
 Body{
     background-color: var(--body-bg-colour);
 }
+.blog-nav{
+    background-color: var(--nav-bg-colour);
+    color: var(--nav-text-colour);
+}
 }
