@@ -72,6 +72,7 @@ nav{
 .nav-links li a{
     text-decoration: none;
     margin: 0 0.7vw;
+    color: var(--light-nav-text-colour);
 }
 .nav-links li a:hover {
     color: var(--light-hover-active-colour);
@@ -928,6 +929,9 @@ margin-left: -512px; /* 50% */
   nav{
     background-color: var(--nav-bg-colour);
     color: var(--nav-text-colour);
+  }
+  .nav-links li a{
+  color: var(--nav-text-colour);
   }
   .nav-links li a:hover {
     color: var(--hover-active-colour);
