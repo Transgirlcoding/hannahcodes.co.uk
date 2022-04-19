@@ -1,22 +1,29 @@
 html { overflow-x: hidden; }
 
 :root{
-    --body-bg-colour: #121212;
+    /*light mode colours*/
+
     --light-body-bg-colour: #F8F8FF;
-    --hover-colour: #F2C7E2;
     --light-hover-colour: #5c2246;
-    --coming-soon-colour: #F2C7E2;
-    --top-border-colour: #F2C7E2;
-    --nav-text-colour: #fff;
+    --light-coming-soon-colour: #5c2246;
+    --light-top-border-colour: #5c2246;
     --light-nav-text-colour: black;
-    --paragraph-text-colour: #fff;
     --light-paragraph-text-colour: black;
-    --svg-colour: #fff;
-    --a-link-colour: #fff;
-    --nav-bg-colour: #131418;
+    --light-svg-colour: black;
+    --light-a-link-colour: black;
     --light-nav-bg-colour: #F5F5F5;
     --light-span-btn-colour: black;
+ /* dark mode colours*/
 
+ --body-bg-colour: #121212;
+ --hover-colour: #F2C7E2;
+ --coming-soon-colour: #F2C7E2;
+ --top-border-colour: #F2C7E2;
+ --nav-text-colour: #fff;
+ --paragraph-text-colour: #fff;
+ --svg-colour: #fff;
+ --a-link-colour: #fff;
+ --nav-bg-colour: #131418;
 }
 
 body {
@@ -196,7 +203,7 @@ p{
     background-color: var(--light-body-bg-colour);
 }
 .blog_svg{
-    fill: var(--svg-colour);
+    fill: var(--light-svg-colour);
     width: 2.5em;
     height: 2.5em;
     padding-right: auto;
@@ -215,7 +222,7 @@ p{
         display: flex;
         }
         .blog_a{
-            color: var(--a-link-colour);
+            color: var(--light-a-link-colour);
         }
         .blog_a:hover{
             color: var(--light-hover-colour);
@@ -276,7 +283,7 @@ p{
 .tm-new-badge {
     top: 25px;
     right: -10px;
-    background-color: var(--coming-soon-colour);
+    background-color: var(--light-coming-soon-colour);
     color: black;
     padding: 5px 20px;
 }
@@ -354,7 +361,7 @@ span{
 .tm-copyright { text-align: right; }
 
 /* Single Post page */
-hr.tm-hr-primary { border-top: 5px solid var(--top-border-colour); }
+hr.tm-hr-primary { border-top: 5px solid var(--light-top-border-colour); }
 
 video {
     width: 100%;
@@ -610,7 +617,7 @@ padding-left:2%;}
 
 /*----------footer----------*/
 .blog_footer {
-    background-color: #131418;
+    background-color: var(--light-nav-bg-colour);
     padding-left: auto;
     padding-right: auto;
     padding-top: 1px;
@@ -664,10 +671,10 @@ padding-left:2%;}
   @media screen and (max-width: 800px){
     .footer_display{
     display: grid;
-    background-color: #131418;
+    background-color: var(--light-nav-bg-colour);
     }
     .blog_footer {
-      background-color: #131418;
+      background-color: var(--light-nav-bg-colour);
       display: grid;
       padding-left: auto;
       padding-top: 1px;
