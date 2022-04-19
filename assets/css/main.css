@@ -1016,4 +1016,19 @@ margin-left: -512px; /* 50% */
 .about_about_h1{
   color: var(--nav-text-colour);
 }
+.about_hobbies_section{
+  background-color: var(--section-2-bg-colour);
+}
+.about_hobbies_h1{
+  color: var(--nav-text-colour);
+}
+.about_hobbies_p{
+  color: var(--nav-text-colour);
+}
+.about_edu_work_section{
+  background-color: var(--section-3-bg-colour);
+}
+.about_edu_work_h1{
+  color: var(--nav-text-colour);
+}
 }
