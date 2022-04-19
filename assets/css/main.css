@@ -990,7 +990,21 @@ margin-left: -512px; /* 50% */
 .index_card_section h1{
   color: var(--nav-text-colour);
 }
+@media screen and (max-width: 800px){
 .index_about_text {
+  color: var(--nav-text-colour);
+}
+.index_card_section h1{
+  color: var(--nav-text-colour);
+}
+.h2_about_text{
+  color: var(--nav-text-colour);
+}
+}
+.index_friends_section{
+  background-color: var(--section-3-bg-colour);
+}
+.index_friends_h1{
   color: var(--nav-text-colour);
 }
 }
