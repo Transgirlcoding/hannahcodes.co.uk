@@ -77,7 +77,7 @@ nav{
 .nav-links li a:hover {
     color: var(--light-hover-active-colour);
 }
-.nav-links li a .active {
+.active {
     color: var(--light-hover-active-colour);
     font-weight: bold;
 }
