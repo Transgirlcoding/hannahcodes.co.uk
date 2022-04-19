@@ -785,7 +785,7 @@ hr.tm-hr-primary {
  .tm-comment {
      background-color: var(--body-bg-colour);
  }
- tm-pt-30{
+ .tm-pt-30{
      color: var(--span-btn-colour);
  }
  .tm-color-primary, span.tm-color-primary { 
