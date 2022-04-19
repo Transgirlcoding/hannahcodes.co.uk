@@ -10,10 +10,12 @@ html { overflow-x: hidden; }
     --nav-text-colour: #fff;
     --light-nav-text-colour: #0000;
     --paragraph-text-colour: #fff;
+    --light-paragraph-text-colour: #0000;
     --svg-colour: #fff;
     --a-link-colour: #fff;
     --nav-bg-colour: #131418;
     --light-nav-bg-colour: #F5F5F5;
+    --light-span-colour: #0000;
 
 }
 
@@ -185,7 +187,7 @@ hr {
 }
 
 p{
-    color: var(--paragraph-text-colour);
+    color: var(--light-paragraph-text-colour);
 }
 .tm-main {
     padding-top: 6em;
@@ -279,7 +281,7 @@ p{
     padding: 5px 20px;
 }
 span{
-    color: #fff;
+    color: var(--light-span-colour);
 }
 .tm-post-title {
     font-size: 1.7rem;
