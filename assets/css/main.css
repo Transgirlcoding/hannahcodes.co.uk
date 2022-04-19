@@ -1032,6 +1032,9 @@ margin-left: -512px; /* 50% */
 .about_about_h1{
   color: var(--nav-text-colour);
 }
+.about_about_text{
+  color: var(--nav-text-colour);
+}
 .about_hobbies_section{
   background-color: var(--section-2-bg-colour);
 }
