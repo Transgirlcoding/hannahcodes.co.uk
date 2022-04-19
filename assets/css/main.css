@@ -14,6 +14,7 @@
   --light-hover-active-colour: #5c2246;
   --light-nav-bg-colour: #F5F5F5;
   --light-nav-text-colour: black;
+  --light-svg-fill-colour: black;
   /*dark mode colours*/
 
   --hover-active-colour: #F2C7E2;
@@ -206,6 +207,7 @@ nav{
   padding-left: 20px;
   padding-right: 3em;
   padding-top: .8em;
+  color: var(--light-nav-text-colour);
   
 }
 .text_placement{
@@ -217,15 +219,16 @@ nav{
 }
 .h2_about_text{
   padding-top: .3em;
+  color: var(--light-nav-text-colour);
 }
 .about_svg{
-  fill: var(--svg-fill-colour);
+  fill: var(--light-svg-fill-colour);
   width: 2.5em;
   height: 2.5em;
   padding-right: auto;
   }
   .about_svg:hover{
-    fill: var(--hover-active-colour);
+    fill: var(--light-hover-active-colour);
   }
   .about_link_placement{
     display: flex;
@@ -948,5 +951,16 @@ margin-left: -512px; /* 50% */
 .index_welcome_text{
   color: var(--nav-text-colour);
 }
-
+.index_about_section{
+  background-color: var(--section-1-bg-colour);
+}
+.index_about_text{
+  color: var(--nav-text-colour);
+}
+.h2_about_text{
+  color: var(--nav-text-colour);
+}
+about_svg{
+  fill: var(--svg-fill-colour);
+}
 }
