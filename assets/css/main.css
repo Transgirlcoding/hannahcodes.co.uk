@@ -354,7 +354,7 @@ nav{
 }
   .about_hobbies_section{
     padding-top: .7em;
-    background-color: var(--section-2-bg-colour);
+    background-color: var(--light-section-2-bg-colour);
   }
   .about_hobbies_h1{
     margin: auto;
@@ -368,7 +368,7 @@ nav{
 
   .about_edu_work_section{
     padding-top: .7em;
-    background-color: var(--section-3-bg-colour);
+    background-color: var(--light-section-3-bg-colour);
   }
   .about_edu_work_h1{
     margin: auto;
@@ -501,7 +501,7 @@ nav{
                       /*----------project code----------*/
 
  .projects_hc_section{
-   background-color: var(--section-1-bg-colour);
+   background-color: var(--light-section-1-bg-colour);
    padding-bottom: 1em;
  }     
  .projects_hc_h1{
@@ -509,7 +509,7 @@ nav{
    padding-bottom: .7em;
  }
  .projects_hp_section{
-  background-color: var(--section-2-bg-colour);
+  background-color: var(--light-section-2-bg-colour);
   padding-bottom: 1em;
 }       
 .projects_hp_h1{
@@ -517,7 +517,7 @@ nav{
   padding-bottom: .7em;
 }         
 .projects_other_section{
-  background-color: var(--section-3-bg-colour);
+  background-color: var(--light-section-3-bg-colour);
   padding-bottom: .7em;
 }      
 .projects_other_h1{
