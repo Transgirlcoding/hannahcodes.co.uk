@@ -21,6 +21,7 @@
   --section-1-bg-colour: #121212;
   --section-2-bg-colour: #18191c;
   --section-3-bg-colour: #0f1012;
+  --body-bg-colour: #121212;
 }
 body{
     overflow-x: hidden;
@@ -906,4 +907,17 @@ margin-left: -512px; /* 50% */
 .terms_text_p{
   margin-left: 2em;
   padding-right: 1em;
+}
+
+
+
+
+
+
+/* dark mode code*/
+
+@media (prefers-color-scheme: dark) {
+  Body{
+      background-color: var(--body-bg-colour);
+  }
 }
