@@ -705,4 +705,13 @@ Body{
     background-color: var(--nav-bg-colour);
     color: var(--nav-text-colour);
 }
+.blog_nav-links .blog_nav_li .blog_nav_a{
+    color: var(--nav-text-colour);
+}
+.blog_nav-links .blog_nav_li .blog_nav_a:hover {
+    color: var(--hover-colour);
+}
+.blog_nav-links .blog_nav_li .active {
+    color: var(--hover-colour);
+}
 }
