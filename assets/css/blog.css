@@ -722,4 +722,15 @@ Body{
 .blog_hamburger div{
     background: var(--hamburger-icon-colour);
 }
+@media screen and (max-width: 800px){
+.blog_nav-links{
+    color: var(--nav-bg-colour);
+}
+}
+p{
+    color: var(--paragraph-text-colour);
+}
+.tm-main {
+    background-color: var(--body-bg-colour);
+}
 }
