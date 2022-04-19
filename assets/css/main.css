@@ -1042,7 +1042,57 @@ table {
 
 td, th {
   border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
+}
+@media screen and (max-width: 700px){
+  td, th {
+    border: 1px solid #dddddd;
+  }
+  .about_about_text {
+    color: var(--nav-text-colour);
+  }
+  .about_hobbies_p{
+   color: var(--nav-text-colour);
+  }
+  .about_edu_work_edu_sch_p{
+    color: var(--nav-text-colour);
+  }
+  .about_edu_work_edu_mw_cert_h3{
+    color: var(--nav-text-colour);
+  }
+  .about_edu_work_work_ex_p{
+    color: var(--nav-text-colour);
+  }
+  .about_edu_work_work_ex_p_2{
+    color: var(--nav-text-colour);
+  }
+}
+.projects_hc_section{
+  background-color: var(--section-1-bg-colour);
+}     
+.projects_hc_h1{
+  color: var(--nav-text-colour);
+}
+.projects_hp_section{
+ background-color: var(--section-2-bg-colour);
+}       
+.projects_hp_h1{
+ color: var(--nav-text-colour);
+}         
+.projects_other_section{
+ background-color: var(--section-3-bg-colour);
+}      
+.projects_other_h1{
+ color: var(--nav-text-colour);
+ 
+}
+.card {
+  background-color: #262626;
+  box-shadow: 0px 5px 15px 0 rgb(27, 27, 27);
+}
+.projects_links {
+  color: var(--nav-text-colour);
+}
+.projects_links:hover {
+  color: var(--hover-active-colour);
 }
 }
