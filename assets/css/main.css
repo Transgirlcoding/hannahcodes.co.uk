@@ -1145,7 +1145,7 @@ fill: var(--svg-fill-colour);
 .source_code_svg{
   fill: var(--sorce-code-svg-fill-colour);
   }
-  .project_svg{
-    fill: var(--svg-fill-colour);
+.project_svg{
+  fill: var(#fff);
   }
 }
