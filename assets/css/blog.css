@@ -733,4 +733,22 @@ p{
 .tm-main {
     background-color: var(--body-bg-colour);
 }
+.blog_svg{
+    fill: var(--svg-colour);
+}
+.blog_svg:hover{
+    fill: var(--hover-colour);
+}
+.blog_a{
+    color: var(--a-link-colour);
+}
+.blog_a:hover{
+    color: var(--hover-colour);
+}
+.tm-post-link-inner{
+    color: var(--hover-colour);
+}
+.effect-lily:hover img{
+    background-color: var(--hover-colour);
+}
 }
