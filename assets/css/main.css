@@ -17,6 +17,7 @@
   --light-svg-fill-colour: black;
   --light-section-1-bg-colour: #cfcaca;
   --light-section-2-bg-colour: #adafb8;
+  --light-section-3-bg-colour: #989eab;
   /*dark mode colours*/
 
   --hover-active-colour: #F2C7E2;
@@ -289,7 +290,7 @@ nav{
   }
 }
 .index_friends_section{
-  background-color: var(--section-3-bg-colour);
+  background-color: var(--light-section-3-bg-colour);
   padding-top: .7em;
 }
 .index_friends_h1{
