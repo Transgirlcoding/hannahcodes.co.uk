@@ -778,4 +778,7 @@ span{
 .tm-external-link:hover { 
     color: var(--hover-colour); 
 }
+hr.tm-hr-primary { 
+    border-top: 5px solid var(--top-border-colour);
+ }
 }
