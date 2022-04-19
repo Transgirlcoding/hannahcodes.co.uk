@@ -8,6 +8,13 @@
     color: #f2f5f7;
 }
 :root{
+  /*light mode colours*/
+  --light-hamburger-icon-colour: black;
+  --light-body-bg-colour: #F8F8FF;
+  --light-hover-colour: #5c2246;
+  --light-nav-bg-colour: #F5F5F5;
+  --light-nav-text-colour: black;
+  /*dark mode colours*/
   --hover-active-colour: #F2C7E2;
   --svg-fill-colour: #fff;
   --sorce-code-svg-fill-colour: hsl(214, 7%, 47%);
@@ -17,13 +24,13 @@
 }
 body{
     overflow-x: hidden;
-    background-color: #121212;
+    background-color: var(--light-body-bg-colour);
     
 }
 nav{
     height: 6rem;
     width: 100vw;
-    background-color: #131418;
+    background-color: var(--light-nav-bg-colour);
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
     display: flex;
     position: fixed;
