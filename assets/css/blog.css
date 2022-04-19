@@ -27,6 +27,7 @@ html { overflow-x: hidden; }
  --nav-bg-colour: #131418;
  --hamburger-icon-colour: #f2f5f7;
  --coming-soon-text-colour: black;
+ --span-btn-colour: #fff;
 }
 
 body {
