@@ -16,6 +16,7 @@
   --light-nav-text-colour: black;
   --light-svg-fill-colour: black;
   --light-section-1-bg-colour: #cfcaca;
+  --light-section-2-bg-colour: #7c7f87;
   /*dark mode colours*/
 
   --hover-active-colour: #F2C7E2;
@@ -242,7 +243,7 @@ nav{
       display: flex;
       }
 .index_card_section{
-  background-color: var(--section-2-bg-colour);
+  background-color: var(--light-section-2-bg-colour);
   padding-top: .7em;
   padding-bottom: .7em;
 }
@@ -312,7 +313,7 @@ nav{
   }
   .about_about_section{
     padding-top: .7em;
-    background-color: var(--section-1-bg-colour);
+    background-color: var(--light-section-1-bg-colour);
     
   }
   .about_about_h1{
