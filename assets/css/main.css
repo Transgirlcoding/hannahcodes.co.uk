@@ -566,7 +566,6 @@ nav{
   }
   .projects_links {
     border: 0.2em;
-    color: var(--light-nav-text-colour);
     text-decoration: none;
     display: inline-block;
     align-items: center;
