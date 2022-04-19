@@ -15,6 +15,7 @@
   --light-nav-bg-colour: #F5F5F5;
   --light-nav-text-colour: black;
   --light-svg-fill-colour: black;
+  --light-section-1-bg-colour: #cfcaca;
   /*dark mode colours*/
 
   --hover-active-colour: #F2C7E2;
@@ -200,7 +201,7 @@ nav{
 }
 .index_about_section{
   padding-top: .7em;
-  background-color: var(--section-1-bg-colour);
+  background-color: var(--light-section-1-bg-colour);
 }
 .index_about_text {
   font-size: 1.25em;
