@@ -660,19 +660,7 @@ padding-bottom: 0.3em;
 display: flex;
 margin: auto;
 }
-.projects_links_2 {
-border: 0.2em;
-color: white;
-text-decoration: none;
-display: inline-block;
-align-items: center;
-text-align: center;
-font-size: 18px;
-margin-left: .4em;
-padding-top: auto;
 
-
-}
 @media only screen and (max-width: 700px) {
 /* project code  files */
 .card-display {
@@ -683,7 +671,7 @@ padding-top: auto;
 .card {
   margin: .7em;
   margin-bottom: 2.25em;
-  background-color: #262626;
+  background-color: var(--light-card-bg-colour);
   width: auto;
   font-size: 0.6em;
   text-align: center;
@@ -1149,5 +1137,9 @@ fill: var(--svg-fill-colour);
 .source_code_svg{
   fill: var(--sorce-code-svg-fill-colour);
   }
-
+  @media only screen and (max-width: 700px) {
+    .card {
+      background-color: var(--card-bg-colour);
+    }
+    }
 }
