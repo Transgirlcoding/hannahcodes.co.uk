@@ -38,6 +38,9 @@ body{
     background-color: var(--light-body-bg-colour);
     
 }
+a{
+  color: var(--light-nav-text-colour);
+}
 nav{
     height: 6rem;
     width: 100vw;
@@ -694,6 +697,7 @@ padding-top: auto;
   }
 
 
+
 /* friends avatar */
 .firends-list {
     display: flex;
@@ -958,6 +962,9 @@ margin-left: -512px; /* 50% */
 @media (prefers-color-scheme: dark) {
   Body{
       background-color: var(--body-bg-colour);
+  }
+  a{
+    color: var(--nav-text-colour);
   }
   nav{
     background-color: var(--nav-footer-bg-colour);
