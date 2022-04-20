@@ -640,9 +640,6 @@ height: 2.5em;
 padding-left: .9em;
 padding-right: auto;
 }
-.project_svg{
-  fill: var(--light-svg-fill-colour);
-}
 .source_code_svg{
   fill: var(--sorce-code-svg-fill-colour);
   width: 2em;
@@ -1145,7 +1142,5 @@ fill: var(--svg-fill-colour);
 .source_code_svg{
   fill: var(--sorce-code-svg-fill-colour);
   }
-.project_svg{
-  fill: var(#fff);
-  }
+
 }
