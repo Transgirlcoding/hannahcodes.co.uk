@@ -32,6 +32,7 @@
   --nav-text-colour: #f2f5f7;
   --hamburger-icon-colour: #f2f5f7;
   --card-bg-colour: #262626;
+  --blue-friends-hover-colour: rgb(130, 204, 238);
 }
 body{
     overflow-x: hidden;
@@ -707,17 +708,17 @@ margin: auto;
     flex-direction: column;
   }
   .friend-container_pink:hover > .friend-avatar_pink {
-    box-shadow: 0px 5px 15px 0 rgb(238, 130, 202);
+    box-shadow: 0px 5px 15px 0 var(--light-hover-active-colour);
   }
   .friend-name_pink {
-    color: #fff;
+    color: var(--light-nav-text-colour);
     font-weight: bold;
     font-size: 20px;
-    text-decoration-color: rgb(238, 130, 202);
+    text-decoration-color: var(--light-hover-active-colour);
   }
   .friend-container_pink:hover > .friend-name_pink {
     text-decoration: underline;
-    color: rgb(238, 130, 202);
+    color: var(--light-hover-active-colour);
   }
   .friend-avatar_pink {
     border-radius: 9999px;
@@ -725,17 +726,17 @@ margin: auto;
     height: 140px;
   }
   .friend-name_blue {
-    color: #fff;
+    color: var(--light-nav-text-colour);
     font-weight: bold;
     font-size: 20px;
-    text-decoration-color: rgb(130, 204, 238);
+    text-decoration-color: var(--blue-friends-hover-colour);
   }
   .friend-container_blue:hover > .friend-name_blue {
     text-decoration: underline;
-    color: rgb(130, 204, 238);
+    color: var(--blue-friends-hover-colour);
   }
   .friend-container_blue:hover > .friend-avatar_blue {
-    box-shadow: 0px 5px 15px 0 rgb(130, 204, 238);
+    box-shadow: 0px 5px 15px 0 var(--blue-friends-hover-colour);
   }
   .friend-avatar_blue {
     border-radius: 9999px;
@@ -764,17 +765,17 @@ margin: auto;
       flex-direction: column;
     }
     .friend-container:hover > .friend-avatar_pink {
-      box-shadow: 0px 5px 15px 0 rgb(238, 130, 202);
+      box-shadow: 0px 5px 15px 0 var(--light-hover-active-colour);
     }
     .friend-name_pink {
-      color: #fff;
+      color: var(--light-nav-text-colour);
       font-weight: bold;
       font-size: 20px;
-      text-decoration-color: rgb(238, 130, 202);
+      text-decoration-color: var(--light-hover-active-colour);
     }
     .friend-container:hover > .friend-name_pink {
       text-decoration: underline;
-      color: rgb(238, 130, 202);
+      color: var(--light-hover-active-colour);
     }
     .friend-avatar_pink {
       border-radius: 9999px;
@@ -782,17 +783,17 @@ margin: auto;
       height: 140px;
     }
     .friend-name_blue {
-      color: #fff;
+      color: var(--light-nav-text-colour);
       font-weight: bold;
       font-size: 20px;
-      text-decoration-color: rgb(238, 130, 202);
+      text-decoration-color: var(--blue-friends-hover-colour);
     }
     .friend-container:hover > .friend-name_blue {
       text-decoration: underline;
-      color: rgb(238, 130, 202);
+      color: var(--blue-friends-hover-colour);
     }
     .friend-container:hover > .friend-avatar_blue {
-      box-shadow: 0px 5px 15px 0 rgb(238, 130, 202);
+      box-shadow: 0px 5px 15px 0 var(--blue-friends-hover-colour);
     }
     .friend-avatar_blue {
       border-radius: 9999px;
@@ -1141,18 +1142,61 @@ fill: var(--svg-fill-colour);
     .card {
       background-color: var(--card-bg-colour);
     }
-    }
+  }
+    
     .friend-container_pink:hover > .friend-avatar_pink {
       box-shadow: 0px 5px 15px 0 var(--hover-active-colour);
     }
     .friend-name_pink {
-      color: #fff;
-      font-weight: bold;
-      font-size: 20px;
+      color: var(--nav-text-colour);
       text-decoration-color: var(--hover-active-colour);
     }
     .friend-container_pink:hover > .friend-name_pink {
-      text-decoration: underline;
       color: var(--hover-active-colour);
     }
+    .friend-name_blue {
+      color: var(--nav-text-colour);
+      text-decoration-color: var(--blue-friends-hover-colour);
+    }
+    .friend-container_blue:hover > .friend-name_blue {
+      color: var(--blue-friends-hover-colour);
+    }
+    .friend-container_blue:hover > .friend-avatar_blue {
+      box-shadow: 0px 5px 15px 0 var(--blue-friends-hover-colour);
+    }
+    @media only screen and (max-width: 1500px) {
+      .friend-container:hover > .friend-avatar_pink {
+        box-shadow: 0px 5px 15px var(--hover-active-colour);
+      }
+      .friend-name_pink {
+        color: var(--nav-text-colour);
+        text-decoration-color: var(--hover-active-colour);
+      }
+      .friend-container:hover > .friend-name_pink {
+        color: var(--hover-active-colour);
+      }
+      .friend-name_blue {
+        color: var(--nav-text-colour);
+        text-decoration-color: var(--blue-friends-hover-colour);
+      }
+      .friend-container:hover > .friend-name_blue {
+        text-decoration: underline;
+        color: var(--blue-friends-hover-colour);
+      }
+      .friend-container:hover > .friend-avatar_blue {
+        box-shadow: 0px 5px 15px 0 var(--blue-friends-hover-colour);
+      }
+    }
+  }
+  footer {
+      background-color: var(--nav-footer-bg-colour);
+  }
+      @media screen and (max-width: 800px){
+        .footer_display{
+          display: grid;
+          background-color: var(--nav-footer-bg-colour);
+          }
+          footer {
+            background-color: var(--nav-footer-bg-colour);
 }
+      }
