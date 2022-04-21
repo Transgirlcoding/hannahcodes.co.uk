@@ -359,8 +359,8 @@ nav{
   }
 
 .college_table{
-  /*display: none; */
-  opacity: 100%;
+  display: none;
+  opacity: 0;
 }
 .college_table_img{
   margin: auto;
