@@ -359,8 +359,8 @@ nav{
   }
 
 .college_table{
-  display: none;
-  opacity: 0;
+  /*display: none; */
+  opacity: 100%;
 }
 .college_table_img{
   margin: auto;
@@ -422,6 +422,7 @@ nav{
     margin: auto;
     align-items: center;
     padding-top: 1em;
+    
   }
   
   td, th {
@@ -467,8 +468,8 @@ nav{
       font-size: 1em;
     }
     .college_table {
-      opacity: 100%;
-     /* display: none;*/
+      opacity: 0;
+      display: none;
     }
     .college_table_img{
      margin: auto;
