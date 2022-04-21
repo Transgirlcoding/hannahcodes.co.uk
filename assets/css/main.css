@@ -1187,8 +1187,8 @@ fill: var(--svg-fill-colour);
         box-shadow: 0px 5px 15px 0 var(--blue-friends-hover-colour);
       }
     }
-  }
-  footer {
+  
+    footer {
       background-color: var(--nav-footer-bg-colour);
   }
       @media screen and (max-width: 800px){
@@ -1200,3 +1200,4 @@ fill: var(--svg-fill-colour);
             background-color: var(--nav-footer-bg-colour);
 }
       }
+    }
