@@ -562,7 +562,7 @@ nav{
   }
   .card {
     margin: 1em;
-    padding-bottom: 1em;
+    padding-bottom: 1.5em;
     background-color: var(--light-card-bg-colour);
     width: 199em;
     font-size: 0.6em;
