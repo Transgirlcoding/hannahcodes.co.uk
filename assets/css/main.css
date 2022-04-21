@@ -19,6 +19,7 @@
   --light-section-2-bg-colour: #adafb8;
   --light-section-3-bg-colour: #c7c7c7;
   --light-card-bg-colour: #c9ccd6;
+  --light-sorce-code-svg-fill-colour: #5a5c5e;
   /*dark mode colours*/
 
   --hover-active-colour: #F2C7E2;
@@ -614,7 +615,7 @@ padding-top: .35em;
 }
 .source_code_links {
   border: 0.2em;
-  color: var(--sorce-code-svg-fill-colour);
+  color: var(--light-sorce-code-svg-fill-colour);
   text-decoration: none;
   display: inline-block;
   align-items: center;
@@ -646,7 +647,7 @@ padding-left: .9em;
 padding-right: auto;
 }
 .source_code_svg{
-  fill: var(--sorce-code-svg-fill-colour);
+  fill: var(--light-sorce-code-svg-fill-colour);
   width: 2em;
   height: 2em;
   padding-left: .7em;
