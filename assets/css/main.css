@@ -467,8 +467,8 @@ nav{
       font-size: 1em;
     }
     .college_table {
-      opacity: 0;
-      display: none;
+      opacity: 100%;
+     /* display: none;*/
     }
     .college_table_img{
      margin: auto;
