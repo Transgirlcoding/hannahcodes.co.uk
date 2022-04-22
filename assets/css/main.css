@@ -1069,6 +1069,9 @@ td, th {
 .about_edu_work_edu_college_p{
   color: var(--nav-text-colour);
 }
+.about_edu_work_work_ex_h2{
+  color: var(--nav-text-colour);
+}
 .about_edu_work_work_ex_p{
   color: var(--nav-text-colour);
 }
