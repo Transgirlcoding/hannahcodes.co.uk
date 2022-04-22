@@ -1241,4 +1241,10 @@ fill: var(--svg-fill-colour);
         margin-left: -512px; /* 50% */
         }
         }
+        .error_h1{
+          color: var(--nav-text-colour);
+        }
+        .terms_text_p{
+          color: var(--nav-text-colour);
+        }
     }
