@@ -12,7 +12,9 @@ section div{
     background-color: black;
     color: aliceblue;
 }
-
+.breadcrumb{
+    padding: 2em;
+}
 section:first-child:not(.breadcrumb){
     background-color: aqua;
 color: black;
