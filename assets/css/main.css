@@ -896,6 +896,7 @@ footer a{
 .error_h1{
     margin: auto;
     text-align: center;
+    padding: 5em;
     padding-top: 5em;
     padding-bottom: 10em;
 }
