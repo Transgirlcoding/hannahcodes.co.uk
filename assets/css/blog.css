@@ -195,11 +195,11 @@ body {
 .coming-soon{
     background-color: var(--light-body-bg-colour);
     color: var(--light-nav-text-colour);
-    z-index: 100;
+    z-index: 999999999;
     width: 100%;
     height: 100%;
-    padding: 5em;
-    margin: 5em;
+    padding: 2em;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
