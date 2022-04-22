@@ -192,6 +192,12 @@ body {
 .toggle .line3{
     transform: rotate(45deg) translate(-5px,-6px);
 }
+.coming-soon{
+    background-color: var(--light-body-bg-colour);
+    color: var(--light-nav-text-colour);
+    z-index: 100;
+    width: 100%;
+}
 hr { 
     border-top-color: var(--light-body-bg-colour); 
     margin-top: 10px;
