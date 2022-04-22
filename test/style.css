@@ -6,6 +6,7 @@ body{
 }
 section{
     padding: 5em;
+    background-color: brown;
 }
 
 section div{
@@ -17,5 +18,6 @@ section div{
 }
 section:first-child:not(.breadcrumb){
     background-color: aqua;
+    padding: 1em;
 color: black;
 }
