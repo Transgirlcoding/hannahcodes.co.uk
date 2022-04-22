@@ -16,7 +16,7 @@ section div{
 .breadcrumb{
     padding: 2em;
 }
-section:first-child:not(.breadcrumb){
+section:first-of-type:not(.breadcrumb){
     background-color: aqua;
     padding: 1em;
 color: black;
