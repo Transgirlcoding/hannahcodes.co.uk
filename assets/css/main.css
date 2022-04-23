@@ -20,6 +20,7 @@
   --light-section-3-bg-colour: #c7c7c7;
   --light-card-bg-colour: #c9ccd6;
   --light-sorce-code-svg-fill-colour: #5a5c5e;
+  --light-blue-friends-hover-colour: #2d5e73;
   /*dark mode colours*/
 
   --hover-active-colour: #F2C7E2;
@@ -731,14 +732,14 @@ margin: auto;
     color: var(--light-nav-text-colour);
     font-weight: bold;
     font-size: 20px;
-    text-decoration-color: var(--blue-friends-hover-colour);
+    text-decoration-color: var(--light-blue-friends-hover-colour);
   }
   .friend-container_blue:hover > .friend-name_blue {
     text-decoration: underline;
-    color: var(--blue-friends-hover-colour);
+    color: var(--light-blue-friends-hover-colour);
   }
   .friend-container_blue:hover > .friend-avatar_blue {
-    box-shadow: 0px 5px 15px 0 var(--blue-friends-hover-colour);
+    box-shadow: 0px 5px 15px 0 var(--light-blue-friends-hover-colour);
   }
   .friend-avatar_blue {
     border-radius: 9999px;
@@ -788,14 +789,14 @@ margin: auto;
       color: var(--light-nav-text-colour);
       font-weight: bold;
       font-size: 20px;
-      text-decoration-color: var(--blue-friends-hover-colour);
+      text-decoration-color: var(--light-blue-friends-hover-colour);
     }
     .friend-container:hover > .friend-name_blue {
       text-decoration: underline;
-      color: var(--blue-friends-hover-colour);
+      color: var(--light-blue-friends-hover-colour);
     }
     .friend-container:hover > .friend-avatar_blue {
-      box-shadow: 0px 5px 15px 0 var(--blue-friends-hover-colour);
+      box-shadow: 0px 5px 15px 0 var(--light-blue-friends-hover-colour);
     }
     .friend-avatar_blue {
       border-radius: 9999px;
