@@ -772,27 +772,7 @@ Body{
 .blog_hamburger div{
     background: var(--hamburger-icon-colour);
 }
-@media screen and (max-width: 800px){
-.blog_nav{
-    background-color: #121212;
-    color: var(--nav-text-colour);
-}
-.blog_nav-links{
-    color: var(--nav-bg-colour);
-}
-.blog_nav-links .blog_nav_li .blog_nav_a{
-    color: var(--nav-text-colour);
-}
-.blog_nav-links .blog_nav_li .blog_nav_a:hover{
-    color: var(--hover-colour);
-}
-.blog_nav-links .blog_nav_li .active{
-    color: var(--hover-colour);
-}
-.blog_nav-links .blog_nav_li .blog_nav_a::before{
-    color: var(--hover-colour);
-}
-}
+
 p{
     color: var(--paragraph-text-colour);
 }
