@@ -632,6 +632,13 @@ padding-right: 1em;
         margin: auto;
         align-items: center;
     }
+    .blog_post_img{
+        display: flex;
+        width: 50%;
+        margin: auto;
+        align-items: center;
+    }
+
 }
 
 @media (max-width: 380px) {
