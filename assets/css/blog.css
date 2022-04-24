@@ -614,6 +614,9 @@ button:focus { outline: none; }
     margin: auto;
     align-items: center;
 }
+.blog_post_img_placement{
+    display: flex;
+}
 .blog_post_img{
     display:flex;
     width: 50%;
