@@ -630,6 +630,8 @@ padding-right: 1em;
     .blog_header_img{
         width: 100%;
         height: auto;
+        margin: auto;
+        align-items: center;
         padding-right: 2em;
     }
 }
