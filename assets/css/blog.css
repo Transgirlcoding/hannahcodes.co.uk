@@ -626,8 +626,9 @@ padding-left:2%;}
 }
 
 @media screen and (max-width: 700px) {
-    figure img{
-        margin: 1em, 0;
+    figure, figure img{
+margin-bottom: 5em;
+
     }
 }
 /*----------footer----------*/
