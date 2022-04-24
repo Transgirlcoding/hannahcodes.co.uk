@@ -773,12 +773,24 @@ Body{
     background: var(--hamburger-icon-colour);
 }
 @media screen and (max-width: 700px){
+    .blog_nav{
+        background-color: var(--nav-bg-colour);
+        color: var(--nav-text-colour);
+    }
 .blog_nav-links{
     color: var(--nav-bg-colour);
 }
-.blog_nav{
-    background-color: var(--nav-bg-colour);
+.blog_nav-links .blog_nav_li .blog_nav_a{
     color: var(--nav-text-colour);
+}
+.blog_nav-links .blog_nav_li .blog_nav_a:hover{
+    color: var(--hover-colour);
+}
+.blog_nav-links .blog_nav_li .active{
+    color: var(--hover-colour);
+}
+.blog_nav-links .blog_nav_li .blog_nav_a::before{
+    color: var(--hover-colour);
 }
 }
 p{
