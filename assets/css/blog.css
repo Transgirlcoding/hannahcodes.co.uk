@@ -399,7 +399,10 @@ video {
     background-color: #151515;  border-color: inherit;
 display: none;}
 .tm-category-list { list-style-type: none; }
-figure { margin: 0; }
+figure { 
+    margin: 0; 
+    margin-bottom: 1em;
+}
 figcaption { line-height: 1.4; }
 
 .tm-post-full { max-width: 600px; }
