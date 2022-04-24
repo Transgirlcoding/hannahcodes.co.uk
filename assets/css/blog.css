@@ -647,6 +647,11 @@ padding-right: 1em;
     margin: auto;
     align-items: center;
 }
+.blog_header_img{
+    width: 50%;
+    margin: auto;
+    align-items: center;
+}
 
 @media (max-width: 380px) {
     .tm-person img { max-width: 120px; }
