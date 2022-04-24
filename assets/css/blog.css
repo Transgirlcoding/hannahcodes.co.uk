@@ -633,8 +633,8 @@ padding-right: 1em;
         align-items: center;
     }
     .blog_post_img{
-        display: flex;
-        width: 50%;
+        display: block;
+        width: 100%;
         margin: auto;
         align-items: center;
         padding-bottom: 1em;
