@@ -616,8 +616,10 @@ button:focus { outline: none; }
     .tm-mb-40{
     width: 100%;
 align-items: center;
-margin-left: 2em;
+margin: auto;
+margin-left: .2em;
 margin-right: 2em;
+padding-right: 1em;
     }
 }
 
