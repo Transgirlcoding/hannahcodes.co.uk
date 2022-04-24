@@ -617,6 +617,8 @@ button:focus { outline: none; }
     width: 100%;
 align-items: center;
 margin: auto;
+margin-top: 0;
+margin-bottom: 2em;
 margin-left: .2em;
 margin-right: 2em;
 padding-right: 1em;
