@@ -614,9 +614,11 @@ button:focus { outline: none; }
     .tm-person-col { width: 100%; }
     .tm-person { flex-direction: row; }
     .tm-mb-40{
-    width: 50%;
+    width: 100%;
 align-items: center;
-padding-left:2%;}
+margin-left: 2em;
+margin-right: 2em;
+    }
 }
 
 @media (max-width: 380px) {
