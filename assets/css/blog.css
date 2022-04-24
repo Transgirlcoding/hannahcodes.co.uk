@@ -772,7 +772,7 @@ Body{
 .blog_hamburger div{
     background: var(--hamburger-icon-colour);
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 700px){
 .blog_nav-links{
     color: var(--nav-bg-colour);
 }
