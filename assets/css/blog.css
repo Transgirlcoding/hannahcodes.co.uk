@@ -627,13 +627,6 @@ padding-right: 1em;
     .tm-person img { max-width: 120px; }
 }
 
-@media screen and (max-width: 700px) {
-    figure .img-fluid{
-margin-bottom: 5em;
-margin-top: 0;
-
-    }
-}
 /*----------footer----------*/
 .blog_footer {
     background-color: var(--light-nav-bg-colour);
