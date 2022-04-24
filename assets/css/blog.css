@@ -655,6 +655,7 @@ padding-right: 1em;
         margin: auto;
         align-items: center;
         padding-bottom: 1em;
+        padding-right: 0;
     }
 
 }
