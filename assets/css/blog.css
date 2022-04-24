@@ -773,10 +773,11 @@ Body{
     background: var(--hamburger-icon-colour);
 }
 @media screen and (max-width: 800px){
-    .blog_nav{
-        background-color: var(--nav-bg-colour);
-        color: var(--nav-text-colour);
-    }
+.blog_nav{
+    background-color: var(--nav-bg-colour);
+    background: var(--nav-bg-colour);
+    color: var(--nav-text-colour);
+}
 .blog_nav-links{
     color: var(--nav-bg-colour);
 }
