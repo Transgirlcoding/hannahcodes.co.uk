@@ -622,6 +622,7 @@ button:focus { outline: none; }
     width: 50%;
     margin: auto;
     align-items: center;
+    padding-right: 1em;
 }
 @media (max-width: 480px) {
     .tm-person-col {
@@ -644,6 +645,9 @@ padding-right: 1em;
         width: 100%;
         margin: auto;
         align-items: center;
+    }
+    .blog_post_img_placement{
+        display: block;
     }
     .blog_post_img{
         display: block;
