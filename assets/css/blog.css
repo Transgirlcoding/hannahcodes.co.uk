@@ -124,6 +124,7 @@ body {
     .blog_nav{
         position: fixed;
         z-index: 3;
+        background-color: var(--light-nav-bg-colour);
     }
     .blog_hamburger{
         display:block;
@@ -775,7 +776,7 @@ Body{
 
 @media  screen and (max-width: 800px) {
     .blog_nav{
-        background-color: #121212;
+        background-color: var(--nav-bg-colour);
     }
     .blog_nav-links .blog_nav_li .blog_nav_a{
         color: #5c2246;
