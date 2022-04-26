@@ -482,7 +482,7 @@ button:focus { outline: none; }
 .tm-contact-form label { font-size: 1.4rem; }
 .tm-contact-form .form-group { display: flex; }
 
-@media (max-width: 1540px) {
+@media (max-width: 1390px) {
     .tm-header { width: 320px; }
 
     .tm-main {
