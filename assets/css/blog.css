@@ -76,7 +76,9 @@ body {
     width: 88vw;
     padding: 0 0.7vw;
     padding-top: 1em;
+    margin: auto;
     justify-content: space-evenly;
+    text-align: center;
     align-items: center;
     text-transform: uppercase;
 }
