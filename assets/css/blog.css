@@ -45,7 +45,7 @@ body {
 .blog_nav{
     height: 6rem;
     width: 100vw;
-    background-color: var(--nav-bg-colour);
+    background-color: var(--light-nav-bg-colour);
     color: var(--light-nav-text-colour);
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
     display: flex;
@@ -126,7 +126,7 @@ body {
     .blog_nav{
         position: fixed;
         z-index: 3;
-        background-color: var(--nav-bg-colour);
+        background-color: var(--light-nav-bg-colour);
     }
     .blog_hamburger{
         display:block;
@@ -140,7 +140,7 @@ body {
     }
     .blog_nav-links{
         position: fixed;
-        background: var(--light-nav-bg-colour);
+        color: var(--light-nav-bg-colour);
         height: 100vh;
         width: 100%;
         flex-direction: column;
