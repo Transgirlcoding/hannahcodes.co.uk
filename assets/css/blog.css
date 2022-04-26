@@ -221,6 +221,8 @@ p{
     margin: auto;
     align-items: center;
     background-color: var(--light-body-bg-colour);
+    padding-left: 5em;
+    padding-right: 5em;
 }
 .blog_svg{
     fill: var(--light-svg-colour);
