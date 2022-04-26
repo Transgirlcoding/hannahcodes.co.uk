@@ -512,6 +512,20 @@ button:focus { outline: none; }
         padding-left: 3em;
         width: calc(100% - 320px);
     }
+    /*Styling Links*/
+.blog_nav-links{
+    display: flex;
+    list-style: none; 
+    width: 88vw;
+    padding: 0 0.9vw;
+    padding-top: 2.5em;
+    padding-left: 8em;
+    margin: auto;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+}
 }
 
 @media (max-width: 1300px) {
