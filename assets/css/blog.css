@@ -489,6 +489,7 @@ button:focus { outline: none; }
         padding-top: 6em;
         margin: auto;
         align-items: center;
+        padding-left: 0;
         width: calc(100% - 320px);
     }
 }
