@@ -229,7 +229,7 @@ p{
     width: 100%;
     padding-left: 5em;
     padding-right: 5em;
-    width: calc(100%-200px);
+    width: calc(100% - 200px);
 }
 .blog_svg{
     fill: var(--light-svg-colour);
