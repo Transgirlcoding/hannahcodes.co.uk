@@ -65,6 +65,7 @@ body {
   margin-left: 0;
   margin-right: 0;
   text-align: center;
+  align-items: center;
 }
 .logo img {
   height: 5rem;
