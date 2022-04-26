@@ -790,7 +790,7 @@ Body{
         color: var(--nav-text-colour);
     }
     .blog_nav-links .blog_nav_li .blog_nav_a{
-        color: #5c2246;
+        color: var(--nav-text-colour);
     }
 }
 
