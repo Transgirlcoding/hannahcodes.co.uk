@@ -140,7 +140,7 @@ body {
     }
     .blog_nav-links{
         position: fixed;
-        background: var(--light-nav-bg-colour);
+        background-color: var(--light-nav-bg-colour);
         height: 100vh;
         width: 100%;
         flex-direction: column;
@@ -759,6 +759,11 @@ Body{
     background-color: var(--nav-bg-colour);
     color: var(--nav-text-colour);
 }
+.blog_nav-links{
+    position: fixed;
+    background-color: var(--nav-bg-colour);
+    color: var(--nav-text-colour);
+}
 .blog_nav-links .blog_nav_li .blog_nav_a{
     color: var(--nav-text-colour);
 }
@@ -777,12 +782,20 @@ Body{
 }
 
 @media  screen and (max-width: 800px) {
-    .blog_nav{
+    nav{
         background-color: var(--nav-bg-colour);
     }
-    .blog_nav-links .blog_nav_li .blog_nav_a{
-        color: #5c2246;
+    .blog_nav{
+        background-color: var(--nav-bg-colour);
+        color: var(--nav-text-colour);
     }
+    .blog_nav-links .blog_nav_li .blog_nav_a{
+        color: var(--nav-text-colour);
+    }
+    .blog_nav-links .blog_nav_li .active {
+        color: var(--hover-colour);
+    }
+    
 }
 
 p{
