@@ -143,6 +143,16 @@ body {
         z-index: 2;
         transition: all 0.7s ease;
     }
+    .logo{
+        padding:1vh 1vw;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+        z-index: 10;
+        padding-left: 1em;
+      }
     .blog_nav-links{
         position: fixed;
         background-color: var(--light-nav-bg-colour);
