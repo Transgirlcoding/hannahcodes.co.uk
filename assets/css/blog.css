@@ -82,6 +82,7 @@ body {
     margin: auto;
     justify-content: space-evenly;
     text-align: center;
+    align-items: center;
     text-transform: uppercase;
 }
 .blog_nav-links .blog_nav_li .blog_nav_a{
