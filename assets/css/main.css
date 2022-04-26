@@ -138,6 +138,15 @@ nav{
         z-index: 2;
         transition: all 0.7s ease;
     }
+    .logo{
+      padding:1vh 1vw;
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-left: 0;
+      margin-right: 0;
+      text-align: center;
+      padding-left: 1em;
+    }
     .nav-links{
         position: fixed;
         background: var(--light-nav-footer-bg-colour);
