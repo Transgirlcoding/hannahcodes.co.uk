@@ -839,6 +839,7 @@ Body{
 
 p{
     color: var(--paragraph-text-colour);
+    width: 100%;
 }
 .tm-main, .tm-main-post {
     background-color: var(--body-bg-colour);
