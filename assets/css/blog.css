@@ -226,7 +226,8 @@ p{
     margin: auto;
     align-items: center;
     background-color: var(--light-body-bg-colour);
-    padding-left: 10em;
+    width: 100%;
+    padding-left: 5em;
     padding-right: 5em;
 }
 .blog_svg{
@@ -490,7 +491,7 @@ button:focus { outline: none; }
         margin: auto;
         align-items: center;
         padding-left: 0;
-        width: calc(100% - 520px);
+        width: calc(100% - 420px);
     }
 }
 
