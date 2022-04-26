@@ -155,7 +155,7 @@ body {
     .blog_nav-links{
         position: fixed;
         background-color: var(--light-nav-bg-colour);
-        height: 100vh;
+        height: 100%;
         width: 100%;
         flex-direction: column;
         clip-path: circle(50px at 90% -20%);
