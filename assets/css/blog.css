@@ -89,6 +89,7 @@ body {
     text-decoration: none;
     margin: 0 0.7vw;
     margin: auto;
+    margin-left: 1em;
     text-align: center;
     align-items: center;
     color: var(--light-nav-text-colour);
