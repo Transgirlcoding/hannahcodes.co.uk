@@ -64,6 +64,7 @@ body {
   margin-bottom: auto;
   margin-left: 0;
   margin-right: 0;
+  z-index: 10;
   
   
 }
@@ -85,6 +86,7 @@ body {
     text-align: center;
     align-items: center;
     text-transform: uppercase;
+    margin-left: 3em;
 }
 .blog_nav-links .blog_nav_li .blog_nav_a{
     text-decoration: none;
