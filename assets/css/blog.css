@@ -141,10 +141,6 @@ body {
         position: fixed;
         z-index: 3;
         background-color: var(--light-nav-bg-colour);
-        margin: 0;
-        text-align: center;
-        align-items: center;
-
     }
     .blog_hamburger{
         display:block;
@@ -166,7 +162,6 @@ body {
         -webkit-clip-path: circle(50px at 90% -10%);
         transition: all 1s ease-out;
         pointer-events: none;
-        margin-left: 0;
     }
     .blog_nav-links.open{
         clip-path: circle(1000px at 90% -10%);
