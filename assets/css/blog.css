@@ -226,7 +226,7 @@ p{
     margin: auto;
     align-items: center;
     background-color: var(--light-body-bg-colour);
-    padding-left: 5em;
+    padding-left: 10em;
     padding-right: 5em;
 }
 .blog_svg{
