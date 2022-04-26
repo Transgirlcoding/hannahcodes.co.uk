@@ -490,7 +490,7 @@ button:focus { outline: none; }
         margin: auto;
         align-items: center;
         padding-left: 0;
-        width: calc(100% - 320px);
+        width: calc(100% - 520px);
     }
 }
 
