@@ -510,7 +510,7 @@ button:focus { outline: none; }
         background-color: var(--light-body-bg-colour);
         width: 100%;
         padding-left: 3em;
-        width: calc(100% - 500px);
+        width: calc(100% - 320px);
     }
 }
 
