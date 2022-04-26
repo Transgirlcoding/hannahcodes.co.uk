@@ -225,6 +225,7 @@ p{
     padding-top: 6em;
     margin: auto;
     align-items: center;
+    text-align: center;
     background-color: var(--light-body-bg-colour);
     padding-left: 5em;
     padding-right: 5em;
