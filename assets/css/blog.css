@@ -50,7 +50,7 @@ body {
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
     margin: auto;
     text-align: center;
-    align-items: flex-end;
+    align-items: center;
     display: flex;
     position: fixed;
     z-index: 10;
