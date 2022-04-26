@@ -225,7 +225,6 @@ p{
     padding-top: 6em;
     margin: auto;
     align-items: center;
-    text-align: center;
     background-color: var(--light-body-bg-colour);
     padding-left: 5em;
     padding-right: 5em;
@@ -256,9 +255,7 @@ p{
             color: var(--light-hover-colour);
         }
 
-.tm-post { max-width: 470px;
-    margin: auto;
-text-align: center; }
+.tm-post { max-width: 470px; }
 
 .tm-row {
     max-width: 100%;
