@@ -777,6 +777,9 @@ Body{
 }
 
 @media  screen and (max-width: 800px) {
+    nav{
+        background-color: var(--nav-bg-colour);
+    }
     .blog_nav{
         background-color: var(--nav-bg-colour);
     }
