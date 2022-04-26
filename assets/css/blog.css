@@ -48,9 +48,6 @@ body {
     background-color: var(--light-nav-bg-colour);
     color: var(--light-nav-text-colour);
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
-    margin: auto;
-    text-align: center;
-    align-items: center;
     display: flex;
     position: fixed;
     z-index: 10;
@@ -106,8 +103,6 @@ body {
 }
 .blog_nav-links .blog_nav_li {
     position: relative;
-    align-items: center;
-    text-align: center;
 }
 .blog_nav-links .blog_nav_li .blog_nav_a::before {
     content: "";
@@ -141,6 +136,9 @@ body {
         position: fixed;
         z-index: 3;
         background-color: var(--light-nav-bg-colour);
+        margin: 0;
+        text-align: center;
+        align-items: center;
     }
     .blog_hamburger{
         display:block;
