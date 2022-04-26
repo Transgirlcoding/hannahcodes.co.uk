@@ -48,9 +48,6 @@ body {
     background-color: var(--light-nav-bg-colour);
     color: var(--light-nav-text-colour);
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
-    margin: auto;
-    text-align: center;
-    align-items: center;
     display: flex;
     position: fixed;
     z-index: 10;
@@ -64,9 +61,7 @@ body {
   margin-bottom: auto;
   margin-left: 0;
   margin-right: 0;
-  margin: auto;
   text-align: center;
-  
 }
 .logo img {
   height: 5rem;
@@ -90,10 +85,6 @@ body {
 .blog_nav-links .blog_nav_li .blog_nav_a{
     text-decoration: none;
     margin: 0 0.7vw;
-    margin: auto;
-    margin-left: 1em;
-    text-align: center;
-    align-items: center;
     color: var(--light-nav-text-colour);
 }
 .blog_nav-links .blog_nav_li .blog_nav_a:hover {
@@ -194,6 +185,17 @@ body {
     .blog_nav_li.fade{
         opacity: 1;
     }
+}
+/*Animating Hamburger Icon on Click*/
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2{
+    transition: all 0.7s ease;
+    width:0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
 }
 
 hr { 
