@@ -150,7 +150,7 @@ body {
         margin-left: 0;
         margin-right: 0;
         text-align: center;
-        z-index: 10;
+        z-index: 0;
         padding-left: 1em;
       }
     .blog_nav-links{
