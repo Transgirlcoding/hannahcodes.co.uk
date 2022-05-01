@@ -221,10 +221,13 @@ hr {
 p{
     color: var(--light-paragraph-text-colour);
 }
-.post_a_link{
+.post_link{
     color: var(--light-nav-text-colour);
     text-decoration: underline;
     font-weight: bold;
+}
+.post_link:hover{
+    color: var(--light-hover-colour);
 }
 .tm-main {
     padding-top: 6em;
@@ -859,10 +862,13 @@ Body{
 p{
     color: var(--paragraph-text-colour);
 }
-.post_a_link{
+.post_link{
     color: var(--nav-text-colour);
     text-decoration: underline;
     font-weight: bold;
+}
+.post_link:hover{
+    color: var(--hover-colour);
 }
 .tm-main, .tm-main-post {
     background-color: var(--body-bg-colour);
