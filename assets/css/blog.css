@@ -221,7 +221,7 @@ hr {
 p{
     color: var(--light-paragraph-text-colour);
 }
-a{
+.post_a_link{
     color: var(--light-nav-text-colour);
     text-decoration: underline;
     font-weight: bold;
@@ -859,7 +859,7 @@ Body{
 p{
     color: var(--paragraph-text-colour);
 }
-a{
+.post_a_link{
     color: var(--nav-text-colour);
     text-decoration: underline;
     font-weight: bold;
