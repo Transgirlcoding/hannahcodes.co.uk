@@ -221,6 +221,9 @@ hr {
 p{
     color: var(--light-paragraph-text-colour);
 }
+a{
+    color: var(--light-nav-text-colour);
+}
 .tm-main {
     padding-top: 6em;
     margin: auto;
@@ -853,6 +856,9 @@ Body{
 
 p{
     color: var(--paragraph-text-colour);
+}
+a{
+    color: var(--nav-text-colour);
 }
 .tm-main, .tm-main-post {
     background-color: var(--body-bg-colour);
