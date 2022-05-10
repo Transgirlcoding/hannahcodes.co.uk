@@ -132,6 +132,7 @@ body {
         position: fixed;
         z-index: 3;
         background-color: var(--light-nav-bg-colour);
+        width: auto;
     }
     .blog_hamburger{
         display:block;
