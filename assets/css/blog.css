@@ -161,8 +161,8 @@ body {
 
         padding-left: 0;
         flex-direction: column;
-        clip-path: circle(50px at 90% -20%);
-        -webkit-clip-path: circle(50px at 90% -10%);
+        /*clip-path: circle(50px at 90% -20%);
+        -webkit-clip-path: circle(50px at 90% -10%); */
         transition: all 1s ease-out;
         pointer-events: none;
     }
