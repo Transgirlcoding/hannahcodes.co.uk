@@ -287,7 +287,11 @@ p{
     max-height: fit-content;
 }
 
-
+.post_img_preview{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+}
 .tm-post-link {
     display: block;
     position: relative;
