@@ -129,6 +129,7 @@ body {
 /*Stying for small screens*/
 @media screen and (max-width: 800px){
     .blog_nav{
+        width: 100%;
         position: fixed;
         z-index: 3;
         background-color: var(--light-nav-bg-colour);
