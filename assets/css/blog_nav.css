@@ -170,3 +170,53 @@
 .toggle .line3{
     transform: rotate(45deg) translate(-5px,-6px);
 }
+
+
+
+
+         /* -------dark mode---------- */
+         @media (prefers-color-scheme: dark) {
+           
+            .blog_nav{
+                background-color: var(--nav-bg-colour);
+                color: var(--nav-text-colour);
+            }
+            .blog_nav-links{
+                position: fixed;
+                background-color: var(--nav-bg-colour);
+                color: var(--nav-text-colour);
+            }
+            .blog_nav-links .blog_nav_li .blog_nav_a{
+                color: var(--nav-text-colour);
+            }
+            .blog_nav-links .blog_nav_li .blog_nav_a:hover {
+                color: var(--hover-colour);
+            }
+            .blog_nav-links .blog_nav_li .active {
+                color: var(--hover-colour);
+            }
+            
+            .blog_nav-links .blog_nav_li .blog_nav_a::before {
+                background-color: var(--hover-colour);
+            }
+            .blog_hamburger div{
+                background: var(--hamburger-icon-colour);
+            }
+            
+            @media  screen and (max-width: 800px) {
+                nav{
+                    background-color: var(--nav-bg-colour);
+                }
+                .blog_nav{
+                    background-color: var(--nav-bg-colour);
+                    color: var(--nav-text-colour);
+                }
+                .blog_nav-links .blog_nav_li .blog_nav_a{
+                    color: var(--nav-text-colour);
+                }
+                .blog_nav-links .blog_nav_li .active {
+                    color: var(--hover-colour);
+                }
+                
+            }
+        }
