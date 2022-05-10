@@ -170,7 +170,7 @@ display: none;
       clip-path: circle(1000px at 90% -10%);
         -webkit-clip-path: circle(1000px at 90% -10%); 
         pointer-events: all;
-        background-color: var(--light-nav-bg-colour);
+        
     }
     .blog_nav-links .blog_nav_li{
         opacity: 0;
