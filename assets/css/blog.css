@@ -1,5 +1,5 @@
 html { overflow-x: hidden; }
-*, *::before, *::after{
+*{
     box-sizing: border-box;
 }
 :root{
@@ -42,6 +42,175 @@ body {
     background-color: var(--light-body-bg-colour);
 }
 
+.blog_nav{
+    height: 6rem;
+    width: 100vw;
+    background-color: var(--light-nav-bg-colour);
+    color: var(--light-nav-text-colour);
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    position: fixed;
+    z-index: 10;
+}
+
+
+/*Styling logo*/
+.logo{
+  padding:1vh 1vw;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  z-index: 10;
+  padding-right: 1.5em;
+}
+.logo img {
+  height: 5rem;
+  width: 5rem;
+}
+
+
+/*Styling Links*/
+.blog_nav-links{
+    display: flex;
+    list-style: none; 
+    width: 88vw;
+    padding: 0 0.9vw;
+    padding-top: 2.5em;
+    padding-left: 2.5em;
+    margin: auto;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+.blog_nav-links .blog_nav_li .blog_nav_a{
+    text-decoration: none;
+    margin: 0 0.7vw;
+    color: var(--light-nav-text-colour);
+}
+.blog_nav-links .blog_nav_li .blog_nav_a:hover {
+    color: var(--light-hover-colour);
+}
+.blog_nav-links .blog_nav_li .active {
+    color: var(--light-hover-colour);
+    font-weight: bold;
+}
+.blog_nav-links .blog_nav_li {
+    position: relative;
+}
+.blog_nav-links .blog_nav_li .blog_nav_a::before {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0%;
+    background-color: var(--light-hover-colour);
+    position: absolute;
+    transition: all ease-in-out 250ms;
+    margin: 0 0 0 10%;
+}
+.blog_nav-links .blog_nav_li .blog_nav_a:hover::before{
+    width: 80%;
+}
+
+/*Styling Hamburger Icon*/
+.blog_hamburger div{
+    width: 30px;
+    height:3px;
+    background: var(--light-hamburger-icon-colour);
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+.blog_hamburger{
+    display: none;
+}
+
+/*Stying for small screens*/
+@media screen and (max-width: 800px){
+    .blog_nav{
+        position: fixed;
+        z-index: 3;
+        background-color: var(--light-nav-bg-colour);
+    }
+    .blog_hamburger{
+        display:block;
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 50%;
+        transform: translate(-5%, -50%);
+        z-index: 2;
+        transition: all 0.7s ease;
+    }
+    .logo{
+        padding:1vh 1vw;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+        z-index: 0;
+        padding-left: 1em;
+      }
+    .blog_nav-links{
+        position: fixed;
+        background-color: var(--light-nav-bg-colour);
+        height: 100vh;
+        width: 100%;
+        padding-left: 0;
+        flex-direction: column;
+        clip-path: circle(50px at 90% -20%);
+        -webkit-clip-path: circle(50px at 90% -10%);
+        transition: all 1s ease-out;
+        pointer-events: none;
+    }
+    .blog_nav-links.open{
+        clip-path: circle(1000px at 90% -10%);
+        -webkit-clip-path: circle(1000px at 90% -10%);
+        pointer-events: all;
+    }
+    .blog_nav-links .blog_nav_li{
+        opacity: 0;
+    }
+    .blog_nav-links .blog_nav_li:nth-child(1){
+        transition: all 0.5s ease 0.2s;
+    }
+    .blog_nav-links .blog_nav_li:nth-child(2){
+        transition: all 0.5s ease 0.4s;
+    }
+    .blog_nav-links .blog_nav_li:nth-child(3){
+        transition: all 0.5s ease 0.6s;
+    }
+    .blog_nav-links .blog_nav_li:nth-child(4){
+        transition: all 0.5s ease 0.7s;
+    }
+    .blog_nav-links .blog_nav_li:nth-child(5){
+        transition: all 0.5s ease 0.8s;
+    }
+    .blog_nav-links .blog_nav_li:nth-child(6){
+        transition: all 0.5s ease 0.9s;
+        margin: 0;
+    }
+    .blog_nav-links .blog_nav_li:nth-child(7){
+        transition: all 0.5s ease 1s;
+        margin: 0;
+    }
+    .blog_nav_li.fade{
+        opacity: 1;
+    }
+}
+/*Animating Hamburger Icon on Click*/
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2{
+    transition: all 0.7s ease;
+    width:0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+}
 
 hr { 
     border-top-color: var(--light-body-bg-colour); 
@@ -118,9 +287,7 @@ p{
     max-height: fit-content;
 }
 
-.post_img_preview{
-    margin-bottom: 1em;
-}
+
 .tm-post-link {
     display: block;
     position: relative;
@@ -478,9 +645,6 @@ button:focus { outline: none; }
         height: 18em;
     align-items: center;
     padding-left:2%;}
-    .post_img_preview{
-        padding-bottom: 10em;
-    }
     
 }
 
@@ -557,19 +721,17 @@ padding-right: 1em;
         padding-bottom: 1em;
         padding-right: 0;
     }
-    .post_img_preview{
-        padding-bottom: 10em;
-    }
+
 }
 
 
 
 @media (max-width: 380px) {
     .tm-person img { max-width: 120px; }
-    figure { 
-            margin: 0; 
-            padding-bottom: 1em;
-        }
+    figure img{ 
+        margin: 0; 
+        padding-bottom: 1em;
+    }
 }
 
 /*----------footer----------*/
@@ -655,11 +817,51 @@ padding-right: 1em;
 
                    /* -------dark mode---------- */
 @media (prefers-color-scheme: dark) {
-    Body{
-        background-color: var(--body-bg-colour);
-   
-    }
+Body{
+    background-color: var(--body-bg-colour);
+}
+.blog_nav{
+    background-color: var(--nav-bg-colour);
+    color: var(--nav-text-colour);
+}
+.blog_nav-links{
+    position: fixed;
+    background-color: var(--nav-bg-colour);
+    color: var(--nav-text-colour);
+}
+.blog_nav-links .blog_nav_li .blog_nav_a{
+    color: var(--nav-text-colour);
+}
+.blog_nav-links .blog_nav_li .blog_nav_a:hover {
+    color: var(--hover-colour);
+}
+.blog_nav-links .blog_nav_li .active {
+    color: var(--hover-colour);
+}
 
+.blog_nav-links .blog_nav_li .blog_nav_a::before {
+    background-color: var(--hover-colour);
+}
+.blog_hamburger div{
+    background: var(--hamburger-icon-colour);
+}
+
+@media  screen and (max-width: 800px) {
+    nav{
+        background-color: var(--nav-bg-colour);
+    }
+    .blog_nav{
+        background-color: var(--nav-bg-colour);
+        color: var(--nav-text-colour);
+    }
+    .blog_nav-links .blog_nav_li .blog_nav_a{
+        color: var(--nav-text-colour);
+    }
+    .blog_nav-links .blog_nav_li .active {
+        color: var(--hover-colour);
+    }
+    
+}
 
 p{
     color: var(--paragraph-text-colour);
