@@ -132,6 +132,8 @@ body {
         position: fixed;
         z-index: 3;
         background-color: var(--light-nav-bg-colour);
+        padding-right: 0;
+    margin-right: 0;
     }
     .blog_hamburger{
         display:block;
