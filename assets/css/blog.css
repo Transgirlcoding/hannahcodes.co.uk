@@ -728,7 +728,7 @@ padding-right: 1em;
 
 @media (max-width: 380px) {
     .tm-person img { max-width: 120px; }
-    figure { 
+    figure img{ 
         margin: 0; 
         padding-bottom: 1em;
     }
