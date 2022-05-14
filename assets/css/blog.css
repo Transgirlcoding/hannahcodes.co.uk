@@ -284,6 +284,10 @@ p{
     display: flex;
     padding: 5em;
 }
+.tm-row-post{
+    max-width: 100%;
+    justify-content: space-between;
+}
 
 
 .blog_img{
