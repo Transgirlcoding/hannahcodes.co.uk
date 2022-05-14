@@ -276,7 +276,8 @@ p{
             color: var(--light-hover-colour);
         }
 
-.tm-post { max-width: 470px; }
+.tm-post { max-width: 470px;
+display: flex; }
 
 .tm-row {
     max-width: 100%;
