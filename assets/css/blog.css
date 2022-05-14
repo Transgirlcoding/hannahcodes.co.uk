@@ -288,6 +288,12 @@ p{
     max-width: 100%;
     justify-content: space-between;
 }
+.grid{
+        display: grid;
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: repeat(12, 1fr);
+        grid-gap: 10px;
+}
 
 
 .blog_img{
