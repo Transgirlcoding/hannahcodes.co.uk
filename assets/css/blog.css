@@ -282,6 +282,7 @@ p{
     max-width: 100%;
     justify-content: space-between;
     display: flex;
+    padding: 5em;
 }
 
 
