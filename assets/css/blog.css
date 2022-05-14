@@ -286,11 +286,12 @@ p{
     max-width: 100%;
     justify-content: space-between;
 }
-.grid{
-        display: grid;
-        grid-template-rows: repeat(6, 1fr);
-        grid-template-columns: repeat(12, 1fr);
-        grid-gap: 10px;
+.col-12{
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        
 }
 
 
