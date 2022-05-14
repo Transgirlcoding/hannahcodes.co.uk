@@ -239,6 +239,7 @@ p{
     padding-left: 5em;
     padding-right: 5em;
     width: calc(100% - 170px);
+    display: flex;
 }
 .tm-main-post {
     padding-top: 6em;
