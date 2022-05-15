@@ -46,7 +46,7 @@ html { overflow-x: hidden; }
     /*light mode colours*/
     --light-hamburger-icon-colour: black;
     --light-body-bg-colour: #F8F8FF;
-    --light-hover-colour: #5c2246;
+    --light-hover-active-colour: #5c2246;
     --light-coming-soon-colour: #5c2246;
     --light-top-border-colour: #5c2246;
     --light-nav-text-colour: black;
@@ -59,7 +59,7 @@ html { overflow-x: hidden; }
  /* dark mode colours*/
 
  --body-bg-colour: #121212;
- --hover-colour: #F2C7E2;
+ --hover-active-colour: #F2C7E2;
  --coming-soon-colour: #F2C7E2;
  --top-border-colour: #F2C7E2;
  --nav-text-colour: #fff;
@@ -241,6 +241,7 @@ nav{
 .toggle .line3{
     transform: rotate(45deg) translate(-5px,-6px);
 }
+
 hr{
     border-top-color: var(--light-body-bg-colour); 
     margin-top: 10px;
@@ -907,6 +908,7 @@ a{
         background-color: var(--nav-bg-colour);
     }
 }
+
 p{
     color: var(--paragraph-text-colour);
 }
