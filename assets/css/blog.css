@@ -310,7 +310,13 @@ p{
     max-width: fit-content;
     max-height: fit-content;
 }
-
+.postion-absolute{
+position:absolute!important;
+}
+.justify-content-between{
+    -ms-flex-pack:justify!important;
+    justify-content: space-between!important;
+}
 
 .tm-post-link {
     display: block;
