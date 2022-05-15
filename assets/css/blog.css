@@ -303,8 +303,8 @@ p{
 }
 
 .d-flex{
-    display: -ms-flexbox;
-    
+    display: -ms-flexbox!important;
+    display: flex!important;
 }
 .blog_img{
     max-width: fit-content;
