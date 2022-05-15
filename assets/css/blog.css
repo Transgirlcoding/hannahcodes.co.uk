@@ -302,7 +302,10 @@ p{
     margin-left: -15px;
 }
 
-
+.d-flex{
+    display: -ms-flexbox;
+    
+}
 .blog_img{
     max-width: fit-content;
     max-height: fit-content;
