@@ -84,7 +84,7 @@ body {
 nav{
     height: 6rem;
     width: 100vw;
-    background-color: var(--light-nav-footer-bg-colour);
+    background-color: var(--light-nav-bg-colour);
     color: var(--light-nav-text-colour);
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
     display: flex;
@@ -186,7 +186,7 @@ nav{
     }
     .nav-links{
         position: fixed;
-        background: var(--light-nav-footer-bg-colour);
+        background: var(--light-nav-bg-colour);
         height: 100vh;
         width: 100%;
         flex-direction: column;
@@ -881,7 +881,7 @@ a{
     color: var(--nav-text-colour);
   }
   nav{
-    background-color: var(--nav-footer-bg-colour);
+    background-color: var(--nav-bg-colour);
     color: var(--nav-text-colour);
   }
   .nav-links li a{
@@ -897,12 +897,16 @@ a{
   background-color: var(--hover-active-colour);
 }
 .nav-links{
-  background: var(--nav-footer-bg-colour);
+  background: var(--nav-bg-colour);
 }
 .hamburger div{
   background: var(--hamburger-icon-colour);
 }
-
+@media screen and (max-width: 800px) {
+    .nav-links{
+        background-color: var(--nav-bg-colour);
+    }
+}
 p{
     color: var(--paragraph-text-colour);
 }
