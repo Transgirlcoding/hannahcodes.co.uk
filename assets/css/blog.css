@@ -13,7 +13,6 @@ html { overflow-x: hidden; }
     }
         html{
             font-family:sans-serif;
-            line-height:1.15;
         }
         article,aside,figcaption,figure,header,hgroup,main,section{
             display:block;
