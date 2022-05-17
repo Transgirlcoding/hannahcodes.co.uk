@@ -42,6 +42,11 @@ html { overflow-x: hidden; }
                     hr{margin-top:1rem;margin-bottom:1rem;border:0;border-top:1px solid rgba(0,0,0,.1)}
                     .img-fluid{max-width:100%;height:auto}
                     figure{display:inline-block}.figure-img{margin-bottom:.5rem;line-height:1}.figure-caption{font-size:90%;color:#6c757d} figure{margin:0 0 1rem}
+                    .img-fluid{max-width:100%;height:auto}.img-thumbnail{padding:.25rem;background-color:#fff;border:1px solid #dee2e6;border-radius:.25rem;max-width:100%;height:auto}.figure{display:inline-block}.figure-img{margin-bottom:.5rem;line-height:1}.figure-caption{font-size:90%;color:#6c757d}code{font-size:87.5%;color:#e83e8c;word-wrap:break-word}
+                    @media (min-width:992px){
+                       .col-12, .col-md-6 {position:relative;width:100%;padding-right:15px;padding-left:15px}
+                       .col-12{-ms-flex:0 0 100%;/* flex:0 0 100%; */max-width:100%;}
+                    }
 :root{
     /*light mode colours*/
     --light-hamburger-icon-colour: black;
