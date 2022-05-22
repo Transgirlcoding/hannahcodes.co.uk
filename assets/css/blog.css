@@ -394,7 +394,7 @@ position:absolute!important;
 .tm-post { margin-bottom: 75px; }
 
 .tm-new-badge {
-    top: 20px;
+    top: 40px;
     right: -10px;
     z-index: 2;
     background-color: var(--light-coming-soon-colour);
