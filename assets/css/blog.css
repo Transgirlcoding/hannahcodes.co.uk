@@ -718,7 +718,12 @@ button:focus { outline: none; }
         display: block;
         width: 50%;
     }
-    
+    .col-12{
+        display: block;
+    }
+    .col-md-6{
+        display: block;
+    }
 }
 
 @media (max-width: 991px) and (min-width: 826px) {
