@@ -258,7 +258,7 @@ p{
     font-weight: bold;
 }
 .post_link:hover{
-    color: var(--light-hover-colour);
+    color: var(--light-hover-active-colour);
 }
 .tm-main {
     padding-top: 6em;
@@ -322,6 +322,12 @@ p{
         padding-right: 15px;
         padding-left: 15px;
         
+}
+a{
+    color: var(--light-a-link-colour);
+}
+a:hover{
+    color: var(--light-hover-active-colour);
 }
 .col-12{-ms-flex:0 0 100%;/* flex:0 0 100%; */max-width:100%;}
 .col-md-6{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}
@@ -649,16 +655,18 @@ figcaption { line-height: 1.4; }
 
 
 @media (max-width: 709px) {
-    
-   /* .tm-mb-40{ width: 100%;
+   .tm-mb-40{ width: 100%;
         height: 18em;
     align-items: center;
-    padding-left:2%;} */
+    padding-left:2%;} 
+    
     .tm-post{
         display: block;
         width:100%;
         
         
+    }.d-flex{
+        display: block!important;
     }
     .tm-row {
         width: 100%;
@@ -685,7 +693,6 @@ figcaption { line-height: 1.4; }
 }
  .tm-main-post { padding: 0px 20px;
     padding-top: 6em; }
-}
 
 .blog_header_img{
     width: 100%;
@@ -693,14 +700,20 @@ figcaption { line-height: 1.4; }
     align-items: center;
 }
 .blog_post_img_placement{
-    display: flex;
+    display: block;
 }
 .blog_post_img{
-    display:flex;
-    width: 50%;
+    display: block;
+    width: 100%;
     margin: auto;
     align-items: center;
     padding-right: 1em;
+}
+}
+.blog_header_img{
+    width: 50%;
+    margin: auto;
+    align-items: center;
 }
 @media (max-width: 480px) {
     
@@ -826,6 +839,9 @@ Body{
 a{
     color: var(--nav-text-colour);
   }
+  a:hover{
+    color: var(--hover-active-colour);
+  }
   nav{
     background-color: var(--nav-bg-colour);
     color: var(--nav-text-colour);
@@ -863,7 +879,7 @@ p{
     font-weight: bold;
 }
 .post_link:hover{
-    color: var(--hover-colour);
+    color: var(--hover-active-colour);
 }
 .tm-main, .tm-main-post {
     background-color: var(--body-bg-colour);
@@ -872,14 +888,9 @@ p{
     fill: var(--svg-colour);
 }
 .blog_svg:hover{
-    fill: var(--hover-colour);
+    fill: var(--hover-active-colour);
 }
-.blog_a{
-    color: var(--a-link-colour);
-}
-.blog_a:hover{
-    color: var(--hover-colour);
-}
+
 .tm-post-link-inner{
     color: var(--hover-colour);
 }
