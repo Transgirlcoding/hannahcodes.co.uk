@@ -680,16 +680,17 @@ figcaption { line-height: 1.4; }
         margin-left: -15px;
     }
     .col-12{
-        width:100%;
+        width:fit-content;
     }
     .col-md-6{
-        width:100%;
+        width:max-content;
     }
 .tm-main {
     display: block;
     padding-top: 6em;
-    padding-left: 0;
-    width: 100%;
+    padding-left: 2em;
+    padding-right: 4em;
+    width: 200%;
 }
  .tm-main-post { padding: 0px 20px;
     padding-top: 6em; }
