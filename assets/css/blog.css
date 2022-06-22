@@ -688,8 +688,8 @@ figcaption { line-height: 1.4; }
 .tm-main {
     display: block;
     padding-top: 6em;
-    padding-left: 2em;
-    padding-right: 4em;
+    padding-left: 1em;
+    padding-right: 3em;
     width: 200%;
 }
  .tm-main-post { padding: 0px 20px;
