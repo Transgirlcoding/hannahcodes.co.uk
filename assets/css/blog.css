@@ -347,6 +347,15 @@ a:hover{
 .blog_img{
     max-width: fit-content;
     max-height: fit-content;
+
+}
+.blog_post_img_placement{
+    display: flex;
+}
+.blog_post_img{
+    width: 50%;
+    padding-right: 1em;
+    display: flex;
 }
 .postion-absolute{
 position:absolute!important;
@@ -705,7 +714,7 @@ figcaption { line-height: 1.4; }
 }
 .blog_post_img{
     display: block;
-    width: 100%;
+    width: 25%;
     margin: auto;
     align-items: center;
     padding-right: 1em;
