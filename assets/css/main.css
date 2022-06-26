@@ -298,6 +298,11 @@ nav{
     padding-right: 1em;
     color: var(--light-nav-text-colour);
   }
+  .index_blog_section h1{
+    padding-left: 1em;
+    padding-right: 1em;
+    color: var(--light-nav-text-colour);
+  }
   .h2_about_text{
     padding-top: .3em;
     font-size: 1em;
@@ -312,6 +317,54 @@ nav{
     
   }
 }
+.index_blog_section{
+  background-color: var(--light-section-3-bg-colour);
+  padding-top: .7em;
+  padding-bottom: .7em;
+}
+.index_blog_section h1{
+  margin: auto;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  text-align: center;
+  color: var(--light-nav-text-colour);
+}
+
+
+.blog_preview_p{
+  color: var(--light-nav-text-colour);
+  font-size: .5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 1em;
+  
+}
+.blog_img{
+  width: 100%;
+  height: 55%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1em;
+}
+.blog_card {
+  margin: 1em;
+  padding-bottom: 0;
+  background-color: var(--light-card-bg-colour);
+  width: 199em;
+ 
+  font-size: 0.6em;
+  box-shadow: 0px 2px 10px 0 rgba(0, 0, 0, .2);
+}
+@media only screen and (max-width: 700px) {
+  .blog_card {
+    margin: .7em;
+    margin-bottom: 2.25em;
+    background-color: var(--light-card-bg-colour);
+    width: auto;
+    font-size: 0.6em;
+    text-align: center;
+  }
+  }
 .index_friends_section{
   background-color: var(--light-section-3-bg-colour);
   padding-top: .7em;
@@ -812,18 +865,6 @@ margin: auto;
       width: 140px;
       height: 140px;
     }
-  }
-
-
-
-
-
-
-
-
-
-
-
 
                         /*----------footer----------*/
  footer {
@@ -1024,9 +1065,32 @@ margin-left: -512px; /* 50% */
 .index_card_section h1{
   color: var(--nav-text-colour);
 }
+.index_blog_section h1{
+  color: var(--nav-text-colour);
+}
 .h2_about_text{
   color: var(--nav-text-colour);
 }
+}
+.index_blog_section{
+  background-color: var(--section-3-bg-colour);
+}
+.index_blog_section h1{
+  color: var(--nav-text-colour);
+}
+.blog_preview_p{
+  color: var(--nav-text-colour);
+  font-size: 1.5em;
+  padding: 1em;
+}
+.blog_card {
+  background-color: var(--card-bg-colour);
+  box-shadow: 0px 5px 15px 0 rgb(27, 27, 27);
+}
+@media only screen and (max-width: 700px) {
+  .blog_card {
+    background-color: var(--card-bg-colour);
+  }
 }
 .index_friends_section{
   background-color: var(--section-3-bg-colour);
@@ -1259,3 +1323,4 @@ fill: var(--svg-fill-colour);
           color: var(--nav-text-colour);
         }
     }
+  }

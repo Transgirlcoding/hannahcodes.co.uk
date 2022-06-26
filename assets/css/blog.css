@@ -348,7 +348,8 @@ a:hover{
     max-width: fit-content;
     max-height: fit-content;
 
-}
+} 
+
 .blog_post_img_placement{
     display: flex;
 }
@@ -724,7 +725,7 @@ color: var(--nav-text-colour);
 }
  .tm-main-post { padding: 0px 20px;
     padding-top: 6em; }
-
+   
 .blog_header_img{
     width: 100%;
     margin: auto;
