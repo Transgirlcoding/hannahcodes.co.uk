@@ -724,7 +724,7 @@ padding-right: 1em;
 
 
 /*----------footer----------*/
-.blog_footer {
+footer {
     background-color: var(--light-nav-bg-colour);
     padding-left: auto;
     padding-right: auto;
@@ -738,18 +738,19 @@ padding-right: 1em;
     z-index: 100;
    
    }
-   .blog_footer h1{
+   footer h1{
      font-weight: 700;
      text-align: center;
    }
-   .blog_footer .blog_footer_p{
+   footer p{
    font-weight: 700;
    text-align: center;
    display: block;
    padding-top: .7em;
+   color: dimgrey;
    }            
    
-  .blog_footer a{
+  footer a{
     margin-left: 2em;
     float: right;
     padding-left: .2em;
@@ -781,7 +782,7 @@ padding-right: 1em;
     display: grid;
     background-color: var(--light-nav-bg-colour);
     }
-    .blog_footer {
+    footer {
       background-color: var(--light-nav-bg-colour);
       display: grid;
       padding-left: auto;
@@ -796,7 +797,7 @@ padding-right: 1em;
       color: dimgrey;
      
      }
-     .blog_footer a{
+     footer a{
        opacity: 0;
      }
     }
