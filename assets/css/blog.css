@@ -916,14 +916,14 @@ hr.tm-hr-primary {
  .tm-color-primary, span.tm-color-primary { 
      color: var(--span-btn-colour); 
     }
-    .blog_footer {
+    footer {
         background-color: var(--nav-bg-colour);
     }
     @media screen and (max-width: 800px){
         .footer_display{
             background-color: var(--nav-bg-colour);
         }
-        .blog_footer{
+        footer{
             background-color: var(--nav-bg-colour);
         }
     }
