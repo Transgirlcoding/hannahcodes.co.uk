@@ -455,15 +455,13 @@ img {
     margin-left: 3em;
     padding-bottom: 1em;
   }
+  .about_image_hobbies {
+    padding-top: 1.5em;
+    width: 50%;
+    padding-bottom: 1em;
+  }
   
   .about_about_text {
-    font-size: 1.25em;
-    padding-left: 20px;
-    padding-right: 3em;
-    padding-top: .8em;
-    color: var(--light-nav-text-colour);
-  }
-  .about_about_text_new {
     font-size: 1.20em;
     padding-left: 40px;
     padding-right: 15em;
@@ -481,22 +479,29 @@ img {
   display: block;
   align-items: center;
 }
-  .about_hobbies_section{
-    padding-top: .7em;
-    background-color: var(--light-section-2-bg-colour);
-  }
+  
   .about_hobbies_h1{
+    color: var(--light-nav-text-colour);
     margin: auto;
     text-align: center;
+    margin-top: -20%;
+  }
+  .about_hobbies_h1_intrest{
     color: var(--light-nav-text-colour);
+    margin: auto;
+    text-align: center;
+    margin-top: 0%;
   }
   .about_hobbies_p{
-    padding-bottom: 1em;
+    padding-bottom: 5em;
+    padding-left: 1em;
     margin: auto;
     text-align: center;
     color: var(--light-nav-text-colour);
   }
-
+.image_flex{
+  display: flex;
+}
   .about_edu_work_section{
     padding-top: .7em;
     background-color: var(--light-section-3-bg-colour);
@@ -1190,10 +1195,7 @@ img.about_bg {
 .about_about_text_new{
   color: var(--nav-text-colour);
 }
-.about_hobbies_section{
-  background-color: var(--section-2-bg-colour);
-}
-.about_hobbies_h1{
+.about_hobbies_h1, .about_hobbies_h1_intrest{
   color: var(--nav-text-colour);
 }
 .about_hobbies_p{
