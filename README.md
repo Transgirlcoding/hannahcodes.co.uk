@@ -4,7 +4,7 @@ hannahcodes.co.uk
 
  this Repositories is the source code for my persional website which i plan to update regually. 
 
-
+check out the changelog here (https://github.com/Transgirlcoding/hannahcodes.co.uk/blob/Dev/changelog.md)
 
 ## Features
 
