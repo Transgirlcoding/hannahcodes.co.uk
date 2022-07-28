@@ -1,11 +1,6 @@
 hannahcodes.co.uk changelog- updated 28/07/2022
 
 
-
-
-
-
-
 -------------------------------------------
 v11-rc2 (released: 28/07/2022) https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/50:
 this update include:
