@@ -10,13 +10,13 @@ hannahcodes.co.uk
 
 - clean layout
 - improved responsiveness 
-- see almost everything i am or have been working on in one place (https://dev.hannahcodes.co.uk/projects.html) (https://github.com/iHannah-01/hannahcodes.co.uk/blob/Dev/projects.html)
+- see almost everything i am or have been working on in one place (https://dev.hannahcodes.co.uk/projects.html) (https://github.com/Transgirlcoding/hannahcodes.co.uk/blob/Dev/projects.html)
 - blog page
 
   
 ## Authors
 
-- [@iHannah-01](https://www.github.com/iHannah-01)
+- [@Transgirlcoding](https://www.github.com/Transgirlcoding)
 
   
 ## Feedback
