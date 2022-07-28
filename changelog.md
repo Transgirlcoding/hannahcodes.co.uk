@@ -139,7 +139,7 @@ v9-rc1 (released: 20/03/2022) https://github.com/Transgirlcoding/hannahcodes.co.
 this update includes: 
 - a brand new redesign and improvements
 ---------------------------------------------
-v8.1 (released: 09/01/2022-27/12/2022) https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/15 https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/14 https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/13 https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/12
+v8.1 (released: 09/01/2022-27/12/2021) https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/15 https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/14 https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/13 https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/12
 https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/11:
 these updates include:
 - #15 fixed project links
@@ -148,3 +148,18 @@ these updates include:
 - #12 fixed v7 code
 - #11 added and uploaded v7 code to /old directory and updated links 
 ---------------------------------------------
+v8 full release (released 07/12/2021) https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/9:
+this update includes:
+- brand new about section/about page and bug fixes
+---------------------------------------------
+v7 (released: 04/10/2021- 13/09/2021) https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/7 https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/6 https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/4 https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/3 https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/2 https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/1:
+these updates include
+- updated nav links 
+- updated favicon
+- updated folder names 
+- aligment fixes 
+- removed some files that were no longer needed
+- updated some text
+--------------------------------------------
+
+--------end of changelog----------
