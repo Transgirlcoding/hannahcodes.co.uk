@@ -17,10 +17,17 @@ brand new changes and fixes which include:
 -plus many other fixes and changes
 
 ----------------------------------
-v11-rc1 (relased: 19/07/2022) https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/49:
+v11-rc1 (released: 19/07/2022) https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/49:
 brand new blog and about page experence
 plus fixed some code issues
-
 please note: new about page is not mobile friendly will be fix in the next rc build
 -------------------------------------
-
+v10.2 (released: 30/06/2022)https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/48:
+this small update includes some blog fixes/ changes and new blog post released
+---------------------------------------
+v10.2-rc2 (released: 30/06/2022)https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/47:
+updated index blog section on index.html
+-------------------------------------------
+v10.2-rc1 (released: 29/06/2022)https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/46:
+blog fixes amd changes and band new blog
+--------------------------------------------
