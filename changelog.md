@@ -1,5 +1,10 @@
 hannahcodes.co.uk changelog- updated 28/07/2022
 
+v11-rc3 (released 28/07/2022) https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/51:
+this update includes:
+- new changelog file 
+- new link on footer to changelog file
+- improved mobile experience on about.html and index.html
 
 -------------------------------------------
 v11-rc2 (released: 28/07/2022) https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/50:
