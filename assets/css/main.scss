@@ -697,6 +697,7 @@ nav{
         text-align: center;
         padding-bottom: .5em;
         color: var(--light-nav-text-colour);
+        
       @media (prefers-color-scheme: dark) {
         color: var(--nav-text-colour);
       }
@@ -742,14 +743,15 @@ nav{
     margin-bottom: 4em;
     padding-bottom: 5em;
     color: var(--light-nav-text-colour);
-    @media screen and (max-width: 800px){
-            font-size: 1.25em;
-            padding-left: 1.5em;
-            padding-right: 1.5em;
-            padding-top: .8em;
-            padding-bottom: 1em;
-            color: var(--light-nav-text-colour);
-          }
+      @media screen and (max-width: 800px){
+        font-size: .95em;
+        padding-top: .8em;
+        margin: auto;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+        color: var(--light-nav-text-colour);
+      }
+          
     @media (prefers-color-scheme: dark) {
         color: var(--nav-text-colour);
   }
@@ -1719,10 +1721,26 @@ footer {
         font-weight: 700;
         text-align: center;
       }
-      p{
+      p.desktop{
         font-weight: 700;
         text-align: center;
-        }     
+        @media screen and (max-width: 800px){
+          display: none;
+          opacity: 0;
+     }
+        }  
+        p.mobile{
+          font-weight: 700;
+        text-align: center;
+        opacity: 0;
+        @media screen and (max-width: 800px){
+          opacity: 1;
+          margin: auto;
+          padding: 1em;
+          margin-top: 1em;
+          margin-bottom: 1em;
+     }
+        }
         a{
             margin-left: 2em;
             float: right;
@@ -1732,7 +1750,9 @@ footer {
             text-align: center;
             color: dimgrey;
             @media screen and (max-width: 800px){
-                  opacity: 0;
+                  padding: 1em;
+                  margin-top: -2em;
+                  margin: auto;
              }
           }       
           .footer_display{
@@ -1765,6 +1785,7 @@ footer {
       @media screen and (max-width: 800px){
         margin: auto;
         align-items: center;
+        padding: 0%;
       }
   }
 }

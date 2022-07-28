@@ -798,11 +798,11 @@ nav .hamburger div {
 }
 @media screen and (max-width: 800px) {
   .about_about_section .about_about_text {
-    font-size: 1.25em;
+    font-size: 0.95em;
+    padding-top: 0.8em;
+    margin: auto;
     padding-left: 1.5em;
     padding-right: 1.5em;
-    padding-top: 0.8em;
-    padding-bottom: 1em;
     color: var(--light-nav-text-colour);
   }
 }
@@ -1870,9 +1870,29 @@ footer h1 {
   font-weight: 700;
   text-align: center;
 }
-footer p {
+footer p.desktop {
   font-weight: 700;
   text-align: center;
+}
+@media screen and (max-width: 800px) {
+  footer p.desktop {
+    display: none;
+    opacity: 0;
+  }
+}
+footer p.mobile {
+  font-weight: 700;
+  text-align: center;
+  opacity: 0;
+}
+@media screen and (max-width: 800px) {
+  footer p.mobile {
+    opacity: 1;
+    margin: auto;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
 }
 footer a {
   margin-left: 2em;
@@ -1885,7 +1905,9 @@ footer a {
 }
 @media screen and (max-width: 800px) {
   footer a {
-    opacity: 0;
+    padding: 1em;
+    margin-top: -2em;
+    margin: auto;
   }
 }
 footer .footer_display {
@@ -1925,6 +1947,7 @@ footer .footer_logo img {
   footer .footer_logo {
     margin: auto;
     align-items: center;
+    padding: 0%;
   }
 }
 
