@@ -1,26 +1,50 @@
 hannahcodes.co.uk changelog- updated 28/07/2022
 
-v11-rc3 (released 28/07/2022) https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/51:
+v11 full release (released: 29/07/2022) https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/53:
+this update includes: 
+- brand new project and blog page/ card design
+- new about me page design 
+- main.css and blog. css combined into one file 
+- website now uses scss with a compiled css file
+- fixes to images white space on small screens
+- added v10 to old foler/ directory 
+- brand new chnagelog.md file and links to view it on footer and a card on projects.html
+- project card thumbnails have been updated 
+- removed some about me text
+- improved mobile experience on about.html and index.html 
+- updated github links as i have changed my github username 
+- plus many other code fixes and changes
+
+--------------------------------------------
+v11-rc4 (released: 29/07/2022) https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/52:
+this update includes:
+- fixes to image white space on blog page while viewing  on a mobile/ small screen device. 
+- adds v10 code to old folder/ dirctory
+- adds a changelog card and link on project.html for hannahcodes.co.uk
+- plus some other little fixes and changes 
+--------------------------------------------
+v11-rc3 (released: 28/07/2022) https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/51:
 this update includes:
 - new changelog file 
 - new link on footer to changelog file
 - improved mobile experience on about.html and index.html
+- updated <a> tag link text on blog posts from
 
 -------------------------------------------
 v11-rc2 (released: 28/07/2022) https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/50:
 this update include:
 - new project card img thumb preview
-- fixes to about.html page (still not fully - mobile friendly yet)
+- fixes to about.html page (still not fully mobile friendly yet)
 - website now uses scss with a compiled css - file.
 - blog css and main css have been compined into one file
 - updated links to github page as updated my username across all pages of this website and updated social links on old versions of hannah codes
--plus many other fixes and changes
+- plus many other fixes and changes
 
 ----------------------------------
 v11-rc1 (released: 19/07/2022) https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/49:
 this update includes: 
 - brand new blog and about page experence
--plus some more code fixes 
+- plus some more code fixes 
 please note: new about page experence is not mobile friendly will be fix in the next rc build
 -------------------------------------
 v10.2 full release (released: 30/06/2022)https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/48:

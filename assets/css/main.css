@@ -1347,6 +1347,11 @@ svg {
   grid-template-rows: auto;
   grid-gap: 20px;
 }
+@media screen and (max-width: 800px) {
+  .band {
+    margin-bottom: 1.5em;
+  }
+}
 @media (min-width: 30em) {
   .band {
     grid-template-columns: 1fr 1fr;
@@ -1576,6 +1581,12 @@ hr.tm-hr-secondary {
 
 .blog_post_img_placement {
   display: flex;
+}
+@media screen and (max-width: 800px) {
+  .blog_post_img_placement {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+  }
 }
 
 .row {
