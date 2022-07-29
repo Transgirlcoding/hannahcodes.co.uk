@@ -1233,7 +1233,9 @@ color: var(--light-nav-text-colour);
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   grid-gap: 20px;
-  
+  @media screen and (max-width: 800px){
+    margin-bottom: 1.5em;
+  }
   @media (min-width: 30em) {
     grid-template-columns: 1fr 1fr;
   }
@@ -1251,6 +1253,7 @@ color: var(--light-nav-text-colour);
   display: flex;
   flex-direction: column;
   min-height: 100%;
+
   @media (prefers-color-scheme: dark) {
     background: var(--card-bg-colour);
   text-decoration: none;
@@ -1444,6 +1447,10 @@ p a{
 
       .blog_post_img_placement{
         display: flex;
+        @media screen and (max-width: 800px){
+          margin-left: 1.5em;
+          margin-right: 1.5em;
+        }
     }
 
 .row{
