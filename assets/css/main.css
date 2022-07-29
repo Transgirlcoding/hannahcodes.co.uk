@@ -1835,9 +1835,10 @@ hr.tm-hr-secondary {
   hr.tm-hr-secondary {
     border-top: 5px solid var(--top-border-colour);
   }
+
 }
 /*--------7:footer styling------------*/
-footer {
+footer}
   background-color: var(--light-nav-footer-bg-colour);
   padding-left: auto;
   padding-top: 1px;
@@ -2088,3 +2089,4 @@ img.about_bg {
     color: var(--nav-text-colour);
   }
 }/*# sourceMappingURL=main.css.map */
+
