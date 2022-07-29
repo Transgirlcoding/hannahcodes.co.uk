@@ -316,7 +316,8 @@ a {
 .home_img_display {
 	display: flex;
 	background-color: rgb(240, 201, 225);
-	padding-left: 0.7%;
+	padding-left: auto;
+	
 	
 	
 }
@@ -330,23 +331,59 @@ a {
 .h1_home_text_display {
 	background-color: rgb(240, 201, 225);
 	padding-bottom: 0.1%;
-	
+	padding-top: 0;
+	margin-top: 0;
 }
 .h1_home_text {
 	padding-top: 2%;
-	margin-left: 5%;
+	margin-left: 15%;
 	
 	
 	
 	
 }
-.home_text {
-	padding-left: 0.7%;
-	float: left;
-	margin-left: -97%;
+/* code taken from v10/11 of site just so the image looks nice when i take the screenshot for project page */
+.container {
+	display: flex;
+	justify-content: left;
+	padding-bottom: 30em;
+  }
+  img {
+	max-width: 100%;
+	display: flex;
+  }
+  .image {
+	flex-basis: 20%;
+	margin-top: -28em;
+	padding-left: 1.5em;
+	margin-left: 60em;
+	display: flex;
+	margin-bottom: -20em;
+  }
+  .text_placement{
+	display: flex;
+	padding: 0%;
+	margin: 0%;
+	padding-bottom: 1em;
 	
+  }
+
+.index_about_text {
+	font-size: 1.25em;
+	margin-left: 4em;
+	margin-right: 0;
+	padding-top: .8em;
+	color: black;
 	
-}
+  }
+  @media (prefers-color-scheme: dark) {
+	.index_about_text {
+		color: white;
+		
+	  }
+  }
+/* end of v10/11 code on v4 main.css page */
+
 .home_text_2 {
 	padding-left: 0.5%;
 	float: right;
@@ -477,7 +514,7 @@ padding-bottom: 2%;
 	.h1_home_text_display {
 		background-color: rgb(72, 40, 99);
 		padding-bottom: 0.5%;
-		padding-top: 0.7%;
+		padding-top: 0;
 	}
 	.home_img_display {
 		/* display: flex; */
