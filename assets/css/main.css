@@ -1475,6 +1475,17 @@ p a:hover {
   }
 }
 
+.blog_card_bg {
+  background-color: var(--light-body-bg-colour);
+  padding-top: 0;
+  margin-top: -1em;
+}
+@media (prefers-color-scheme: dark) {
+  .blog_card_bg {
+    background-color: var(--body-bg-colour);
+  }
+}
+
 .tm-post-full {
   max-width: 700px;
 }
@@ -1524,7 +1535,10 @@ hr.tm-hr-secondary {
   background-color: var(--light-body-bg-colour);
   width: 100%;
   padding-left: 10em;
-  width: calc(100% - 500px);
+  margin-bottom: 0;
+  padding-bottom: 2em;
+  width: 100%;
+  /*width: calc(100% - 500px);*/
 }
 
 .blog_svg {
@@ -1974,11 +1988,34 @@ img.bg {
   height: auto;
   /* Set up positioning */
   position: fixed;
-  top: 0;
+  background-position: center center;
+  top: -10;
   left: 0;
 }
 @media screen and (max-width: 1024px) {
   img.bg {
+    /* Specific to this particular image */
+    left: 50%;
+    margin-left: -512px; /* 50% */
+  }
+}
+
+img.blog_bg {
+  /* Set rules to fill background */
+  min-height: 20%;
+  min-width: 1920px;
+  opacity: 70%;
+  z-index: -10;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+@media screen and (max-width: 1024px) {
+  img.blog_bg {
     /* Specific to this particular image */
     left: 50%;
     margin-left: -512px; /* 50% */
