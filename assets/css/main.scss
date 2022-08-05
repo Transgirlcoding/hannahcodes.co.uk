@@ -487,6 +487,10 @@ nav{
   .index_friends_section{
     background-color: var(--light-section-4-bg-colour);
     padding-top: .7em;
+    @media screen and (max-width: 700px){
+      margin-bottom: 1em;
+      padding-bottom: 1em;
+     }
     @media (prefers-color-scheme: dark) {
         background-color: var(--section-4-bg-colour);
     }
@@ -798,6 +802,10 @@ nav{
   .about_edu_work_section{
     padding-top: .7em;
     background-color: var(--light-section-3-bg-colour);
+    @media screen and (max-width: 700px){
+      margin-bottom: 1em;
+      padding-bottom: 1em;
+     }
     @media (prefers-color-scheme: dark) {
         background-color: var(--section-3-bg-colour);
       }
@@ -992,6 +1000,10 @@ nav{
 .projects_other_section{
  background-color: var(--light-section-3-bg-colour);
  padding-bottom: .7em;
+ @media screen and (max-width: 700px){
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+ }
  @media (prefers-color-scheme: dark) {
   background-color: var(--section-3-bg-colour);
 }
@@ -1212,6 +1224,10 @@ color: var(--light-nav-text-colour);
 /*---------6:blog.html styling----------*/
 
 /*blog homepage*/
+.blog_page_main{
+  padding-bottom: .7em;
+  margin-bottom: .7em;
+}
 .h1{
   margin: auto;
   text-align: center;
@@ -1356,18 +1372,19 @@ color: var(--light-nav-text-colour);
           width: calc(100% - 320px);
       }
     @media (max-width: 991px) {
-        padding-top: 6em;
+        padding-top: 1.5em;
         margin-left: 0;
         padding: 20px 10px;
         width: 100%;
   }
   @media (max-width: 767px) {
    padding: 60px 10px;
-    padding-top: 6em;
+    padding-top: 1.5em;
   }
   @media (max-width: 709px) {
   padding: 0px 20px;
-    padding-top: 6em;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
   }
   @media (prefers-color-scheme: dark) {
     background-color: var(--body-bg-colour);
@@ -1382,6 +1399,7 @@ color: var(--light-nav-text-colour);
     color: var(--light-nav-text-colour);
     @media (max-width: 991px) {
       margin-top:0;
+      padding-top: 0;
       margin-left: 1em;
       max-width: 100%;
   margin-bottom:1rem;
@@ -1408,6 +1426,10 @@ p a{
   background-color: var(--light-body-bg-colour);
   padding-top: 0;
   margin-top: -1em;
+  @media screen and (max-width: 700px) {
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+  }
   @media (prefers-color-scheme: dark) {
     background-color: var(--body-bg-colour);
   }
@@ -1459,6 +1481,9 @@ border-top: 5px solid var(--top-border-colour);
 }
 .blog_color_primary, span.blog_color_primary { 
   color: var(--light-nav-text-colour); 
+  @media screen and (max-width: 700px) {
+    margin-left: 1em;
+  }
   @media (prefers-color-scheme: dark) {
   color: var(--nav-text-colour);
   }
@@ -1554,6 +1579,7 @@ footer {
         width: 100%;
         margin-left: 0;
         bottom: 60px;
+        margin-top: -1em;
         color: dimgrey;
        
        }
