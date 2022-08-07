@@ -291,6 +291,12 @@ nav .hamburger div {
 .dropdown-links {
   margin-bottom: 1em;
 }
+@media screen and (max-width: 800px) {
+  .dropdown-links {
+    display: none;
+    opacity: 0;
+  }
+}
 
 .desktop_display_only {
   display: inline-block;
@@ -298,7 +304,18 @@ nav .hamburger div {
 @media screen and (max-width: 800px) {
   .desktop_display_only {
     display: none;
-    opacity: 0;
+    opacity: 0%;
+  }
+}
+
+.mobile_only {
+  display: none;
+  opacity: 0;
+}
+@media screen and (max-width: 800px) {
+  .mobile_only {
+    display: block;
+    opacity: 1;
   }
 }
 
@@ -306,10 +323,35 @@ nav .hamburger div {
   position: relative;
   display: inline-block;
 }
+@media screen and (max-width: 800px) {
+  .dropdown {
+    display: none;
+    opacity: 0;
+  }
+}
 
 .dropdown_text {
   font-weight: bold;
   padding-bottom: 0.5em;
+}
+@media screen and (max-width: 800px) {
+  .dropdown_text {
+    display: none;
+    opacity: 0;
+  }
+}
+
+.dropdown_mobile_text {
+  opacity: 0;
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  .dropdown_mobile_text {
+    font-weight: bold;
+    padding-bottom: 0.5em;
+    opacity: 1;
+    display: block;
+  }
 }
 
 .dropdown-content {
@@ -322,12 +364,25 @@ nav .hamburger div {
   left: -3.5em;
   z-index: 1;
 }
+@media screen and (max-width: 800px) {
+  .dropdown-content {
+    display: none;
+    opacity: 0;
+    z-index: -9;
+  }
+}
 
 .dropdown:hover .dropdown-content {
   display: block;
   margin: auto;
   text-align: center;
   padding-bottom: 1em;
+}
+@media screen and (max-width: 800px) {
+  .dropdown:hover .dropdown-content {
+    display: none;
+    opacity: 0;
+  }
 }
 
 /*-----------3:index.html styling---------*/
