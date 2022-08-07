@@ -26,12 +26,37 @@ rel="stylesheet">
         </div>
         <ul class="nav-links">
             <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="about/about.html">about</a></li>
+            <li><a href="/about/about.html">about</a></li>
             <li><a href="projects.html">my projects</a></li>
             <li><a href="index.html#friends">friends</a></li>
-            <li><a href="https://twitter.com/hannah_codes">twitter (Dev)</a></li>
-            <li><a href="https://twitter.com/Transgirlcoding">twitter (main)</a></li>
-            <li><a href="/blogs/index.html">blogs</a></li>
+            <div class="dropdown desktop_display_only">
+              <span>twitter</span>
+              <div class="dropdown-content">
+                  <li class="dropdown-links"><a href="https://twitter.com/Transgirlcoding">main</a></li>
+                  <li><a href="https://twitter.com/hannah_codes">Dev</a></li>
+              </div>
+            </div>
+            <div class="dropdown desktop_display_only">
+              <span>content</span>
+              <div class="dropdown-content">
+                <li class="dropdown-links"><a href="/blogs/index.html">blog</a></li>
+                <p class="dropdown_text"> hannahplays </p>
+                <li class="dropdown-links"><a href="https://www.youtube.com/channel/UC0lM-FUwXehOHF5DmfxZYOQ">channel</a></li>
+                <li class="dropdown-links"><a href="https://hanahplays.hannahcodes.co.uk">website</a></li>
+                <p class="dropdown_text"> hannahvlogs </p>
+                <li class="dropdown-links"><a href="https://www.youtube.com/channel/UCdp0eKE2Up_TOsPcfiukASw">channel</a></li>
+                <li><a href="/vlogs/index.html">website</a></li>
+              </div>
+            </div>
+            <li class="mobile_only"><a href="/blogs/index.html">blog</a></li>
+            <p class="dropdown_mobile_text"> twitter </p>
+            <li class="mobile_only"><a href="https://twitter.com/Transgirlcoding">main</a></li>
+            <li class="mobile_only"><a href="https://twitter.com/hannah_codes">Dev</a></li>
+            
+                <p class="dropdown_mobile_text"> hannahplays </p>
+                <li class="mobile_only"><a href="https://hanahplays.hannahcodes.co.uk">website</a></li>
+                <p class="dropdown_mobile_text"> hannahvlogs </p>
+                <li class="mobile_only"><a href="/vlogs/index.html">website</a></li>
         </ul>
     </nav>
     <img
@@ -63,7 +88,7 @@ class="bg"
         <div class="about_links_placement">
          <div class="about_link_placement">
              <svg class="about_svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M224 256c70.7 0 128-57.31 128-128s-57.3-128-128-128C153.3 0 96 57.31 96 128S153.3 256 224 256zM274.7 304H173.3C77.61 304 0 381.6 0 477.3c0 19.14 15.52 34.67 34.66 34.67h378.7C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304z"/></svg>
-          <a href="about/about.html" class="projects_links">here</a></div>
+          <a href="/about/about.html" class="projects_links">here</a></div>
   
       </div>
     </div>
@@ -120,7 +145,7 @@ class="bg"
                 <div class="project_links_placement"><div class="link_placement"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z" clip-rule="evenodd" />
                 </svg>
-                    <a href="projects.html" class="projects_links">view more</a></div>
+                    <a href="/projects/projects.html" class="projects_links">view more</a></div>
             
                 </div>
                     </article>
@@ -132,7 +157,7 @@ class="bg"
       <h1> My latest blogs</h1>
       <div class="band">
         <div class="item-5">
-          <a href="/blogs/post/22/06/29_06_22_my_trip_to_see__Everybody_s_talking_about_jamie.html" class="blog_card blog_card_a">
+          <a href="/content/blog/post/22/06/29_06_22_my_trip_to_see__Everybody_s_talking_about_jamie.html" class="blog_card blog_card_a">
             <div class="thumb" style="background-image: url(/assets/images/blogs/IMG_5014.JPG);"></div>
             <article>
                 <h1>blog 4- my trip to see Everybody's talking about jamie.</h1>
@@ -145,7 +170,7 @@ class="bg"
           </a>
         </div>
         <div class="item-6">
-          <a href="/blogs/post/22/05/10_05_22_my_first_experience_at_southampton_pride.html" class="blog_card blog_card_a">
+          <a href="/content/blog/post/22/05/10_05_22_my_first_experience_at_southampton_pride.html" class="blog_card blog_card_a">
             <div class="thumb" style="background-image: url(/assets/images/blogs/IMG_4338.jpeg);"></div>
             <article>
               <h1>blog 3- My First experience at southampton pride</h1>
@@ -158,7 +183,7 @@ class="bg"
           </a>
         </div>
         <div class="item-7">
-          <a href="/blogs/post/22/04/05_04_22_my_trip_to_legoland_post_covid_june_2021.html" class="blog_card blog_card_a">
+          <a href="/content/blog/post/22/04/05_04_22_my_trip_to_legoland_post_covid_june_2021.html" class="blog_card blog_card_a">
             <div class="thumb" style="background-image: url(/assets/images/blogs/legoland_img.jpg);"></div>
             <article>
               <h1>blog 2- My Trip to LegoLand (post covid june 2021)</h1>
@@ -171,7 +196,7 @@ class="bg"
           </a>
         </div>
         <div class="item-7">
-            <a href="/blogs/post/21/06/09_06_21_pride.html" class="blog_card blog_card_a">
+            <a href="/content/blog/post/21/06/09_06_21_pride.html" class="blog_card blog_card_a">
               <div class="thumb" style="background-image: url(/assets/images/blogs/pride.png);"></div>
               <article>
                 <h1>blog 1- Pride month 2021</h1>
@@ -373,9 +398,9 @@ class="bg"
       </picture>
       </div>
       <p class="desktop">copyright hannah 2022</p>
-    <a href="/terms/terms.html">view terms</a>
+    <a href="/docs/terms/terms.html">view terms</a>
     <a href="mailto:hannah@hannahcodes.co.uk">send me an email</a>
-    <a href="https://github.com/Transgirlcoding/hannahcodes.co.uk/blob/Dev/changelog.md">view changelog</a>
+    <a href="https://github.com/Transgirlcoding/hannahcodes.co.uk/blob/Dev/docs/changelog/changelog.md">view changelog</a>
     <p class="mobile">copyright hannah 2022</p>
 </div>
   </footer>

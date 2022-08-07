@@ -1,8 +1,16 @@
-hannahcodes.co.uk changelog- updated 29/07/2022
-
+hannahcodes.co.uk changelog- updated 06/08/2022
+v11.1-rc 1 (releases: soon)https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/54:
+this update includes:
+- new blog post design
+- removed some html and css that was from the old blog post deisgn that was no longer used/ needed
+- removed some js files that arent being used anymore
+- fixed nav bar not displaying on blog post page when viewinmg from a mobile/ small screen device
+- renamed some blog home/post page code to make my css/ html code easier to understand. 
+-  new blog post #5(https://dev.hannahcodes.co.uk/blog/post/22/08/05_08_22_my_trip_to_london.html)
+------------------------------------------------
 v11 full release (released: 29/07/2022) https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/53:
 this update includes: 
-- brand new project and blog page/ card design
+- brand new project and blog home page/ card design
 - new about me page design 
 - main.css and blog. css combined into one file 
 - website now uses scss with a compiled css file
