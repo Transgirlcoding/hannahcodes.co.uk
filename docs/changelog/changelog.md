@@ -1,4 +1,10 @@
 hannahcodes.co.uk changelog- updated 10/08/2022
+v11.2-rc 2 (released 10/08/2022) https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/55:
+this update includes:
+- new thumbnail for blog post 3 now on index.html blog section
+- fixed some comments in .scss/ .css file
+- more changes to vlogs index.html page (still not finished yet) 
+------------------------------------------------
 v11.1-rc 1 (released: 10/08/2022) https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/54:
 this update includes:
 - new blog post design,
@@ -9,7 +15,7 @@ this update includes:
 - new links added to nav bar and new dropdown menu added
 - fixed nav bar not displaying on blog post page when viewing from a mobile/ small screen device
 - renamed some blog home/post page code to make my css/ html code easier to understand. 
--  new blog post #5(https://dev.hannahcodes.co.uk/blogs/post/22/08/10_08_22_my_trip_to_london.html)
+-  new blog post 5(https://dev.hannahcodes.co.uk/blogs/post/22/08/10_08_22_my_trip_to_london.html)
 - updated blog post 3's thumbnail image preview. 
 ------------------------------------------------
 v11 full release (released: 29/07/2022) https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/53:
