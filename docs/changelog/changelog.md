@@ -1,8 +1,8 @@
-hannahcodes.co.uk changelog- updated 29/07/2022
+hannahcodes.co.uk changelog- updated 28/07/2022
 
 v11 full release (released: 29/07/2022) https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/53:
 this update includes: 
-- brand new project and blog page/ card design
+- brand new project and blog home page/ card design
 - new about me page design 
 - main.css and blog. css combined into one file 
 - website now uses scss with a compiled css file
