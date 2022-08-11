@@ -1,7 +1,7 @@
 hannahcodes.co.uk changelog- updated 11/08/2022
 
 --------------------------------------------------
-v11.1-rc 2 (released 11/08/2022) https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/55:
+v11.1-rc 2 (released: 11/08/2022) https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/55:
 this update includes:
 - new thumbnail for blog post 3 now on index.html blog section
 - fixed some comments in .scss/ .css file
