@@ -1,9 +1,10 @@
 hannahcodes.co.uk changelog- updated 11/08/2022
+--------------------------------------------------
 v11.1-rc 2 (released 11/08/2022) https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/55:
 this update includes:
 - new thumbnail for blog post 3 now on index.html blog section
 - fixed some comments in .scss/ .css file
-- removed /vlogs folder as hannah's vlosg will have its own repository 
+- removed /vlogs folder as hannah's vlosg will have its own repository (next rc build will update links to new hannah vlogs page)
 - fixed link to projects page on index.html project section
 - fixes the merge conflict isues that messed up footer on the last rc build of v11.1
 ------------------------------------------------
