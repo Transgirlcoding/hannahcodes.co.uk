@@ -70,6 +70,7 @@
   --card-box-shadow-colour: rgba(139,138,138,0.2);
   --card-box-shadow-hover-colour: #f2c7e2;
   --top-border-colour: #F2C7E2;
+  --footer-link-colour: dimgrey;
 }
 
 body {
@@ -1870,7 +1871,7 @@ footer {
   height: auto;
   margin-left: 0;
   bottom: 60px;
-  color: dimgrey;
+  color: var(--footer-link-colour);
   /*Styling logo*/
 }
 @media screen and (max-width: 800px) {
@@ -1887,17 +1888,19 @@ footer {
     margin-left: 0;
     bottom: 60px;
     margin-top: -1em;
-    color: dimgrey;
+    color: var(--footer-link-colour);
   }
 }
 @media (prefers-color-scheme: dark) {
   footer {
     background-color: var(--nav-footer-bg-colour);
+    color: var(--footer-link-colour);
   }
 }
 @media screen and (prefers-color-scheme: dark) and (max-width: 800px) {
   footer {
     background-color: var(--nav-footer-bg-colour);
+    color: var(--footer-link-colour);
   }
 }
 footer h1 {
@@ -1935,7 +1938,7 @@ footer a {
   padding-right: 0.2em;
   align-items: center;
   text-align: center;
-  color: dimgrey;
+  color: var(--footer-link-colour);
 }
 @media screen and (max-width: 800px) {
   footer a {
