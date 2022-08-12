@@ -71,6 +71,7 @@
   --card-box-shadow-colour: rgba(139,138,138,0.2);
   --card-box-shadow-hover-colour: #f2c7e2;
   --top-border-colour: #F2C7E2;
+  --footer-link-colour: dimgrey;
 }
 body{
     overflow-x: hidden;
@@ -1071,17 +1072,39 @@ nav{
     color: var(--nav-text-colour);
   }
  } 
-}       
+}  
+
+.projects_hv_section{
+  background-color: var(--light-section-3-bg-colour);
+  padding-bottom: 1em;
+  @media (prefers-color-scheme: dark) {
+   background-color: var(--section-3-bg-colour);
+ }
+  .projects_hv_h1{
+   padding: 1.5em;
+   padding-left: 9em;
+   padding-bottom: .7em;
+   color: var(--light-nav-text-colour);
+   @media screen and (max-width: 800px){
+     margin: auto;
+     padding-left: 1.5em;
+     align-items: center;
+   }
+   @media (prefers-color-scheme: dark) {
+     color: var(--nav-text-colour);
+   }
+  } 
+ }       
         
 .projects_other_section{
- background-color: var(--light-section-3-bg-colour);
+ background-color: var(--light-section-4-bg-colour);
  padding-bottom: .7em;
  @media screen and (max-width: 700px){
   margin-bottom: 1em;
   padding-bottom: 1em;
  }
  @media (prefers-color-scheme: dark) {
-  background-color: var(--section-3-bg-colour);
+  background-color: var(--section-4-bg-colour);
 }
  .projects_other_h1{
   padding: 1.5em;
@@ -1642,7 +1665,7 @@ footer {
     height: auto;
     margin-left: 0;
     bottom: 60px;
-    color: dimgrey;
+    color: var(--footer-link-colour);
     @media screen and (max-width: 800px){
         background-color: var(--light-nav-footer-bg-colour);
         display: grid;
@@ -1656,13 +1679,15 @@ footer {
         margin-left: 0;
         bottom: 60px;
         margin-top: -1em;
-        color: dimgrey;
+        color: var(--footer-link-colour);
        
        }
        @media (prefers-color-scheme: dark) {
         background-color: var(--nav-footer-bg-colour);
+        color: var(--footer-link-colour);
         @media screen and (max-width: 800px){
                 background-color: var(--nav-footer-bg-colour);
+                color: var(--footer-link-colour);
       }
        }
     
@@ -1697,7 +1722,7 @@ footer {
             padding-right: .2em;
             align-items: center;
             text-align: center;
-            color: dimgrey;
+            color: var(--footer-link-colour);
             @media screen and (max-width: 800px){
                   padding: 1em;
                   margin-top: -2em;

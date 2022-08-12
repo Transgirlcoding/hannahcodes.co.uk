@@ -1,5 +1,10 @@
-hannahcodes.co.uk changelog- updated 11/08/2022
+hannahcodes.co.uk changelog- updated 12/08/2022
 
+v11.1-rc3 (released: 12/08/2022) https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/56:
+this update includes:
+- new thumbnail preview image for dev/rc project cards (from hc-v11.jpg to hc-v11.1.jpg)
+- updated link to hannahvlogs
+- updated css/scss file with footer links now using a custom var property
 --------------------------------------------------
 v11.1-rc 2 (released: 11/08/2022) https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/55:
 this update includes:
