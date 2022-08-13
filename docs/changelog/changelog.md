@@ -1,12 +1,39 @@
-hannahcodes.co.uk changelog- updated 12/08/2022
-
+hannahcodes.co.uk changelog- updated 13/08/2022
+v11.1 full release (released: 13/08/2022) https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/58:
+this update includes:
+- new blog post design with renamed div classes and removed the old blog post code ,
+- blog posts now display images not just show text. 
+- removed some js files that arent being used anymore
+- new links added to nav bar and new dropdown menu added including link to hannah'svlogs (new vlogging channel coming soon)
+- fixed nav bar not displaying on blog post page when viewing from a mobile/ small screen device 
+-  new blog post 5(https://dev.hannahcodes.co.uk/blogs/post/22/08/10_08_22_my_trip_to_london.html)
+- updated blog post 3's thumbnail image preview. 
+- fixed some comments in .scss/ .css file
+- new thumbnail preview image for dev/rc project cards (from hc-v11.jpg to hc-v11.1.jpg)
+- updated css/scss file with footer links now using a custom var property
+- fixed some links on blog posts 
+- added v11 to old folder/directory
+- added a new project card on projects.html for v11 code
+- updated links on terms.html 
+- fixed hover link text on terms.html
+- updated hannahcodes blogs thumbnail preview on projects.html 
+----------------------------------------------------
+v11.1-rc4 (released: 13/08/2022) https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/57:
+this update includes:
+- fixes to some links on blog posts 
+- added v11 to old folder/directory
+- added a new project card on projects.html for v11 code
+- updated links on terms.html 
+- fixed hover link text on terms.html
+- updated hannahcodes blogs thumbnail preview on projects.html  
+---------------------------------------------------
 v11.1-rc3 (released: 12/08/2022) https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/56:
 this update includes:
 - new thumbnail preview image for dev/rc project cards (from hc-v11.jpg to hc-v11.1.jpg)
 - updated link to hannahvlogs
 - updated css/scss file with footer links now using a custom var property
 --------------------------------------------------
-v11.1-rc 2 (released: 11/08/2022) https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/55:
+v11.1-rc2 (released: 11/08/2022) https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/55:
 this update includes:
 - new thumbnail for blog post 3 now on index.html blog section
 - fixed some comments in .scss/ .css file
@@ -14,10 +41,10 @@ this update includes:
 - fixed link to projects page on index.html project section
 - fixes the merge conflict isues that messed up footer on the last rc build of v11.1
 ------------------------------------------------
-v11.1-rc 1 (released: 10/08/2022) https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/54:
+v11.1-rc1 (released: 10/08/2022) https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/54:
 this update includes:
 - new blog post design,
-- now blog posts display images not just show text. 
+- blog posts now display images not just show text. 
 - brand new homepage index.html (still in the works so its not completed yet) for an upcoming vlog channel I am working on
 - removed some html and css that was from the old blog post deisgn that was no longer used/ needed
 - removed some js files that arent being used anymore

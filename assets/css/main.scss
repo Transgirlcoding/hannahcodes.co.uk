@@ -1934,11 +1934,24 @@ img.bg {
           }
         .terms_text_p{
             color: var(--light-nav-text-colour);
-            padding-left: 2em;
-            padding-right: 2em;
+            padding-left: 4em;
+            padding-right: 10em;
             @media (prefers-color-scheme: dark) {
                 color: var(--nav-text-colour);
           }    
+        }
+        .terms_a{
+          color: var(--light-nav-text-colour);
+          &:hover{
+            color: var(--light-hover-active-colour);
+          }
+          @media (prefers-color-scheme: dark) {
+            color: var(--nav-text-colour);
+            &:hover{
+                color: var(--hover-active-colour);
+            }
+            
+        }
         }
 
     
