@@ -1,11 +1,11 @@
 hannahcodes.co.uk changelog- updated 13/08/2022
 v11.1.1 full release (released: 13/08/2022) https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/60:
 this very small update fixes:
-- fixed blog post links on index.html 
+- blog post links on index.html 
 -----------------------------------------------------
 v11.1.1-rc1 (released: 13/08/2022) https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/59:
 this very small update fixes:
-- fixed blog post links on index.html 
+- blog post links on index.html 
 -----------------------------------------------------
 v11.1 full release (released: 13/08/2022) https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/58:
 this update includes:
