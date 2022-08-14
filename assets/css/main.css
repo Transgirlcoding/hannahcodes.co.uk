@@ -1,4 +1,4 @@
-/* 
+/*
        ------------contents-----------
 1. general styling 
 2. nav styling
@@ -626,7 +626,6 @@ nav .hamburger div {
 }
 @media screen and (max-width: 700px) {
   .index_friends_section {
-    margin-bottom: 1em;
     padding-bottom: 1em;
   }
 }
@@ -971,7 +970,6 @@ nav .hamburger div {
 }
 @media screen and (max-width: 700px) {
   .about_edu_work_section {
-    margin-bottom: 1em;
     padding-bottom: 1em;
   }
 }
@@ -1226,7 +1224,6 @@ nav .hamburger div {
 }
 @media screen and (max-width: 700px) {
   .projects_other_section {
-    margin-bottom: 1em;
     padding-bottom: 1em;
   }
 }
@@ -1823,38 +1820,14 @@ p a:hover {
     margin-right: 1.5em;
   }
 }
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-}
-
-.tm-row-post {
-  max-width: 100%;
-  justify-content: space-between;
-}
-
-.col-12, .col-md-6 {
-  position: relative;
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-@media (min-width: 992px) {
-  .col-12, .col-md-6 {
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+@media (max-width: 709px) {
+  .blog_post_img_placement {
+    display: block;
   }
 }
-@media (max-width: 700px) {
-  .col-12, .col-md-6 {
-    width: 100vw;
-    padding-right: 15px;
-    padding-left: 15px;
+@media (max-width: 480px) {
+  .blog_post_img_placement {
+    display: block;
   }
 }
 
@@ -1882,25 +1855,9 @@ p a:hover {
     padding-right: 0;
   }
 }
-@media (prefers-color-scheme: dark) {
-  .blog_post_p {
-    color: var(--nav-text-colour);
-  }
-  .tm-main-post {
-    background-color: var(--body-bg-colour);
-  }
-  .blog_svg:hover {
-    fill: var(--hover-active-colour);
-  }
-  hr.tm-hr-primary {
-    border-top: 5px solid var(--top-border-colour);
-  }
-  hr.tm-hr-secondary {
-    border-top: 5px solid var(--top-border-colour);
-  }
-}
+
 /*--------7:footer styling------------*/
-footer}
+footer {
   background-color: var(--light-nav-footer-bg-colour);
   padding-left: auto;
   padding-top: 1px;
