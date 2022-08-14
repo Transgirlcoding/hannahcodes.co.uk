@@ -1,4 +1,13 @@
-hannahcodes.co.uk changelog- updated 13/08/2022
+hannahcodes.co.uk changelog- updated 14/08/2022
+----------------------------------------------------
+v11.1.2 full release (released: 14/08/2022) https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/62:
+this very small update fixes/reomves:
+- blank spacing between footer and sections 
+----------------------------------------------------
+v11.1.2-rc1 (released: 14/08/2022) https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/61:
+this very small update fixes/reomves:
+- blank spacing between footer and sections 
+-----------------------------------------------------
 v11.1.1 full release (released: 13/08/2022) https://github.com/Transgirlcoding/hannahcodes.co.uk/pull/60:
 this very small update fixes:
 - blog post links on index.html 
