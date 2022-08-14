@@ -626,8 +626,7 @@ nav .hamburger div {
 }
 @media screen and (max-width: 700px) {
   .index_friends_section {
-    margin-bottom: 1em;
-    padding-bottom: 1em;
+    padding-bottom: 2em;
   }
 }
 @media (prefers-color-scheme: dark) {
@@ -971,8 +970,7 @@ nav .hamburger div {
 }
 @media screen and (max-width: 700px) {
   .about_edu_work_section {
-    margin-bottom: 1em;
-    padding-bottom: 1em;
+    padding-bottom: 2em;
   }
 }
 @media (prefers-color-scheme: dark) {
@@ -1226,8 +1224,7 @@ nav .hamburger div {
 }
 @media screen and (max-width: 700px) {
   .projects_other_section {
-    margin-bottom: 1em;
-    padding-bottom: 1em;
+    padding-bottom: 2em;
   }
 }
 @media (prefers-color-scheme: dark) {

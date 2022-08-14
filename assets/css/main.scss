@@ -1,4 +1,4 @@
-/* 
+/*
        ------------contents-----------
 1. general styling 
 2. nav styling
@@ -565,8 +565,7 @@ nav{
     background-color: var(--light-section-4-bg-colour);
     padding-top: .7em;
     @media screen and (max-width: 700px){
-      margin-bottom: 1em;
-      padding-bottom: 1em;
+      padding-bottom: 2em;
      }
     @media (prefers-color-scheme: dark) {
         background-color: var(--section-4-bg-colour);
@@ -880,8 +879,7 @@ nav{
     padding-top: .7em;
     background-color: var(--light-section-3-bg-colour);
     @media screen and (max-width: 700px){
-      margin-bottom: 1em;
-      padding-bottom: 1em;
+      padding-bottom: 2em;
      }
     @media (prefers-color-scheme: dark) {
         background-color: var(--section-3-bg-colour);
@@ -1100,8 +1098,7 @@ nav{
  background-color: var(--light-section-4-bg-colour);
  padding-bottom: .7em;
  @media screen and (max-width: 700px){
-  margin-bottom: 1em;
-  padding-bottom: 1em;
+  padding-bottom: 2em;
  }
  @media (prefers-color-scheme: dark) {
   background-color: var(--section-4-bg-colour);
