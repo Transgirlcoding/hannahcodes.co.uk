@@ -71,6 +71,7 @@
   --card-box-shadow-hover-colour: #f2c7e2;
   --top-border-colour: #F2C7E2;
   --footer-link-colour: dimgrey;
+  --blog-span-hr-colour: rgba(105, 105, 105, 0.26);
 }
 
 body {
@@ -1742,6 +1743,25 @@ p a:hover {
   }
 }
 
+.blog_span_hr {
+  border-top: 1px solid var(--blog-span-hr-colour);
+  max-width: 30%;
+  margin-top: 1em;
+}
+@media (prefers-color-scheme: dark) {
+  .blog_span_hr {
+    border-top: 1px solid var(--blog-span-hr-colour);
+  }
+}
+
+.blog_span_hr_border {
+  flex-wrap: wrap;
+  max-width: 70%;
+}
+.blog_span_hr_border span {
+  flex-wrap: wrap;
+}
+
 .blog_svg {
   fill: var(--light-svg-fill-colour);
   width: 2.5em;
@@ -2069,6 +2089,28 @@ img.blog_post_4_bg {
 }
 @media screen and (max-width: 1024px) {
   img.blog_post_4_bg {
+    /* Specific to this particular image */
+    left: 50%;
+    margin-left: -512px; /* 50% */
+  }
+}
+
+img.blog_post_6_bg {
+  /* Set rules to fill background */
+  min-height: 20%;
+  min-width: 1920px;
+  opacity: 70%;
+  z-index: -10;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+  /* Set up positioning */
+  position: fixed;
+  top: -20%;
+  left: 0;
+}
+@media screen and (max-width: 1024px) {
+  img.blog_post_6_bg {
     /* Specific to this particular image */
     left: 50%;
     margin-left: -512px; /* 50% */
