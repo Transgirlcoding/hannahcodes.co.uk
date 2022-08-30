@@ -4,13 +4,13 @@ hannahcodes.co.uk
 
  welcome to version 11.2 of hannahcodes.co.uk repository, a personal portfilo website
 
-check out the changelog here (https://github.com/Transgirlcoding/changelog/blob/main/hannahcodes/changelog.html)
+check out the changelog here: https://github.com/Transgirlcoding/changelog/blob/main/hannahcodes/changelog.html
 
 ## Features
 
 - clean layout and improved responsiveness 
-- see everything i am or have been working on in one place [projects.html](https://hannahcodes.co.uk/projects.html) (https://github.com/Transgirlcoding/hannahcodes.co.uk/blob/main/projects.html)
-- hannahcodes blogs (https://hannahcodes.co.uk/blogs/index.html)
+- see everything i am or have been working on in one place: https://hannahcodes.co.uk/projects.html / https://github.com/Transgirlcoding/hannahcodes.co.uk/blob/main/projects.html
+- hannahcodes blogs: https://hannahcodes.co.uk/blogs/index.html
 
   
 ## Authors
