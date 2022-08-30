@@ -9,8 +9,8 @@ check out the changelog here (https://github.com/Transgirlcoding/changelog/blob/
 ## Features
 
 - clean layout and improved responsiveness 
-- see everything i am or have been working on in one place (https://dev.hannahcodes.co.uk/projects.html) (https://github.com/Transgirlcoding/hannahcodes.co.uk/blob/Dev/projects.html)
-- hannahcodes blogs
+- see everything i am or have been working on in one place [projects.html](https://hannahcodes.co.uk/projects.html) (https://github.com/Transgirlcoding/hannahcodes.co.uk/blob/main/projects.html)
+- hannahcodes blogs (https://hannahcodes.co.uk/blogs/index.html)
 
   
 ## Authors
