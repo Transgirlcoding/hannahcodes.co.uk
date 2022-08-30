@@ -2,17 +2,15 @@
 hannahcodes.co.uk
 ## Welcome
 
- this Repositories is the source code for my persional website which i plan to update regually. 
+ welcome to version 11.2 of hannahcodes.co.uk repository, a personal portfilo website
 
-check out the changelog here (https://github.com/Transgirlcoding/hannahcodes.co.uk/blob/Dev/docs/changelog/changelog.md)
+check out the changelog here (https://github.com/Transgirlcoding/changelog/blob/main/hannahcodes/changelog.html)
 
 ## Features
 
-- clean layout
-- improved responsiveness 
-- see almost everything i am or have been working on in one place (https://dev.hannahcodes.co.uk/projects.html) (https://github.com/Transgirlcoding/hannahcodes.co.uk/blob/Dev/projects.html)
-- blog page
-- vlog page
+- clean layout and improved responsiveness 
+- see everything i am or have been working on in one place (https://dev.hannahcodes.co.uk/projects.html) (https://github.com/Transgirlcoding/hannahcodes.co.uk/blob/Dev/projects.html)
+- hannahcodes blogs
 
   
 ## Authors
