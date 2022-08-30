@@ -924,7 +924,7 @@ nav .hamburger div {
   color: var(--light-nav-text-colour);
   margin: auto;
   text-align: center;
-  margin-top: -13%;
+  margin-top: -10%;
 }
 @media (prefers-color-scheme: dark) {
   .about_about_section .about_hobbies_h1 {
