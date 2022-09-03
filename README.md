@@ -10,7 +10,7 @@ check out the changelog here: https://changelog.hannahcodes.co.uk/hannahcodes/ch
 
 - clean layout and improved responsiveness 
 - see everything i am or have been working on in one place: https://hannahcodes.co.uk/projects.html / https://github.com/Transgirlcoding/hannahcodes.co.uk/blob/main/projects.html
-- hannahcodes blogs: https://hannahcodes.co.uk/blogs/index.html
+- hannahcodes blogs: https://blog.hannahcodes.co.uk / https://github.com/Transgirlcoding/blog.hannahcodes.co.uk
 
   
 ## Authors
