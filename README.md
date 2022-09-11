@@ -2,16 +2,14 @@
 hannahcodes.co.uk
 ## Welcome
 
- welcome to version 11.2 of hannahcodes.co.uk repository, a personal portfilo website
+ welcome to version 11.3 of hannahcodes.co.uk repository, a personal portfilo website
 
 check out the changelog here: https://changelog.hannahcodes.co.uk/hannahcodes/changelog.html
-
+check ouit hannahcodes blogs here: https://blog.hannahcodes.co.uk / https://github.com/Transgirlcoding/blog.hannahcodes.co.uk
 ## Features
 
 - clean layout and improved responsiveness 
 - see everything i am or have been working on in one place: https://hannahcodes.co.uk/projects.html / https://github.com/Transgirlcoding/hannahcodes.co.uk/blob/main/projects.html
-- hannahcodes blogs: https://blog.hannahcodes.co.uk / https://github.com/Transgirlcoding/blog.hannahcodes.co.uk
-
   
 ## Authors
 
