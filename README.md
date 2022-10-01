@@ -5,7 +5,7 @@ hannahcodes.co.uk
  welcome to version 11.3 of hannahcodes.co.uk repository, a personal portfilo website
 
 check out the changelog here: https://changelog.hannahcodes.co.uk/hannahcodes/changelog.html
-check ouit hannahcodes blogs here: https://blog.hannahcodes.co.uk / https://github.com/Transgirlcoding/blog.hannahcodes.co.uk
+check out hannahcodes blogs here: https://blog.hannahcodes.co.uk / https://github.com/Transgirlcoding/blog.hannahcodes.co.uk
 ## Features
 
 - clean layout and improved responsiveness 
