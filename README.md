@@ -10,7 +10,7 @@ hannahcodes.co.uk
 ## web/github links
   here are links to some of my other websites/ github repos which you can check out 
   - [hannahcodes blog](https://blog.hannahcodes.co.uk) - [hannahcodes blog github](https://github.com/transgirlcoding/blog.hannahcodes.co.uk)
-  - [hannahcodes changelog](https://changelog.hannahcodes.co.uk/hannahcodes/changelog.html) - [hannahcodes blog github](https://github.com/transgirlcoding/changelog.hannahcodes.co.uk)
+  - [hannahcodes changelog](https://changelog.hannahcodes.co.uk/hannahcodes/changelog.html) - [hannahcodes changelog github](https://github.com/transgirlcoding/changelog.hannahcodes.co.uk)
   - [old.hannahcodes.co.uk github](https://github.com/transgirlcoding/old.hannahcodes.co.uk)
 
 
