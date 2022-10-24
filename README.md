@@ -3,9 +3,9 @@ hannahcodes.co.uk
  welcome to version 11.3.1 of hannahcodes.co.uk, a personal portfilo website
 
 ## pages
-- index page
-- about me page
-- project page 
+- [home page (index.html)](https://hannahcodes.co.uk) 
+- [about me page (about.html)](https://hannahcodes.co.uk/about.html) learn about me here
+- [projects page (project.html)](https://hannahcodes.co.uk/projects.html) which you can see all I have been working on this past year
 
 ## web/github links
   here are links to some of my other websites/ github repos which you can check out 
