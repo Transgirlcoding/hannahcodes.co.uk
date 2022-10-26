@@ -36,9 +36,9 @@
 :root {
   /*light mode colours*/
   --light-hamburger-icon-colour: black;
-  --light-body-bg-colour: #F8F8FF;
+  --light-body-bg-colour: #f8f8ff;
   --light-hover-active-colour: #5c2246;
-  --light-nav-footer-bg-colour: #F5F5F5;
+  --light-nav-footer-bg-colour: #f5f5f5;
   --light-nav-text-colour: black;
   --light-svg-fill-colour: black;
   --light-section-1-bg-colour: #cfcaca;
@@ -49,11 +49,11 @@
   --light-blue-friends-hover-colour: #2d5e73;
   --light-card-bg-colour: white;
   --light-card-title-span-colour: #333;
-  --light-card-box-shadow-colour: rgba(0,0,0,0.2);
+  --light-card-box-shadow-colour: rgba(0, 0, 0, 0.2);
   --light-card-box-shadow-hover-colour: #5c2246;
   --light-top-border-colour: #5c2246;
   /*dark mode colours*/
-  --hover-active-colour: #F2C7E2;
+  --hover-active-colour: #f2c7e2;
   --svg-fill-colour: #fff;
   --sorce-code-svg-fill-colour: hsl(214, 7%, 47%);
   --section-1-bg-colour: #121212;
@@ -67,9 +67,9 @@
   --card-bg-colour: #262626;
   --blue-friends-hover-colour: rgb(130, 204, 238);
   --card-title-span-colour: rgb(255, 251, 251);
-  --card-box-shadow-colour: rgba(139,138,138,0.2);
+  --card-box-shadow-colour: rgba(139, 138, 138, 0.2);
   --card-box-shadow-hover-colour: #f2c7e2;
-  --top-border-colour: #F2C7E2;
+  --top-border-colour: #f2c7e2;
   --footer-link-colour: dimgrey;
   --blog-span-hr-colour: rgba(105, 105, 105, 0.26);
 }
@@ -824,7 +824,7 @@ nav .hamburger div {
   }
 }
 .about_h1 .about_h1_bg {
-  background: linear-gradient(180deg, #FE0000 16.66%, #FD8C00 16.66%, 33.32%, #FFE500 33.32%, 49.98%, #119F0B 49.98%, 66.64%, #0644B3 66.64%, 83.3%, #C22EDC 83.3%);
+  background: linear-gradient(180deg, #fe0000 16.66%, #fd8c00 16.66%, 33.32%, #ffe500 33.32%, 49.98%, #119f0b 49.98%, 66.64%, #0644b3 66.64%, 83.3%, #c22edc 83.3%);
   opacity: 15%;
   z-index: 3;
   width: 100%;
@@ -1036,20 +1036,23 @@ nav .hamburger div {
     color: var(--nav-text-colour);
   }
 }
-.about_edu_work_section table td, .about_edu_work_section table th {
+.about_edu_work_section table td,
+.about_edu_work_section table th {
   border: 1px solid black;
   text-align: left;
   padding: 8px;
 }
 @media screen and (max-width: 800px) {
-  .about_edu_work_section table td, .about_edu_work_section table th {
+  .about_edu_work_section table td,
+.about_edu_work_section table th {
     border: 1px solid black;
     text-align: left;
     padding: 8px;
   }
 }
 @media (prefers-color-scheme: dark) {
-  .about_edu_work_section table td, .about_edu_work_section table th {
+  .about_edu_work_section table td,
+.about_edu_work_section table th {
     border: 1px solid white;
   }
 }
