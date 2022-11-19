@@ -264,6 +264,14 @@ nav {
     }
   }
 
+    .project_active {
+      color: var(--light-hover-active-colour);
+      font-weight: bold;
+      @media (prefers-color-scheme: dark) {
+                color: var(--hover-active-colour);
+              }
+    }
+
   @media screen and (max-width: 800px) {
     .toggle {
       .line1 {
@@ -1022,7 +1030,6 @@ nav {
     background-color: var(--section-1-bg-colour);
   }
   .projects_hc_h1 {
-    padding: 1.5em;
     padding-left: 9em;
     padding-bottom: 0.7em;
     color: var(--light-nav-text-colour);
@@ -1191,6 +1198,136 @@ nav {
     font-size: 24px;
   }
 }
+.project-link-flex {
+  display: flex;
+  max-width: 450px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.project-header-section-container {
+  width: 100%;
+  margin: auto;
+  padding-top: 6.7em;
+  padding-left: 1em;
+  padding-bottom: .5em;
+  /*padding:10px;*/
+  background-color: var(--light-section-3-bg-colour);
+
+  @media (prefers-color-scheme: dark) {
+    background-color: var(--section-3-bg-colour);
+  }
+
+}
+
+#project-header-section-img {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.project-header-section {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  max-width: 100%;
+  height: 450px;
+}
+
+.project-header-section-text {
+  padding-left: 50px;
+  padding-right: 35px;
+  padding-top: 50px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-size: 25px;
+  color: var(--light-nav-text-colour);
+
+  @media (prefers-color-scheme: dark) {
+    color: var(--nav-text-colour);
+  }
+}
+.project-header-section-text-p {
+  padding-left: 50px;
+  padding-right: 35px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-size: 16px;
+  color: var(--light-nav-text-colour);
+
+  @media (prefers-color-scheme: dark) {
+    color: var(--nav-text-colour);
+  }
+}
+.project-header-section-button {
+  padding-left: 50px;
+}
+
+/* you only need to float one div if you use margin-left on the other one to equal the first div's width*/
+
+.project-header-section-box {
+  margin-left: 50%;
+  width: 50%;
+  height: 450px;
+
+}
+
+/* not sure if media query works, I want it to make the carving class text and picture in a single column when it's on a small screen*/
+
+@media(max-width:640px) {
+  .project-header-section-box {
+    width: 90%;
+    margin-right: 10em;
+    margin-left: 1em;
+  }
+
+  .project-header-section-img {
+    float: none;
+    width:auto;
+  }
+.project-header-section {
+ min-width: 190%;
+ height: 100%;
+ align-items: center;
+
+}
+.project-header-section-text {
+  margin: auto;
+  font-size: 25px;
+  color: var(--light-nav-text-colour);
+
+  @media (prefers-color-scheme: dark) {
+    color: var(--nav-text-colour);
+  }
+}
+}
+.projects_header_links {
+  border: 0.2em;
+  text-decoration: none;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  padding-top: auto;
+  margin: 0;
+  &:hover {
+    border: 0.2em;
+    color: var(--light-hover-active-colour);
+    text-decoration: none;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    padding-top: auto;
+  }
+  @media (prefers-color-scheme: dark) {
+    &:hover {
+      color: var(--hover-active-colour);
+    }
+  }
+}
 .projects_links {
   border: 0.2em;
   text-decoration: none;
@@ -1200,6 +1337,7 @@ nav {
   font-size: 18px;
   margin-left: 0.75em;
   padding-top: auto;
+
   &:hover {
     border: 0.2em;
     color: var(--light-hover-active-colour);
@@ -1211,6 +1349,7 @@ nav {
     margin-left: 0.75em;
     padding-top: auto;
   }
+
   @media (prefers-color-scheme: dark) {
     &:hover {
       color: var(--hover-active-colour);
@@ -1225,11 +1364,32 @@ nav {
   }
 }
 
+.hc_project_h1 {
+  margin: auto;
+  text-align: center;
+  padding-top: 10em;
+  padding-bottom: 5em;
+  color: var(--light-nav-text-colour);
+  @media (prefers-color-scheme: dark) {
+    color: var(--nav-text-colour);
+  }
+}
+.project_hc_h1 {
+  margin: auto;
+  text-align: center;
+  padding-bottom: 1em;
+  color: var(--light-nav-text-colour);
+
+  @media (prefers-color-scheme: dark) {
+    color: var(--nav-text-colour);
+  }
+}
 .project_h1 {
   margin: auto;
   text-align: center;
   padding-top: 5em;
   color: var(--light-nav-text-colour);
+
   @media (prefers-color-scheme: dark) {
     color: var(--nav-text-colour);
   }
@@ -1564,91 +1724,6 @@ img.bg {
     margin-left: -512px; /* 50% */
   }
 }
-
-img.blog_bg {
-  /* Set rules to fill background */
-  min-height: 20%;
-  min-width: 1920px;
-  opacity: 70%;
-  z-index: -10;
-
-  /* Set up proportionate scaling */
-  width: 100%;
-  height: auto;
-
-  /* Set up positioning */
-  position: fixed;
-  top: -70%;
-  left: 0;
-  @media screen and (max-width: 1024px) {
-    /* Specific to this particular image */
-    left: 50%;
-    margin-left: -512px; /* 50% */
-  }
-}
-img.blog_post_3_bg {
-  /* Set rules to fill background */
-  min-height: 20%;
-  min-width: 1920px;
-  opacity: 70%;
-  z-index: -10;
-
-  /* Set up proportionate scaling */
-  width: 100%;
-  height: auto;
-
-  /* Set up positioning */
-  position: fixed;
-  top: -10%;
-  left: 0;
-  @media screen and (max-width: 1024px) {
-    /* Specific to this particular image */
-    left: 50%;
-    margin-left: -512px; /* 50% */
-  }
-}
-img.blog_post_4_bg {
-  /* Set rules to fill background */
-  min-height: 20%;
-  min-width: 1920px;
-  opacity: 70%;
-  z-index: -10;
-
-  /* Set up proportionate scaling */
-  width: 100%;
-  height: auto;
-
-  /* Set up positioning */
-  position: fixed;
-  top: -130%;
-  left: 0;
-  @media screen and (max-width: 1024px) {
-    /* Specific to this particular image */
-    left: 50%;
-    margin-left: -512px; /* 50% */
-  }
-}
-img.blog_post_6_bg {
-  /* Set rules to fill background */
-  min-height: 20%;
-  min-width: 1920px;
-  opacity: 70%;
-  z-index: -10;
-
-  /* Set up proportionate scaling */
-  width: 100%;
-  height: auto;
-
-  /* Set up positioning */
-  position: fixed;
-  top: -20%;
-  left: 0;
-  @media screen and (max-width: 1024px) {
-    /* Specific to this particular image */
-    left: 50%;
-    margin-left: -512px; /* 50% */
-  }
-}
 img.about_bg {
   /* Set rules to fill background */
   min-height: 100%;
@@ -1669,6 +1744,30 @@ img.about_bg {
     /* Specific to this particular image */
     left: 50%;
     margin-left: -512px; /* 50% */
+  }
+}
+img.project_bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+  opacity: 75%;
+
+  z-index: -10;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 5em;
+  left: 0;
+
+  @media screen and (max-width: 1024px) {
+    /* Specific to this particular image */
+    left: 50%;
+    margin-left: -512px;
+    /* 50% */
   }
 }
 
@@ -1747,3 +1846,5 @@ img.about_bg {
     }
   }
 }
+
+
