@@ -2,7 +2,7 @@ hannahcodes.co.uk
 
 ## Welcome
 
-welcome to very first dev version of v12 of hannahcodes.co.uk, a personal portfilo website
+welcome to very rc build version of v12 of hannahcodes.co.uk, a personal portfilo website
 
 ## pages
 
