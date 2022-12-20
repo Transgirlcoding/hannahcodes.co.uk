@@ -2,7 +2,7 @@ hannahcodes.co.uk
 
 ## Welcome
 
-welcome to version 11.3.2 of hannahcodes.co.uk, a personal portfilo website
+welcome to v12 of hannahcodes.co.uk, a personal portfilo website
 
 ## pages
 
@@ -14,13 +14,13 @@ welcome to version 11.3.2 of hannahcodes.co.uk, a personal portfilo website
 
 here are links to some of my other websites/ github repos which you can check out
 
-- [hannahcodes blog](https://blog.hannahcodes.co.uk) - [hannahcodes blog github](https://github.com/transgirlcoding/blog.hannahcodes.co.uk)
-- [hannahcodes changelog](https://changelog.hannahcodes.co.uk/hannahcodes/changelog.html) - [hannahcodes changelog github](https://github.com/transgirlcoding/changelog.hannahcodes.co.uk)
-- [old.hannahcodes.co.uk github](https://github.com/transgirlcoding/old.hannahcodes.co.uk)
+- [hannahcodes blog](https://blog.hannahcodes.co.uk) - [hannahcodes blog github](https://github.com/autumn-skylight/blog.hannahcodes.co.uk)
+- [hannahcodes changelog](https://changelog.hannahcodes.co.uk/hannahcodes/changelog.html) - [hannahcodes changelog github](https://github.com/autumn-skylight/changelog.hannahcodes.co.uk)
+- [old.hannahcodes.co.uk github](https://github.com/autumn-skylight/old.hannahcodes.co.uk)
 
 ## Authors
 
-- [@Transgirlcoding](https://www.github.com/Transgirlcoding)
+- [@autumn-skylight](https://www.github.com/autumn-skylight)
 
 ## Feedback
 
