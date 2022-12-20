@@ -1151,25 +1151,31 @@ nav .project_active {
   background-color: var(--light-section-1-bg-colour);
   padding-bottom: 1em;
 }
+@media screen and (max-width: 800px) {
+  .projects_hc_section {
+    margin-top: 0;
+  }
+}
 @media (prefers-color-scheme: dark) {
   .projects_hc_section {
     background-color: var(--section-1-bg-colour);
   }
 }
-.projects_hc_section .projects_hc_h1 {
-  padding-left: 9em;
-  padding-bottom: 0.7em;
+.projects_hc_section .project_hc_h1 {
+  margin: auto;
+  text-align: center;
+  padding-bottom: 1em;
   color: var(--light-nav-text-colour);
 }
 @media screen and (max-width: 800px) {
-  .projects_hc_section .projects_hc_h1 {
+  .projects_hc_section .project_hc_h1 {
     margin: auto;
-    padding-left: 1.5em;
+    padding-top: 2em;
     align-items: center;
   }
 }
 @media (prefers-color-scheme: dark) {
-  .projects_hc_section .projects_hc_h1 {
+  .projects_hc_section .project_hc_h1 {
     color: var(--nav-text-colour);
   }
 }
@@ -1372,6 +1378,11 @@ nav .project_active {
   /*padding:10px;*/
   background-color: var(--light-section-3-bg-colour);
 }
+@media screen and (max-width: 800px) {
+  .project-header-section-container {
+    padding-bottom: 17em;
+  }
+}
 @media (prefers-color-scheme: dark) {
   .project-header-section-container {
     background-color: var(--section-3-bg-colour);
@@ -1453,6 +1464,7 @@ nav .project_active {
   }
   .project-header-section-text {
     margin: auto;
+    padding-bottom: 1em;
     font-size: 25px;
     color: var(--light-nav-text-colour);
   }
@@ -1534,18 +1546,6 @@ nav .project_active {
 }
 @media (prefers-color-scheme: dark) {
   .hc_project_h1 {
-    color: var(--nav-text-colour);
-  }
-}
-
-.project_hc_h1 {
-  margin: auto;
-  text-align: center;
-  padding-bottom: 1em;
-  color: var(--light-nav-text-colour);
-}
-@media (prefers-color-scheme: dark) {
-  .project_hc_h1 {
     color: var(--nav-text-colour);
   }
 }
