@@ -864,7 +864,7 @@ nav .project_active {
 }
 @media screen and (max-width: 800px) {
   .about_edu_work_section table td,
-.about_edu_work_section table th {
+  .about_edu_work_section table th {
     border: 1px solid black;
     text-align: left;
     padding: 8px;
@@ -872,7 +872,7 @@ nav .project_active {
 }
 @media (prefers-color-scheme: dark) {
   .about_edu_work_section table td,
-.about_edu_work_section table th {
+  .about_edu_work_section table th {
     border: 1px solid white;
   }
 }
