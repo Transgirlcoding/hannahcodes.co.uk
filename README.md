@@ -2,7 +2,7 @@ hannahcodes.co.uk
 
 ## Welcome
 
-welcome to v12 of hannahcodes.co.uk, a personal portfilo website
+welcome to v12.1 of hannahcodes.co.uk, a personal portfilo website
 
 ## pages
 
