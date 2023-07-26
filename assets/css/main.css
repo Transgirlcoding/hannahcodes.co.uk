@@ -975,6 +975,12 @@ nav .project_active {
   outline: none;
   transition: 0.4s;
 }
+@media screen and (max-width: 800px) {
+  .accordion {
+    width: 60%;
+    margin-left: 20%;
+  }
+}
 @media (prefers-color-scheme: dark) {
   .accordion {
     color: var(--nav-text-colour);
@@ -1004,6 +1010,12 @@ nav .project_active {
   padding: 1em;
   margin-left: 20%;
   overflow: hidden;
+}
+@media screen and (max-width: 800px) {
+  .panel {
+    width: 90%;
+    margin-left: 5%;
+  }
 }
 
 /*-------------5:project.html styling-------------*/

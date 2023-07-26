@@ -868,11 +868,17 @@ font-size: 1em;
   text-align: center;
   outline: none;
   transition: 0.4s;
+
+ @media screen and (max-width: 800px) {
+width: 60%;
+margin-left: 20%;
+ }
 @media (prefers-color-scheme: dark) {
       color: var(--nav-text-colour);
 background-color: var(--section-3-bg-colour);
 border: .1px solid rgba(117, 115, 115, 0.404);
-    }
+
+}
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -894,6 +900,10 @@ width: 60%;
 padding: 1em;
 margin-left: 20%;
   overflow: hidden;
+@media screen and (max-width: 800px) {
+width: 90%;
+margin-left: 5%;
+ }
 } 
 /*-------------5:project.html styling-------------*/
 .projects_hc_section {
