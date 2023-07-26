@@ -855,7 +855,46 @@ nav {
     }
   }
 }
+ /* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: var(--light-section-3-bg-colour);
+border: .1px solid rgba(0, 0, 0, 0.404);
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+margin-left: 30%;
+  width: 40%;
+font-size: 1em;
+  text-align: center;
+  outline: none;
+  transition: 0.4s;
+@media (prefers-color-scheme: dark) {
+      color: var(--nav-text-colour);
+background-color: var(--section-3-bg-colour);
+border: .1px solid rgba(117, 115, 115, 0.404);
+    }
+}
 
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.about_active, .accordion:hover {
+  background-color: var(--light-hover-active-colour);
+color: white;
+@media (prefers-color-scheme: dark) {
+      background-color: var(--hover-active-colour);
+color: #000;
+    }
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: var(--section-3-bg-colour);
+  display: none;
+width: 60%;
+padding: 1em;
+margin-left: 20%;
+  overflow: hidden;
+} 
 /*-------------5:project.html styling-------------*/
 .projects_hc_section {
   background-color: var(--light-section-1-bg-colour);
