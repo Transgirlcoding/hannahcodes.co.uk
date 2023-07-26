@@ -894,7 +894,7 @@ color: #000;
 /* Style the accordion panel. Note: hidden by default */
 .panel {
   padding: 0 18px;
-  background-color: var(--section-3-bg-colour);
+  background-color: var(--light-section-3-bg-colour);
   display: none;
 width: 60%;
 padding: 1em;
@@ -903,6 +903,9 @@ margin-left: 20%;
 @media screen and (max-width: 800px) {
 width: 90%;
 margin-left: 5%;
+@media (prefers-color-scheme: dark) {
+      background-color: var(--section-3-bg-colour);
+    }
  }
 } 
 /*-------------5:project.html styling-------------*/

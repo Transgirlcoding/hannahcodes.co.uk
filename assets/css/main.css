@@ -1004,7 +1004,7 @@ nav .project_active {
 /* Style the accordion panel. Note: hidden by default */
 .panel {
   padding: 0 18px;
-  background-color: var(--section-3-bg-colour);
+  background-color: var(--light-section-3-bg-colour);
   display: none;
   width: 60%;
   padding: 1em;
@@ -1015,6 +1015,11 @@ nav .project_active {
   .panel {
     width: 90%;
     margin-left: 5%;
+  }
+}
+@media screen and (max-width: 800px) and (prefers-color-scheme: dark) {
+  .panel {
+    background-color: var(--section-3-bg-colour);
   }
 }
 
