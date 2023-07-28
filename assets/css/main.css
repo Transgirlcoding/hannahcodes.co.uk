@@ -1017,13 +1017,34 @@ nav .project_active {
     margin-left: 5%;
   }
 }
-@media screen and (max-width: 800px) and (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   .panel {
     background-color: var(--section-3-bg-colour);
   }
 }
 
 /*-------------5:project.html styling-------------*/
+.project_h1 {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin: auto;
+  text-align: center;
+  color: var(--light-nav-text-colour);
+}
+@media screen and (max-width: 800px) {
+  .project_h1 {
+    padding-top: 7em;
+    font-size: 1.25em;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .project_h1 {
+    color: var(--nav-text-colour);
+  }
+}
+
 .projects_hc_section {
   background-color: var(--light-section-1-bg-colour);
   padding-bottom: 1em;

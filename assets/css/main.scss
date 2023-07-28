@@ -868,7 +868,6 @@ font-size: 1em;
   text-align: center;
   outline: none;
   transition: 0.4s;
-
  @media screen and (max-width: 800px) {
 width: 60%;
 margin-left: 20%;
@@ -880,6 +879,7 @@ border: .1px solid rgba(117, 115, 115, 0.404);
 
 }
 }
+
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .about_active, .accordion:hover {
@@ -903,12 +903,29 @@ margin-left: 20%;
 @media screen and (max-width: 800px) {
 width: 90%;
 margin-left: 5%;
+}
 @media (prefers-color-scheme: dark) {
-      background-color: var(--section-3-bg-colour);
+  background-color: var(--section-3-bg-colour);
     }
  }
-} 
+
 /*-------------5:project.html styling-------------*/
+.project_h1 {
+  padding-top: 2em;
+padding-bottom: 2em;
+  margin: auto;
+  text-align: center;
+  color: var(--light-nav-text-colour);
+  @media screen and (max-width: 800px) {
+    padding-top: 7em;
+    font-size: 1.25em;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  @media (prefers-color-scheme: dark) {
+    color: var(--nav-text-colour);
+  }
+}
 .projects_hc_section {
   background-color: var(--light-section-1-bg-colour);
   padding-bottom: 1em;
