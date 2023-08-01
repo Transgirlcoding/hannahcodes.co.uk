@@ -919,7 +919,10 @@ width: 30%;
  }
 
 &:hover{
-border-bottom: 1px solid var(--hover-active-colour);
+border-bottom: 2px solid var(--light-hover-active-colour);
+@media (prefers-color-scheme: dark) {
+border-bottom: 2px solid var(--hover-active-colour);
+}
 }
 
 @media (prefers-color-scheme: dark) {
@@ -929,7 +932,11 @@ background-color: var(--section-2-bg-colour);
 }
 }
 .hobbies_section_accordion_active{
-border-bottom: 1px solid var(--hover-active-colour);
+border-bottom: 2px solid var(--light-hover-active-colour);
+@media (prefers-color-scheme: dark) {
+border-bottom: 2px solid var(--hover-active-colour);
+}
+
 
 }
 /* Style the accordion panel. Note: hidden by default */
@@ -970,7 +977,10 @@ width: 70%;
  }
 
 &:hover{
-border-bottom: 1px solid var(--hover-active-colour);
+border-bottom: 2px solid var(--light-hover-active-colour);
+@media (prefers-color-scheme: dark) {
+border-bottom: 2px solid var(--hover-active-colour);
+}
 }
 
 @media (prefers-color-scheme: dark) {
@@ -980,7 +990,10 @@ background-color: var(--section-3-bg-colour);
 }
 }
 .work_section_accordion_active{
-border-bottom: 1px solid var(--hover-active-colour);
+border-bottom: 2px solid var(--light-hover-active-colour);
+@media (prefers-color-scheme: dark) {
+border-bottom: 2px solid var(--hover-active-colour);
+}
 
 }
 /* Style the accordion panel. Note: hidden by default */
