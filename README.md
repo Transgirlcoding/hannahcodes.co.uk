@@ -13,7 +13,7 @@ welcome to v13 of hannahcodes.co.uk, a personal portfilo website
   - dev 3: index.html updated
   - rc 1: upload updated about.html, index.html, 404.html and new main.css/.scss to rc preview/branch 
   - dev 4: projects.html updated
-  - dev 5: /projects/hannahcodes.html updated
+  - dev 5: /projects/hannahcodes.html updated and remove old-main.css/.scss
   - rc 2:upload updated projects.html and /projects/hannahcodes.html to rc preview/branch 
   - dev 6: remove temp changelog from readme.md
   - rc 3: upload updated readme.md to rc branch
