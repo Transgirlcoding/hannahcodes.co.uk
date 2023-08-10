@@ -10,8 +10,8 @@ welcome to v13 of hannahcodes.co.uk, a personal portfilo website
 - roadmap (subject to change) no eta:
   - dev 1: renaming current main.css/.scss to old-main.css/.scss and update style links to file (done)
   - dev 2: about.html, 404.html, readme.md updated and uploaded new main.css/.scss file (done)
-  - dev 3: index.html updated
-  - rc 1: upload updated about.html, index.html, 404.html and new main.css/.scss to rc preview/branch 
+  - dev 3: index.html updated (done)
+  - rc 1: upload updated about.html, index.html, 404.html and new main.css/.scss to rc preview/branch (done)
   - dev 4: projects.html updated
   - dev 5: /projects/hannahcodes.html updated and remove old-main.css/.scss
   - rc 2:upload updated projects.html and /projects/hannahcodes.html to rc preview/branch 
