@@ -395,9 +395,10 @@ img.project_header_bg {
   }
 }
 .project_header_h1 {
-  padding-top: 2em;
+  padding-top:7em;
 padding-bottom: 2em;
   margin: auto;
+font-size: 1.35em;
   text-align: center;
   color: var(--light-nav-text-colour);
   @media screen and (max-width: 800px) {
@@ -1704,7 +1705,293 @@ text-align: center;
     }
   }
 }
+.project_card_band {
+  width: 60%;
+  max-width: 1500px;
+  margin: 0 auto;
+  display: grid;
+padding-top: 1em;
+padding-bottom: 1em;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+  @media (min-width: 30em) {
+    grid-template-columns: 1fr 1fr;
+  }
+  @media (min-width: 60em) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @media screen and (max-width: 1610px) {
+width: 65%;
+margin: auto;
+    
+  }
+@media screen and (max-width: 1410px) {
+width: 70%;
+margin: auto;
+    
+  }
+@media screen and (max-width: 1360px) {
+width: 75%;
+margin: auto;
+    
+  }
+@media screen and (max-width: 1260px) {
+width: 80%;
+margin: auto;
+    
+  }
+@media screen and (max-width: 1140px) {
+width: 90%;
+margin: auto;
+    
+  }
+@media screen and (max-width: 970px) {
+width: 90%;
+margin: auto;
+    
+  }
+ @media screen and (max-width: 960px) {
+width: 55%;
+display: block;
+padding-top: 0em;
+margin: auto;
+    
+  }
+@media screen and (max-width: 860px) {
+width: 60%;
+display: block;
+padding-top: 0em;
+margin: auto;
+    
+  }
+@media screen and (max-width: 760px) {
+width: 69%;
+display: block;
+padding-top: 0em;
+margin: auto;
+    
+  }
+@media screen and (max-width: 460px) {
+width: 69%;
+display: block;
+padding-top: 0em;
+margin-top: 0em;
+padding-bottom: 0em;
+margin: auto;
+    
+  }
+}
+.project_card {
+  background: var(--light-card-bg-colour);
+  text-decoration: none;
+  box-shadow: 0 2px 5px var(--light-card-box-shadow-colour);
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  min-width: 100%;
+  position: relative;
+  top: 0;
+padding-bottom: 1em;
+  transition: all 0.1s ease-in;
+  &:hover {
+    top: -2px;
+    box-shadow: 0 4px 5px var(--light-card-box-shadow-hover-colour);
+  }
+@media screen and (max-width: 960px) {
+margin-top: 2em;
+    
+  }
+  @media (prefers-color-scheme: dark) {
+    background: var(--card-bg-colour);
+    text-decoration: none;
+    color: var(--nav-text-colour);
+    box-shadow: 0 2px 5px var(--card-box-shadow-colour);
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    position: relative;
+    top: 0;
+    transition: all 0.1s ease-in;
+    &:hover {
+      top: -2px;
+      box-shadow: 0 4px 5px var(--card-box-shadow-hover-colour);
+    }
+  }
+}
 
+.project_card_links {
+  border: 0.2em;
+  text-decoration: none;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  margin-left: 0.75em;
+  padding-top: auto;
+
+  &:hover {
+    border: 0.2em;
+    color: var(--light-hover-active-colour);
+    text-decoration: none;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 0.75em;
+    padding-top: auto;
+  }
+@media screen and (max-width: 460px) {
+margin-left: 0;
+&:hover {
+    margin-left: 0em;
+  }
+  }
+  @media (prefers-color-scheme: dark) {
+    &:hover {
+      color: var(--hover-active-colour);
+    }
+  }
+}
+.project_card_article {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  h1 {
+    font-size: 18px;
+    margin: 0;
+    @media (prefers-color-scheme: dark) {
+      h1 {
+        font-size: 20px;
+        margin: 0;
+      }
+    }
+  }
+.project_card_thumb {
+    padding-bottom: 60%;
+    min-height: 100%;
+    width: 100%;
+    background-size: cover;
+  }
+  .project_card_thumb_2 {
+    padding-bottom: 60%;
+    min-height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+  }
+
+.project_card_text {
+  text-align: center;
+font-size: 1em;
+padding-top: 1em;
+  color: var(--light-nav-text-colour);
+  @media (prefers-color-scheme: dark) {
+    color: var(--nav-text-colour);
+ @media screen and (max-width: 1670px) {
+font-size: .95em;
+padding: 1em;
+  }
+@media screen and (max-width: 1410px) {
+font-size: .95em;
+    
+  }
+@media screen and (max-width: 1360px) {
+
+    
+  }
+@media screen and (max-width: 1260px) {
+
+    
+  }
+  }
+}
+.project_card_discription_text{
+  text-align: center;
+  color: var(--light-project-discription-colour);
+  @media (prefers-color-scheme: dark) {
+    color: var(--project-discription-colour);
+  }
+}
+.project_card_link_placement {
+  margin: auto;
+  display: flex;
+  padding-top: auto;
+  align-items: center;
+  text-align: center;
+  padding-top: 0.35em;
+}
+.project_card_links_placement {
+  display: flex;
+  margin: auto;
+}
+
+.project_card_source_code_links {
+  border: 0.2em;
+  color: var(--light-sorce-code-svg-fill-colour);
+  text-decoration: none;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  margin-left: 0.75em;
+  padding-top: auto;
+  &:hover {
+    border: 0.2em;
+    color: var(--light-hover-active-colour);
+    text-decoration: none;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 0.75em;
+    padding-top: auto;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    &:hover {
+      color: var(--hover-active-colour);
+    }
+  }
+}
+.project_card_link_svg {
+  fill: var(--light-svg-fill-colour);
+  width: 2.5em;
+  height: 2.5em;
+  padding-left: 0.9em;
+  padding-right: auto;
+@media screen and (max-width: 460px) {
+margin-left: -.2em;
+    
+  }
+  @media (prefers-color-scheme: dark) {
+    fill: var(--svg-fill-colour);
+  }
+}
+.project_card_source_code_svg {
+  fill: var(--light-sorce-code-svg-fill-colour);
+  width: 2em;
+  height: 2em;
+  padding-left: 0.7em;
+  padding-right: auto;
+}
+.project_card_project_link_svg {
+  fill: var(--light-svg-fill-colour);
+  width: 2.5em;
+  height: 2.5em;
+  padding-left: 0.9em;
+  padding-right: auto;
+@media screen and (max-width: 460px) {
+margin-right: .5em;
+    
+  }
+  @media (prefers-color-scheme: dark) {
+    fill: var(--svg-fill-colour);
+  }
+}
 
 
 
