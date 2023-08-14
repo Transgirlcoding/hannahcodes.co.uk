@@ -462,7 +462,13 @@ img.error_header_bg {
   max-width: 90%;
 display: flex;
   margin: 0 auto;
-margin-left: 20em;
+margin-left: 30em;
+@media screen and (max-width: 1450px) {
+     margin-left: 25em;
+    }
+@media screen and (max-width: 1420px) {
+     margin-left: 20em;
+    }
 @media screen and (max-width: 1390px) {
      margin-left: 15em;
     }
@@ -2133,7 +2139,10 @@ color: var(--nav-text-colour);
 }
 
 .modal_h2{
-font-size: 1em;
+font-size: 1.2em;
+}
+.modal_p{
+font-size: .75em;
 }
 /* Modal Body */
 .modal-body {padding: 2px 16px;}
@@ -2216,6 +2225,19 @@ margin-left: 0;
   height: 1.7em;
   padding-left: 0.7em;
   padding-right: auto;
+}
+.project_hc_card_link_placement {
+  display: flex;
+  padding-top: auto;
+  align-items: center;
+  text-align: center;
+  padding-top: 0.35em;
+margin-right: 1em;
+}
+.project_hc_card_links_placement {
+  display: flex;
+  margin: auto;
+margin-left: 38%;
 }
 /*------7:404.html-styling-----*/
 .error_header_h1 {
