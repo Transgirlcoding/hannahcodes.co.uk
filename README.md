@@ -13,8 +13,9 @@ welcome to v13 of hannahcodes.co.uk, a personal portfilo website
   - dev 3: index.html updated (done)
   - rc 1: upload updated about.html, index.html, 404.html and new main.css/.scss to rc preview/branch (done)
   - dev 4: projects.html updated (done)
-  - dev 5: /projects/hannahcodes.html updated and remove old-main.css/.scss
-  - rc 2:upload updated projects.html and /projects/hannahcodes.html to rc preview/branch 
+  - dev 5: remove old-main.css/.scss (done)
+  - dev 6: project.html modal added and made resposive (semi done) 
+  - rc 2:upload updated projects.html and new project.html modal to rc preview/branch 
   - dev 6: remove temp changelog from readme.md
   - rc 3: upload updated readme.md to rc branch
   - upload rc 1, 2 and 3 changes to main branch
