@@ -32,7 +32,7 @@ welcome to v13 of hannahcodes.co.uk, a personal portfilo website
 
 here are links to some of my other websites/ github repos which you can check out
 
-- [hannahcodes changelog]() - [hannahcodes changelog github]()
+- [hannahcodes changelog](https://changelog.hannahcodes.co.uk) - [hannahcodes changelog github](https://github.com/autumn-skylight/changelog)
 - [old.hannahcodes.co.uk](https://old.hannahcodes.co.uk) - [old.hannahcodes.co.uk github](https://github.com/autumn-skylight/old.hannahcodes.co.uk)
 
 ## Authors
