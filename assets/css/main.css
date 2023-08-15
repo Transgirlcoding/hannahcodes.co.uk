@@ -313,7 +313,7 @@ img.index_header_bg {
 }
 
 .index_header_h1 {
-  padding-top: 7em;
+  padding-top: 7.5em;
   margin: auto;
   text-align: center;
   color: var(--light-nav-text-colour);
@@ -335,7 +335,7 @@ img.index_header_bg {
 .index_header_welcome_text {
   margin: auto;
   text-align: center;
-  padding-bottom: 2em;
+  padding-bottom: 1.5em;
   color: var(--light-nav-text-colour);
 }
 @media screen and (max-width: 800px) {
