@@ -2102,48 +2102,48 @@ margin: auto;
     
   }
 @media screen and (max-width: 1360px) {
-width: 75%;
+width: 98%;
 margin: auto;
     
   }
 @media screen and (max-width: 1260px) {
-width: 80%;
+width: 99%;
 margin: auto;
+grid-template-columns: repeat(3, 1fr)
     
   }
 @media screen and (max-width: 1140px) {
-width: 90%;
+width: 99%;
 margin: auto;
+
     
   }
 @media screen and (max-width: 970px) {
-width: 90%;
+width: 99%;
 margin: auto;
     
   }
  @media screen and (max-width: 960px) {
-width: 55%;
-display: block;
+width: 99%;
 padding-top: 0em;
 margin: auto;
     
   }
 @media screen and (max-width: 860px) {
-width: 60%;
-display: block;
+width: 99%;
 padding-top: 0em;
 margin: auto;
     
   }
 @media screen and (max-width: 760px) {
-width: 69%;
-display: block;
+width: 99%;
 padding-top: 0em;
 margin: auto;
+grid-template-columns: repeat(2, 1fr)
     
   }
 @media screen and (max-width: 460px) {
-width: 69%;
+width: 85%;
 display: block;
 padding-top: 0em;
 margin-top: 0em;
@@ -2214,9 +2214,15 @@ color: var(--nav-text-colour);
 
 .modal_h2{
 font-size: 1.2em;
+@media screen and (max-width: 1120px) {
+font-size: .90em;
+}
 }
 .modal_p{
 font-size: .75em;
+@media screen and (max-width: 1120px) {
+font-size: .70em;
+}
 }
 /* Modal Body */
 .modal-body {padding: 2px 16px;}
@@ -2233,6 +2239,36 @@ font-size: .75em;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
   animation-name: animatetop;
   animation-duration: 0.4s;
+@media screen and (max-width: 1280px) {
+width: 70%;
+margin: auto;
+    
+  }
+ @media screen and (max-width: 1260px) {
+width: 70%;
+margin: auto;
+    
+  }
+@media screen and (max-width: 1140px) {
+width: 75%;
+margin: auto;
+    
+  }
+@media screen and (max-width: 1040px) {
+width: 80%;
+margin: auto;
+    
+  }
+@media screen and (max-width: 970px) {
+width: 85%;
+margin: auto;
+    
+  }
+@media screen and (max-width: 870px) {
+width: 95%;
+margin: auto;
+    
+  }
 @media (prefers-color-scheme: dark) {
 background-color: var(--section-4-bg-colour);
 color: var(--nav-text-colour);
@@ -2252,6 +2288,9 @@ color: var(--nav-text-colour);
   height: 1.8em;
   padding-left: 0.9em;
   padding-right: auto;
+@media screen and (max-width: 1560px) {
+padding-left: 0.7em;
+}
 @media screen and (max-width: 460px) {
 margin-left: -.2em;
     
@@ -2280,6 +2319,34 @@ margin-left: -.2em;
     font-size: 16px;
     margin-left: 0.75em;
     padding-top: auto;
+  }
+@media screen and (max-width: 1560px) {
+font-size: 14px;
+    &:hover {
+    border: 0.2em;
+    color: var(--light-hover-active-colour);
+    text-decoration: none;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 0.75em;
+    padding-top: auto;
+  }
+  }
+@media screen and (max-width: 1320px) {
+font-size: 12px;
+    &:hover {
+    border: 0.2em;
+    color: var(--light-hover-active-colour);
+    text-decoration: none;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 0.75em;
+    padding-top: auto;
+  }
   }
 @media screen and (max-width: 460px) {
 margin-left: 0;
@@ -2312,6 +2379,52 @@ margin-right: 1em;
   display: flex;
   margin: auto;
 margin-left: 38%;
+@media screen and (max-width: 1720px) {
+margin-left: 35%;
+}
+@media screen and (max-width: 1420px) {
+margin-left: 35%;
+}
+@media screen and (max-width: 1120px) {
+margin-left: 30%;
+}
+@media screen and (max-width: 1020px) {
+margin-left: 32%;
+}
+@media screen and (max-width: 760px) {
+margin-left: 25%;
+}
+@media screen and (max-width: 460px) {
+margin-left: 25%;
+}
+}
+.project_hc_card_source_code_links {
+  border: 0.2em;
+  color: var(--light-sorce-code-svg-fill-colour);
+  text-decoration: none;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  margin-left: 0.75em;
+  padding-top: auto;
+  &:hover {
+    border: 0.2em;
+    color: var(--light-hover-active-colour);
+    text-decoration: none;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 0.75em;
+    padding-top: auto;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    &:hover {
+      color: var(--hover-active-colour);
+    }
+  }
 }
 /*------7:404.html-styling-----*/
 .error_header_h1 {

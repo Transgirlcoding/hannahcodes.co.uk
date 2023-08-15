@@ -2518,55 +2518,54 @@ h1 {
 }
 @media screen and (max-width: 1360px) {
   .project_hc_card_band {
-    width: 75%;
+    width: 98%;
     margin: auto;
   }
 }
 @media screen and (max-width: 1260px) {
   .project_hc_card_band {
-    width: 80%;
+    width: 99%;
     margin: auto;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 @media screen and (max-width: 1140px) {
   .project_hc_card_band {
-    width: 90%;
+    width: 99%;
     margin: auto;
   }
 }
 @media screen and (max-width: 970px) {
   .project_hc_card_band {
-    width: 90%;
+    width: 99%;
     margin: auto;
   }
 }
 @media screen and (max-width: 960px) {
   .project_hc_card_band {
-    width: 55%;
-    display: block;
+    width: 99%;
     padding-top: 0em;
     margin: auto;
   }
 }
 @media screen and (max-width: 860px) {
   .project_hc_card_band {
-    width: 60%;
-    display: block;
+    width: 99%;
     padding-top: 0em;
     margin: auto;
   }
 }
 @media screen and (max-width: 760px) {
   .project_hc_card_band {
-    width: 69%;
-    display: block;
+    width: 99%;
     padding-top: 0em;
     margin: auto;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media screen and (max-width: 460px) {
   .project_hc_card_band {
-    width: 69%;
+    width: 85%;
     display: block;
     padding-top: 0em;
     margin-top: 0em;
@@ -2646,9 +2645,19 @@ h1 {
 .modal_h2 {
   font-size: 1.2em;
 }
+@media screen and (max-width: 1120px) {
+  .modal_h2 {
+    font-size: 0.9em;
+  }
+}
 
 .modal_p {
   font-size: 0.75em;
+}
+@media screen and (max-width: 1120px) {
+  .modal_p {
+    font-size: 0.7em;
+  }
 }
 
 /* Modal Body */
@@ -2667,6 +2676,42 @@ h1 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   animation-name: animatetop;
   animation-duration: 0.4s;
+}
+@media screen and (max-width: 1280px) {
+  .modal-content {
+    width: 70%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 1260px) {
+  .modal-content {
+    width: 70%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 1140px) {
+  .modal-content {
+    width: 75%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .modal-content {
+    width: 80%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 970px) {
+  .modal-content {
+    width: 85%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 870px) {
+  .modal-content {
+    width: 95%;
+    margin: auto;
+  }
 }
 @media (prefers-color-scheme: dark) {
   .modal-content {
@@ -2692,6 +2737,11 @@ h1 {
   height: 1.8em;
   padding-left: 0.9em;
   padding-right: auto;
+}
+@media screen and (max-width: 1560px) {
+  .project_hc_card_link_svg {
+    padding-left: 0.7em;
+  }
 }
 @media screen and (max-width: 460px) {
   .project_hc_card_link_svg {
@@ -2724,6 +2774,38 @@ h1 {
   font-size: 16px;
   margin-left: 0.75em;
   padding-top: auto;
+}
+@media screen and (max-width: 1560px) {
+  .project_hc_card_links {
+    font-size: 14px;
+  }
+  .project_hc_card_links:hover {
+    border: 0.2em;
+    color: var(--light-hover-active-colour);
+    text-decoration: none;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 0.75em;
+    padding-top: auto;
+  }
+}
+@media screen and (max-width: 1320px) {
+  .project_hc_card_links {
+    font-size: 12px;
+  }
+  .project_hc_card_links:hover {
+    border: 0.2em;
+    color: var(--light-hover-active-colour);
+    text-decoration: none;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 0.75em;
+    padding-top: auto;
+  }
 }
 @media screen and (max-width: 460px) {
   .project_hc_card_links {
@@ -2760,6 +2842,64 @@ h1 {
   display: flex;
   margin: auto;
   margin-left: 38%;
+}
+@media screen and (max-width: 1720px) {
+  .project_hc_card_links_placement {
+    margin-left: 35%;
+  }
+}
+@media screen and (max-width: 1420px) {
+  .project_hc_card_links_placement {
+    margin-left: 35%;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .project_hc_card_links_placement {
+    margin-left: 30%;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .project_hc_card_links_placement {
+    margin-left: 32%;
+  }
+}
+@media screen and (max-width: 760px) {
+  .project_hc_card_links_placement {
+    margin-left: 25%;
+  }
+}
+@media screen and (max-width: 460px) {
+  .project_hc_card_links_placement {
+    margin-left: 25%;
+  }
+}
+
+.project_hc_card_source_code_links {
+  border: 0.2em;
+  color: var(--light-sorce-code-svg-fill-colour);
+  text-decoration: none;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  margin-left: 0.75em;
+  padding-top: auto;
+}
+.project_hc_card_source_code_links:hover {
+  border: 0.2em;
+  color: var(--light-hover-active-colour);
+  text-decoration: none;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  margin-left: 0.75em;
+  padding-top: auto;
+}
+@media (prefers-color-scheme: dark) {
+  .project_hc_card_source_code_links:hover {
+    color: var(--hover-active-colour);
+  }
 }
 
 /*------7:404.html-styling-----*/
