@@ -1774,6 +1774,7 @@ h1 {
   border: 1px solid black;
   text-align: left;
   padding: 8px;
+  font-size: 0.8em;
 }
 @media screen and (max-width: 800px) {
   .school_qualification_table td,
@@ -1914,6 +1915,7 @@ h1 {
   border: 1px solid black;
   text-align: left;
   padding: 8px;
+  font-size: 0.8em;
 }
 @media screen and (max-width: 800px) {
   .college_qualification_table td,
@@ -1950,6 +1952,7 @@ h1 {
 
 .about_work_experience_h2 {
   padding-left: 1em;
+  padding-top: 0.5em;
   margin: auto;
   text-align: center;
   color: var(--light-nav-text-colour);
@@ -2093,6 +2096,7 @@ h1 {
   border: 1px solid black;
   text-align: left;
   padding: 8px;
+  font-size: 0.8em;
 }
 @media screen and (max-width: 800px) {
   .cameo_qualification_table td,
