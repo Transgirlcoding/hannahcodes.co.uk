@@ -1490,6 +1490,7 @@ color: #000;
       border: 1px solid black;
       text-align: left;
       padding: 8px;
+       font-size: .8em;
       @media screen and (max-width: 800px) {
         border: 1px solid black;
         text-align: left;
@@ -1598,6 +1599,7 @@ color: #000;
       border: 1px solid black;
       text-align: left;
       padding: 8px;
+font-size: .8em;
       @media screen and (max-width: 800px) {
         border: 1px solid black;
         text-align: left;
@@ -1624,6 +1626,7 @@ padding-left: 0;
   }
  .about_work_experience_h2 {
     padding-left: 1em;
+padding-top: .5em;
     margin: auto;
     text-align: center;
     color: var(--light-nav-text-colour);
@@ -1734,6 +1737,7 @@ color: #000;
       border: 1px solid black;
       text-align: left;
       padding: 8px;
+font-size: .8em;
       @media screen and (max-width: 800px) {
         border: 1px solid black;
         text-align: left;
